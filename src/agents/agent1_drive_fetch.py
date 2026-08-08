@@ -12,6 +12,7 @@ Only this agent talks to Google Drive for clip sourcing.
 
 from __future__ import annotations
 
+import os
 import re
 import shutil
 import tempfile
@@ -178,6 +179,22 @@ class DriveFetchAgent:
         self.drive.download_file(clip["id"], local_path)
         logger.info("Downloaded %s -> %s", clip["name"], local_path)
         return local_path
+
+    def ensure_local_clip(self, drive_file_id: str, drive_file_name: str, local_path: str) -> str:
+        """Ensure a previously-fetched clip exists locally, re-downloading it if the
+        file was lost between CI runs (each GitHub Actions run has a fresh checkout).
+        """
+        if local_path and os.path.exists(local_path):
+            return local_path
+        downloads_dir = Path(BASE_DIR) / self.settings.get("app", {}).get(
+            "downloads_dir", "downloads"
+        )
+        downloads_dir.mkdir(parents=True, exist_ok=True)
+        safe_name = self._safe_filename(drive_file_name)
+        dest = str(downloads_dir / safe_name)
+        self.drive.download_file(drive_file_id, dest)
+        logger.info("Re-downloaded %s -> %s", drive_file_name, dest)
+        return dest
 
     @staticmethod
     def _safe_filename(name: str) -> str:

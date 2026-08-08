@@ -237,6 +237,18 @@ class Orchestrator:
         yt = job["youtube"]
         fb = job["facebook"]
 
+        # Each CI run has a fresh checkout, so re-download the clip if the
+        # local file was lost between runs (needed for resumable retries).
+        if not self.dry_run and (
+            yt["status"] in ("pending", "failed") or fb["status"] in ("pending", "failed")
+        ):
+            try:
+                job["local_path"] = self._drive_fetch().ensure_local_clip(
+                    job["drive_file_id"], job["drive_file_name"], job.get("local_path") or ""
+                )
+            except Exception as exc:  # noqa: BLE001
+                logger.error("Could not re-fetch clip %s from Drive: %s", job["drive_file_id"], exc)
+
         # YouTube
         if yt["status"] in ("pending", "failed") and (
             force or is_due(now, slot_time) or yt.get("retry_due")
