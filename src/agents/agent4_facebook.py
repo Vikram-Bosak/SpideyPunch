@@ -79,6 +79,10 @@ class FacebookUploadAgent:
         }
         resp = requests.put(upload_url, data=file_bytes, headers=headers, timeout=600)
         if resp.status_code not in (200, 201, 202):
+            logger.error(
+                "FB transfer debug: status=%s headers=%s body=%s",
+                resp.status_code, dict(resp.headers), resp.text[:500],
+            )
             raise RuntimeError(
                 f"Facebook upload transfer failed: {resp.status_code} {resp.text}"
             )
