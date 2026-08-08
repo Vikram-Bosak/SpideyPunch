@@ -4,16 +4,16 @@ app:
   max_retries_per_platform: 3
 
 drive:
-  # Google Drive folder structure:
-  #   Movie Clips / Ready
-  #   Movie Clips / Processing
-  #   Movie Clips / Uploaded
+  # Google Drive folder structure (root is the shared folder):
+  #   spideypuch-videos-upload / Ready
+  #   spideypuch-videos-upload / Processing
+  #   spideypuch-videos-upload / Uploaded
   # Folder paths are resolved by name; optionally override with explicit folder IDs.
-  root_folder_id: ""            # optional root folder id (defaults to My Drive root)
+  root_folder_id: "122o16C_lF8HA6tJjib9Ez8BxgC3VH5Lg"
   folder_paths:
-    ready: "Movie Clips/Ready"
-    processing: "Movie Clips/Processing"
-    uploaded: "Movie Clips/Uploaded"
+    ready: "Ready"
+    processing: "Processing"
+    uploaded: "Uploaded"
 
 youtube:
   # Privacy status for uploads: public / private / unlisted
