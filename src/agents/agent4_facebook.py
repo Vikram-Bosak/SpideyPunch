@@ -46,16 +46,12 @@ class FacebookUploadAgent:
         (resumable uploads via rupload.facebook.com): start the session to get
         an upload_url, stream the file bytes to it, then finish the session.
         """
-        privacy = self.settings.get("facebook", {}).get("privacy", privacy)
         endpoint = f"{self.graph_url}/{self.page_id}/video_reels"
         file_size = os.path.getsize(local_path)
 
         # Phase 1: start the upload session.
         start_params = {
             "upload_phase": "start",
-            "file_size": file_size,
-            "description": caption,
-            "privacy": f'{{"value": "{privacy}"}}',
             "access_token": self.access_token,
         }
         resp = requests.post(endpoint, data=start_params, timeout=120)
@@ -63,21 +59,22 @@ class FacebookUploadAgent:
             raise RuntimeError(f"Facebook upload session start failed: {resp.text}")
         session = resp.json()
         video_id = session.get("video_id")
-        upload_url = session.get("upload_url")
-        if not (video_id and upload_url):
+        if not video_id:
             raise RuntimeError(f"Facebook upload session missing ids: {session}")
+        # Server-provided upload endpoint (rupload.facebook.com).
+        upload_url = session.get("upload_url") or (
+            f"https://rupload.facebook.com/video-upload/{self.api_version}/{video_id}"
+        )
 
-        # Phase 2: stream the file bytes to the upload_url.
+        # Phase 2: stream the file bytes to the upload_url (POST per official sample).
         with open(local_path, "rb") as fh:
             file_bytes = fh.read()
         headers = {
             "Authorization": f"OAuth {self.access_token}",
-            "Content-Type": "video/mp4",
-            "Content-Length": str(len(file_bytes)),
-            "file_offset": "0",
+            "offset": "0",
             "file_size": str(file_size),
         }
-        resp = requests.put(upload_url, data=file_bytes, headers=headers, timeout=600)
+        resp = requests.post(upload_url, data=file_bytes, headers=headers, timeout=600)
         if resp.status_code not in (200, 201, 202):
             logger.error(
                 "FB transfer debug: status=%s headers=%s body=%s",
@@ -89,12 +86,12 @@ class FacebookUploadAgent:
         if resp.text:
             logger.info("Facebook upload transfer response: %s", resp.text[:200])
 
-        # Phase 3: finish the upload session.
-        upload_session_id = upload_url.rstrip("/").split("/")[-1]
+        # Phase 3: finish the upload session and publish the reel.
         finish_params = {
             "upload_phase": "finish",
             "video_id": video_id,
-            "upload_session_id": upload_session_id,
+            "description": caption,
+            "video_state": "PUBLISHED",
             "access_token": self.access_token,
         }
         resp = requests.post(endpoint, data=finish_params, timeout=120)
@@ -119,10 +116,20 @@ class FacebookUploadAgent:
                 body = resp.json()
                 status_obj = body.get("status") or {}
                 last_status = str(status_obj)
-                progress = status_obj.get("processing_progress")
-                if progress is not None:
-                    logger.info("Facebook processing progress: %s", progress)
-                if status_obj.get("video_status") in ("ready", "published"):
+                video_status = status_obj.get("video_status")
+                if video_status == "error":
+                    errors = (
+                        status_obj.get("processing_phase", {}).get("errors")
+                        or status_obj.get("publishing_phase", {}).get("errors")
+                        or []
+                    )
+                    logger.warning("Facebook video processing error: %s", errors)
+                    break
+                if (
+                    video_status in ("ready", "published")
+                    or status_obj.get("publishing_phase", {}).get("status")
+                    == "complete"
+                ):
                     break
             else:
                 logger.warning("Status check failed: %s", resp.text)
