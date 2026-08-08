@@ -69,13 +69,15 @@ class FacebookUploadAgent:
 
         # Phase 2: stream the file bytes to the upload_url.
         with open(local_path, "rb") as fh:
-            headers = {
-                "Authorization": f"OAuth {self.access_token}",
-                "Content-Type": "video/mp4",
-                "file_offset": "0",
-                "file_size": str(file_size),
-            }
-            resp = requests.put(upload_url, data=fh, headers=headers, timeout=600)
+            file_bytes = fh.read()
+        headers = {
+            "Authorization": f"OAuth {self.access_token}",
+            "Content-Type": "video/mp4",
+            "Content-Length": str(len(file_bytes)),
+            "file_offset": "0",
+            "file_size": str(file_size),
+        }
+        resp = requests.put(upload_url, data=file_bytes, headers=headers, timeout=600)
         if resp.status_code not in (200, 201, 202):
             raise RuntimeError(
                 f"Facebook upload transfer failed: {resp.status_code} {resp.text}"
