@@ -231,8 +231,8 @@
         "status": "pending",
         "url": null,
         "error": "Facebook upload transfer failed: 404 ",
-        "retries": 1,
-        "last_attempt": "2026-08-08 16:59 UTC",
+        "retries": 2,
+        "last_attempt": "2026-08-08 17:02 UTC",
         "slot_time": "11:03",
         "retry_due": true
       },
