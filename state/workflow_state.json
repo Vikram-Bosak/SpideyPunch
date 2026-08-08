@@ -219,11 +219,13 @@
         "llm_enriched": false
       },
       "youtube": {
-        "status": "pending",
+        "status": "success",
         "retries": 0,
-        "retry_due": true,
+        "retry_due": false,
         "slot_time": "11:03",
-        "url": null
+        "url": "https://www.youtube.com/shorts/8V1lkEBCfGw",
+        "error": null,
+        "last_attempt": "2026-08-08 17:26 UTC"
       },
       "facebook": {
         "status": "success",
@@ -236,8 +238,8 @@
       },
       "moved_to_uploaded": true,
       "started_at": "2026-08-08 16:59 UTC",
-      "completed_at": "2026-08-08 17:10 UTC",
-      "final_status": "in_progress",
+      "completed_at": "2026-08-08 17:26 UTC",
+      "final_status": "completed",
       "date": "2026-08-08",
       "max_retries": 3
     }
