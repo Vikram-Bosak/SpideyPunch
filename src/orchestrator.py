@@ -113,10 +113,11 @@ class Orchestrator:
                 return 0
             job = self._start_new_job(state, slot, today)
             if job is None:
-                # No clip available -> report (once per slot per day).
+                # No clip available -> report (once per slot per day), but this
+                # is a normal condition (Ready folder empty), not a pipeline failure.
                 self._report_no_clip(state, slot, today)
                 state_lib.persist(state)
-                return 1
+                return 0
 
         self._process_job(state, job, today, force)
         state_lib.persist(state)
