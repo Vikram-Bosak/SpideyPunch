@@ -6,6 +6,12 @@ on:
     # (5 staggered slots per day) is due at the current time.
     - cron: "*/15 * * * *"
   workflow_dispatch:
+    inputs:
+      force_slot:
+        description: "Force an immediate upload run (bypass slot timing)"
+        type: boolean
+        required: false
+        default: false
 
 concurrency:
   group: hollywood-clips-upload
@@ -37,6 +43,7 @@ jobs:
       USER_LLM_MODEL: ${{ secrets.USER_LLM_MODEL }}
       # GitHub Actions run link for the Discord report
       GITHUB_ACTIONS_RUN_URL: ${{ format('{0}/{1}/actions/runs/{2}', github.server_url, github.repository, github.run_id) }}
+      _FORCE_SLOT: ${{ inputs.force_slot && '1' || '0' }}
 
     steps:
       - name: Checkout repository
