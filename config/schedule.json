@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "timezone": "America/New_York",
+  "slots": [
+    { "video_number": 1, "youtube_time": "05:00", "facebook_time": "05:15" },
+    { "video_number": 2, "youtube_time": "09:00", "facebook_time": "09:15" },
+    { "video_number": 3, "youtube_time": "13:00", "facebook_time": "13:15" },
+    { "video_number": 4, "youtube_time": "17:00", "facebook_time": "17:15" },
+    { "video_number": 5, "youtube_time": "21:00", "facebook_time": "21:15" }
+  ]
+}

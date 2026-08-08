@@ -1,0 +1,43 @@
+app:
+  timezone: "America/New_York"
+  downloads_dir: "downloads"
+  max_retries_per_platform: 3
+
+drive:
+  # Google Drive folder structure:
+  #   Movie Clips / Ready
+  #   Movie Clips / Processing
+  #   Movie Clips / Uploaded
+  # Folder paths are resolved by name; optionally override with explicit folder IDs.
+  root_folder_id: ""            # optional root folder id (defaults to My Drive root)
+  folder_paths:
+    ready: "Movie Clips/Ready"
+    processing: "Movie Clips/Processing"
+    uploaded: "Movie Clips/Uploaded"
+
+youtube:
+  # Privacy status for uploads: public / private / unlisted
+  privacy_status: "public"
+  category_id: "24"             # Entertainment
+  # Shorts are uploaded as normal videos but with #Shorts in title and
+  # vertical aspect ratio. Keep true to match the workflow requirement.
+  shorts: true
+  publish_enabled: true
+
+facebook:
+  api_version: "v21.0"
+  privacy: "PUBLIC"
+
+discord:
+  webhook_url_env: "DISCORD_WEBHOOK_URL"
+  report_title: "Hollywood Movie Clips - Upload Report"
+
+seo:
+  # All SEO / metadata is generated in American English (US audience).
+  locale: "en-US"
+  # Optional LLM enrichment via OpenAI-compatible API.
+  llm:
+    api_key_env: "USER_LLM_API_KEY"
+    base_url_env: "USER_LLM_BASE_URL"
+    model_env: "USER_LLM_MODEL"
+    model_default: "deepseek-chat"

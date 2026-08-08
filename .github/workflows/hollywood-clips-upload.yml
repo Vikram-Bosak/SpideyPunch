@@ -1,0 +1,70 @@
+name: Hollywood Clips 24h Upload Workflow
+
+on:
+  schedule:
+    # Runs every 15 minutes. The orchestrator decides whether an upload slot
+    # (5 staggered slots per day) is due at the current time.
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: hollywood-clips-upload
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      # Google Drive
+      GOOGLE_DRIVE_SERVICE_ACCOUNT: ${{ secrets.GOOGLE_DRIVE_SERVICE_ACCOUNT }}
+      GOOGLE_APPLICATION_CREDENTIALS: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
+      # YouTube OAuth2
+      YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+      YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+      YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+      # Facebook Graph API
+      FACEBOOK_PAGE_ID: ${{ secrets.FACEBOOK_PAGE_ID }}
+      FACEBOOK_PAGE_ACCESS_TOKEN: ${{ secrets.FACEBOOK_PAGE_ACCESS_TOKEN }}
+      # Discord webhook
+      DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+      # Optional LLM SEO enrichment (user-provided key)
+      USER_LLM_API_KEY: ${{ secrets.USER_LLM_API_KEY }}
+      USER_LLM_BASE_URL: ${{ secrets.USER_LLM_BASE_URL }}
+      USER_LLM_MODEL: ${{ secrets.USER_LLM_MODEL }}
+      # GitHub Actions run link for the Discord report
+      GITHUB_ACTIONS_RUN_URL: ${{ format('{0}/{1}/actions/runs/{2}', github.server_url, github.repository, github.run_id) }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Token needs contents:write to commit scheduling state back.
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Hollywood clips upload pipeline
+        run: python -m src.main
+
+      - name: Commit workflow state
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add state/ downloads/ 2>/dev/null || true
+            git commit -m "chore: update upload workflow state [skip ci]" || echo "Nothing to commit"
+            git push
+          else
+            echo "No state changes to commit"
+          fi

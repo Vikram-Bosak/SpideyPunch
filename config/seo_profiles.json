@@ -1,0 +1,29 @@
+{
+  "hollywood_genres": [
+    "Hollywood movies", "American movies", "Blockbuster movies", "Movie clips",
+    "Best movie scenes", "Iconic movie moments", "Famous movie scenes",
+    "Popular movie moments", "Movie highlights", "Epic movie scenes"
+  ],
+  "universes": [
+    "Marvel", "DC", "MCU", "DCEU", "Superhero movies", "Avengers",
+    "Action movies", "Sci-fi movies", "Fantasy movies"
+  ],
+  "genres": [
+    "Action movies", "Adventure movies", "Comedy movies", "Drama movies",
+    "Thriller movies", "Horror movies", "Sci-fi movies", "Romance movies",
+    "Mystery movies", "Crime movies", "Classic Hollywood movies"
+  ],
+  "video_formats": [
+    "movie clips", "movie scenes", "best scenes", "iconic moments",
+    "movie moments", "film clips", "cinema highlights", "movie shorts"
+  ],
+  "audience_intent": [
+    "best movie scenes ever", "most iconic movie moments", "epic movie moments",
+    "movies to watch", "movie recommendations", "cinematic moments",
+    "unforgettable movie scenes", "top movie scenes"
+  ],
+  "hashtag_base": [
+    "Shorts", "Movie", "Movies", "MovieClip", "MovieScene", "Hollywood",
+    "Film", "Cinema", "MovieMoment", "BestScene", "MovieShorts"
+  ]
+}
