@@ -12,7 +12,7 @@ import requests
 
 from ..common.config import getenv, load_settings
 from ..common.logger import get_logger
-from ..common.time_utils import format_ts
+from ..common.time_utils import format_ts, iso_ts
 
 logger = get_logger("agent5_discord")
 
@@ -53,7 +53,7 @@ class DiscordReportingAgent:
             "color": color,
             "description": self._build_description(report),
             "fields": self._build_fields(report),
-            "timestamp": report.get("reported_at") or "",
+            "timestamp": self._iso_report_ts(report),
         }
 
         payload = {"embeds": [embed]}
@@ -67,6 +67,21 @@ class DiscordReportingAgent:
         except Exception as exc:  # noqa: BLE001
             logger.error("Discord report failed: %s", exc)
             return False
+
+    @staticmethod
+    def _iso_report_ts(report: dict[str, Any]) -> str:
+        raw = report.get("reported_at") or ""
+        # Already ISO 8601? e.g. 2026-08-08T15:29:00.000Z
+        import re
+        if re.search(r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}", raw):
+            return raw
+        try:
+            # "YYYY-MM-DD HH:MM UTC" -> ISO 8601 UTC
+            from datetime import datetime, timezone
+            dt = datetime.strptime(raw, "%Y-%m-%d %H:%M UTC")
+            return dt.replace(tzinfo=timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")
+        except ValueError:
+            return raw
 
     # -- embed builders ------------------------------------------------------
     def _build_description(self, report: dict[str, Any]) -> str:

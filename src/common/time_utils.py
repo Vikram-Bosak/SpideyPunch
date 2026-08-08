@@ -71,3 +71,8 @@ def random_jitter(low: int = 1, high: int = 15) -> int:
 def format_ts(dt: datetime) -> str:
     """Format a tz-aware datetime for reports."""
     return dt.astimezone(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+
+
+def iso_ts(dt: datetime) -> str:
+    """ISO 8601 UTC timestamp (required by Discord embeds)."""
+    return dt.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")
