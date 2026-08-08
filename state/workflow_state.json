@@ -107,18 +107,18 @@
         "retry_due": false
       },
       "facebook": {
-        "status": "pending",
+        "status": "failed",
         "url": null,
-        "error": "Facebook upload session missing ids: {'video_id': '1018679217735016', 'upload_url': 'https://rupload.facebook.com/video-upload/v26.0/1018679217735016'}",
-        "retries": 2,
-        "last_attempt": "2026-08-08 16:47 UTC",
+        "error": "Facebook upload transfer failed: 404 ",
+        "retries": 3,
+        "last_attempt": "2026-08-08 16:53 UTC",
         "slot_time": "08:05",
-        "retry_due": true
+        "retry_due": false
       },
-      "moved_to_uploaded": false,
+      "moved_to_uploaded": true,
       "started_at": "2026-08-08 16:43 UTC",
-      "completed_at": null,
-      "final_status": null,
+      "completed_at": "2026-08-08 16:53 UTC",
+      "final_status": "partial",
       "date": "2026-08-08",
       "max_retries": 3
     }
