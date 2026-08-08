@@ -42,9 +42,9 @@ class FacebookUploadAgent:
     ) -> str:
         """Upload a video/reel to the Facebook page and return its public URL.
 
-        The /video_reels endpoint uses the resumable upload protocol, so the
-        file is uploaded in three phases: start (create session), transfer
-        (stream the bytes), finish (finalize the reel).
+        The /video_reels endpoint uses the Graph API Video Uploads protocol
+        (resumable uploads via rupload.facebook.com): start the session to get
+        an upload_url, stream the file bytes to it, then finish the session.
         """
         privacy = self.settings.get("facebook", {}).get("privacy", privacy)
         endpoint = f"{self.graph_url}/{self.page_id}/video_reels"
@@ -63,45 +63,32 @@ class FacebookUploadAgent:
             raise RuntimeError(f"Facebook upload session start failed: {resp.text}")
         session = resp.json()
         video_id = session.get("video_id")
-        upload_session_id = session.get("upload_session_id")
-        if not (video_id and upload_session_id):
+        upload_url = session.get("upload_url")
+        if not (video_id and upload_url):
             raise RuntimeError(f"Facebook upload session missing ids: {session}")
 
-        # Phase 2: transfer the file in chunks.
-        offset = int(session.get("start_offset", 0))
-        end_offset = int(session.get("end_offset", file_size))
+        # Phase 2: stream the file bytes to the upload_url.
         with open(local_path, "rb") as fh:
-            fh.seek(offset)
-            while offset < file_size:
-                chunk = fh.read(self._chunk_size)
-                if not chunk:
-                    break
-                transfer_params = {
-                    "upload_phase": "transfer",
-                    "upload_session_id": upload_session_id,
-                    "start_offset": offset,
-                    "access_token": self.access_token,
-                }
-                resp = requests.post(
-                    endpoint,
-                    data=transfer_params,
-                    files={"video_file_chunk": chunk},
-                    timeout=600,
-                )
-                if resp.status_code != 200:
-                    raise RuntimeError(
-                        f"Facebook upload transfer failed at offset {offset}: {resp.text}"
-                    )
-                result = resp.json()
-                offset = int(result.get("start_offset", offset + len(chunk)))
-                end_offset = int(result.get("end_offset", end_offset))
-                logger.info("Facebook upload progress: %d/%d", min(offset, file_size), file_size)
+            headers = {
+                "Authorization": f"OAuth {self.access_token}",
+                "Content-Type": "video/mp4",
+                "file_offset": "0",
+                "file_size": str(file_size),
+            }
+            resp = requests.put(upload_url, data=fh, headers=headers, timeout=600)
+        if resp.status_code not in (200, 201, 202):
+            raise RuntimeError(
+                f"Facebook upload transfer failed: {resp.status_code} {resp.text}"
+            )
+        if resp.text:
+            logger.info("Facebook upload transfer response: %s", resp.text[:200])
 
         # Phase 3: finish the upload session.
+        upload_session_id = upload_url.rstrip("/").split("/")[-1]
         finish_params = {
             "upload_phase": "finish",
-            "upload_session_id": upload_session_id,
             "video_id": video_id,
+            "upload_session_id": upload_session_id,
             "access_token": self.access_token,
         }
         resp = requests.post(endpoint, data=finish_params, timeout=120)
