@@ -228,15 +228,18 @@
         "retry_due": false
       },
       "facebook": {
-        "status": "pending",
+        "status": "success",
         "retries": 0,
-        "retry_due": true,
-        "slot_time": "11:03"
+        "retry_due": false,
+        "slot_time": "11:03",
+        "url": "https://www.facebook.com/reel/1677110433353951",
+        "error": null,
+        "last_attempt": "2026-08-08 17:10 UTC"
       },
       "moved_to_uploaded": true,
       "started_at": "2026-08-08 16:59 UTC",
-      "completed_at": "2026-08-08 17:03 UTC",
-      "final_status": "in_progress",
+      "completed_at": "2026-08-08 17:10 UTC",
+      "final_status": "completed",
       "date": "2026-08-08",
       "max_retries": 3
     }
