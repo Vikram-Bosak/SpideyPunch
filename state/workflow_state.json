@@ -109,9 +109,9 @@
       "facebook": {
         "status": "pending",
         "url": null,
-        "error": "Facebook upload failed: {\"error\":{\"message\":\"(#100) The parameter upload_phase is required.\",\"type\":\"OAuthException\",\"code\":100,\"fbtrace_id\":\"AgN9wfPvAc7LtXvEMxxiDFU\"}}",
-        "retries": 1,
-        "last_attempt": "2026-08-08 16:43 UTC",
+        "error": "Facebook upload session missing ids: {'video_id': '1018679217735016', 'upload_url': 'https://rupload.facebook.com/video-upload/v26.0/1018679217735016'}",
+        "retries": 2,
+        "last_attempt": "2026-08-08 16:47 UTC",
         "slot_time": "08:05",
         "retry_due": true
       },
