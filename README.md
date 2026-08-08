@@ -36,23 +36,34 @@ Movie Clips / Ready  ──►  Agent 1: Drive Fetch  ──►  Agent 2: SEO (A
 
 ## Scheduling
 
-The schedule lives in `config/schedule.json`. It defines **5 slots per day**, each
-with an independent YouTube time and Facebook time (timezone configurable in
-`config/settings.yaml`, default `America/New_York`). GitHub Actions runs the
-workflow every 15 minutes; the orchestrator only uploads when a slot is due, so
-all 5 videos go live at staggered, never-identical times.
+The schedule lives in `config/schedule.json`. It defines **5 slots per day** based
+on **USA peak traffic hours** (timezone configurable in `config/settings.yaml`,
+default `America/New_York`). GitHub Actions runs the workflow every 15 minutes;
+the orchestrator only uploads when a slot is due, so all 5 videos go live at
+staggered times inside the USA high-traffic window.
 
-| Video | YouTube  | Facebook |
-| ----- | -------- | -------- |
-| #1    | 05:00    | 05:15    |
-| #2    | 09:00    | 09:15    |
-| #3    | 13:00    | 13:15    |
-| #4    | 17:00    | 17:15    |
-| #5    | 21:00    | 21:15    |
+### Random jitter (1–15 min)
 
-Each platform's timing is managed independently (see the per-platform `*_time`
-fields). YouTube and Facebook uploads for the same clip can even use different
-slot times.
+Each day a fresh random jitter is generated for every slot, so the actual upload
+time differs day to day (never the same fixed time twice) while staying inside
+the USA peak window. Jitter values are persisted per date in the workflow state.
+
+Example for one day:
+
+| Video | Base USA peak time | Random jitter | Actual upload |
+| ----- | -----------------: | ------------: | ------------: |
+| #1    | 8:00 AM            |        +7 min  |       8:07 AM |
+| #2    | 11:00 AM           |        +3 min  |      11:03 AM |
+| #3    | 2:00 PM            |       +12 min  |       2:12 PM |
+| #4    | 6:00 PM            |        +5 min  |       6:05 PM |
+| #5    | 9:00 PM            |       +14 min  |       9:14 PM |
+
+### YouTube → Facebook (no fixed gap)
+
+When a slot is due, YouTube upload starts first and **Facebook upload begins
+immediately after YouTube completes** — there is no intentional 15-minute delay
+between the two platforms. Both platforms for a clip share the same jittered slot
+time. If a platform fails, only that platform is retried on later runs.
 
 ## Duplicate-upload prevention
 

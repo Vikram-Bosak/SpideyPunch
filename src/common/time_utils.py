@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import random
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 
@@ -52,6 +53,19 @@ def is_due(now: datetime, time_value: str) -> bool:
     current_minutes = now.hour * 60 + now.minute
     slot_minutes = t.hour * 60 + t.minute
     return current_minutes >= slot_minutes
+
+
+def apply_jitter(time_value: str, jitter_minutes: int) -> str:
+    """Add a random jitter (in minutes) to an HH:MM slot and return the new HH:MM."""
+    t = parse_hhmm(time_value)
+    total = t.hour * 60 + t.minute + int(jitter_minutes)
+    total = total % (24 * 60)
+    return f"{total // 60:02d}:{total % 60:02d}"
+
+
+def random_jitter(low: int = 1, high: int = 15) -> int:
+    """Return a random jitter value in [low, high] minutes."""
+    return random.randint(int(low), int(high))
 
 
 def format_ts(dt: datetime) -> str:

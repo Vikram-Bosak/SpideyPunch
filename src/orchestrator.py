@@ -26,9 +26,11 @@ from .common.config import getenv, load_schedule, load_settings
 from .common.logger import get_logger
 from .common.state import new_job
 from .common.time_utils import (
+    apply_jitter,
     format_ts,
     is_due,
     now_in_tz,
+    random_jitter,
 )
 
 logger = get_logger("orchestrator")
@@ -97,6 +99,9 @@ class Orchestrator:
         force = getenv("_FORCE_SLOT") == "1"
         logger.info("Orchestrator run at %s", format_ts(now))
 
+        # Compute (and persist) today's jittered slot times, if not yet done.
+        self._ensure_daily_times(state, today)
+
         # 1) Resume an in-flight job from today first (retries / partial).
         job = self._find_resumable_job(state, today, force)
         if job is None:
@@ -116,6 +121,32 @@ class Orchestrator:
         self._process_job(state, job, today, force)
         state_lib.persist(state)
         return 0
+
+    # -- daily jittered schedule --------------------------------------------
+    def _ensure_daily_times(self, state: dict[str, Any], today: str) -> None:
+        """Persist today's per-slot upload times: base USA peak time + random jitter.
+
+        Jitter is generated once per day per slot (1-15 min), so the actual
+        upload time differs every day but stays inside the USA high-traffic window.
+        """
+        daily = state.setdefault("daily_times", {})
+        if today in daily:
+            return
+        jitter_low, jitter_high = self.schedule.get("jitter_minutes", [1, 15])
+        times: dict[str, str] = {}
+        for slot in self.schedule.get("slots", []):
+            video_number = str(slot.get("video_number", 0))
+            base = slot.get("time", "00:00")
+            jitter = random_jitter(jitter_low, jitter_high)
+            times[video_number] = apply_jitter(base, jitter)
+            logger.info("Slot %s base %s + jitter %d min -> %s",
+                        video_number, base, jitter, times[video_number])
+        daily[today] = times
+        state_lib.persist(state)
+
+    def _slot_time(self, state: dict[str, Any], today: str, video_number: int) -> str:
+        daily = state.get("daily_times", {}).get(today, {})
+        return daily.get(str(video_number)) or "00:00"
 
     # -- scheduling ---------------------------------------------------------
     def _find_resumable_job(self, state: dict[str, Any], today: str, force: bool = False) -> dict[str, Any] | None:
@@ -145,9 +176,7 @@ class Orchestrator:
                     continue
             if force:
                 return slot
-            yt_due = is_due(now, slot.get("youtube_time"))
-            fb_due = is_due(now, slot.get("facebook_time"))
-            if yt_due or fb_due:
+            if is_due(now, self._slot_time(state, today, video_number)):
                 return slot
         return None
 
@@ -192,8 +221,9 @@ class Orchestrator:
         job["seo"] = seo
         job["started_at"] = format_ts(now_in_tz())
         job["max_retries"] = self.max_retries
-        job["youtube"]["slot_time"] = slot.get("youtube_time")
-        job["facebook"]["slot_time"] = slot.get("facebook_time")
+        slot_time = self._slot_time(state, today, video_number)
+        job["youtube"]["slot_time"] = slot_time
+        job["facebook"]["slot_time"] = slot_time
         state_lib.add_job(state, job)
         return job
 
