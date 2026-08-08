@@ -151,9 +151,10 @@ class Orchestrator:
 
     # -- scheduling ---------------------------------------------------------
     def _find_resumable_job(self, state: dict[str, Any], today: str, force: bool = False) -> dict[str, Any] | None:
+        # Resume today's in-flight jobs first, then recover stale in-flight jobs
+        # from previous days (e.g. a run that was killed mid-upload). Without this,
+        # a partially-processed clip would stay stuck in the Processing folder.
         for job in state.get("jobs", []):
-            if job.get("date") != today:
-                continue
             if job.get("final_status") in ("completed", "failed", "partial"):
                 continue
             if force:
@@ -232,6 +233,9 @@ class Orchestrator:
     def _process_job(self, state: dict[str, Any], job: dict[str, Any], today: str, force: bool = False) -> None:
         now = now_in_tz()
         slot_time = job["youtube"].get("slot_time") or "00:00"
+        # Jobs resumed from a previous day (stale in-flight jobs) should upload
+        # as soon as possible rather than waiting for their old slot time.
+        stale = job.get("date") not in (None, today)
         job["date"] = today
 
         yt = job["youtube"]
@@ -251,14 +255,14 @@ class Orchestrator:
 
         # YouTube
         if yt["status"] in ("pending", "failed") and (
-            force or is_due(now, slot_time) or yt.get("retry_due")
+            force or stale or is_due(now, slot_time) or yt.get("retry_due")
         ) and yt["retries"] < self.max_retries:
             self._upload_youtube(job)
 
         # Facebook
         fb_time = job["facebook"].get("slot_time") or slot_time
         if fb["status"] in ("pending", "failed") and (
-            force or is_due(now, fb_time) or fb.get("retry_due")
+            force or stale or is_due(now, fb_time) or fb.get("retry_due")
         ) and fb["retries"] < self.max_retries:
             self._upload_facebook(job)
 

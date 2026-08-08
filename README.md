@@ -171,6 +171,66 @@ src/common/                                   # config, state, drive, time utils
 state/workflow_state.json                     # persisted job/retry/URL state
 ```
 
+## 24-hour production operation
+
+The workflow is **always on**: GitHub Actions triggers it every 15 minutes
+(`cron: */15 * * * *`) around the clock. The orchestrator decides, on each run,
+what to do next, so no video is uploaded before its scheduled slot and nothing
+is forgotten after it.
+
+### How a single upload happens (step by step)
+
+```
+t-0    Slot becomes due (e.g. 08:05 America/New_York)
+  |    Agent 1 fetches the next clip: Ready -> Processing -> local download
+  |    Agent 2 generates SEO metadata (American English; LLM-optional)
+  |    Agent 3 uploads to YouTube first
+  |    Agent 4 uploads to Facebook immediately after YouTube finishes
+  |    Both URLs verified
+  v    Clip moved Ready -> Processing -> Uploaded (dedup)
+t+~2m  Agent 5 posts the full report to Discord (with the Actions run URL)
+```
+
+### What the 5 slots do every day
+
+5 staggered upload times inside the USA high-traffic window
+(`America/New_York`):
+
+| Slot | Base time | Actual (after 1-15 min jitter) |
+| ---: | --------: | ------------------------------ |
+| 1    | 08:00     | 08:01-08:15                    |
+| 2    | 11:00     | 11:01-11:15                    |
+| 3    | 14:00     | 14:01-14:15                    |
+| 4    | 18:00     | 18:01-18:15                    |
+| 5    | 21:00     | 21:01-21:15                    |
+
+The jitter is re-rolled **each day** and persisted in `state/workflow_state.json`
+(`daily_times`), so uploads never land at the same minute two days in a row.
+
+### Failure handling & retries
+
+- Each platform is retried automatically on the next 15-minute run (up to 3
+  attempts). Retry counts are persisted, so a CI restart never resets them.
+- YouTube and Facebook are independent: if YouTube succeeds but Facebook fails,
+  only Facebook is retried — YouTube is never re-uploaded.
+- After 3 failed attempts a job is finalized as `failed`/`partial` and reported
+  to Discord; the clip stays in `Processing` (never silently dropped).
+- If a run is interrupted (e.g. workflow timeout) mid-upload, the job stays
+  in-flight and is **auto-resumed on the next run** — including across midnight
+  (stale in-flight jobs from a previous day are recovered automatically).
+
+### Keeping the workflow alive
+
+- The schedule runs 24/7 via the GitHub Actions cron; `workflow_dispatch` allows
+  an immediate manual check.
+- `concurrency.cancel-in-progress: false` guarantees runs never overlap, so the
+  persisted state is never corrupted by concurrent writers.
+- After every run the updated `state/workflow_state.json` is committed back to
+  the repo, which also keeps the repository active so the scheduled workflow is
+  never auto-disabled by GitHub.
+- Manual/test override: trigger the workflow with the `force_slot` input (or
+  `_FORCE_SLOT=1`) to upload immediately regardless of the clock.
+
 ## Legal note
 
 Only upload clips you have the rights to distribute. Respect copyright and
