@@ -1432,8 +1432,8 @@
         "status": "pending",
         "url": null,
         "error": "<HttpError 400 when requesting None returned \"The request metadata specifies an invalid or empty video title.\". Details: \"[{'message': 'The request metadata specifies an invalid or empty video title.', 'domain': 'youtube.video', 'reason': 'invalidTitle', 'location': 'body.snippet.title', 'locationType': 'other'}]\">",
-        "retries": 1,
-        "last_attempt": "2026-08-09 21:01 UTC",
+        "retries": 2,
+        "last_attempt": "2026-08-09 21:46 UTC",
         "slot_time": "08:03",
         "retry_due": true
       },
