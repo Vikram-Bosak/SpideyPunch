@@ -31,26 +31,39 @@ class YouTubeSeoAgent:
 
     def optimize(self, master_package: dict[str, Any], movie_title: str) -> dict[str, Any]:
         primary_keyword = master_package["primary_keyword"]
-        # Natural title targeting search intent + CTR (interesting but not misleading)
-        title = f"{movie_title} - Epic Action Scene Reaction! #Shorts"
-        if len(title) > 100:
-            title = f"{movie_title} Action Scene #Shorts"
         
-        # Keyword-rich but natural description (reaction angle + video context)
-        description = (
-            f"Watching this incredible reaction clip from the movie {movie_title}! "
-            f"Here we analyze the main action sequence and character performance. "
-            f"Let us know your reaction in the comments below!\n\n"
-            f"Search queries: {', '.join(master_package['secondary_keywords'][:3])}."
-        )
+        # 1. Short, unique, engaging title
+        title_base = f"{movie_title} Action Scene Reaction"
+        if len(title_base) > 60:
+            title_base = f"{movie_title} Reaction"
+
+        # 2. Relevant Emoji
+        emoji = "🔥"
+        if "spiderman" in movie_title.lower() or "spider-man" in movie_title.lower():
+            emoji = "🕸️"
+        elif "batman" in movie_title.lower():
+            emoji = "🦇"
+        elif "wick" in movie_title.lower() or "fight" in movie_title.lower() or "action" in movie_title.lower():
+            emoji = "⚔️"
+
+        # 3. 3 Relevant Trending Hashtags
+        hashtags = ["#Shorts", "#MovieReaction", "#Hollywood"]
+
+        # Combined YouTube title formatting
+        final_title = f"{title_base} {emoji} {' '.join(hashtags)}"
+        if len(final_title) > 100:
+            final_title = f"{movie_title} Reaction {emoji} {' '.join(hashtags)}"
+
+        # Description must be completely empty
+        description = ""
 
         return {
-            "title": title,
+            "title": final_title,
             "description": description,
             "primary_keyword": primary_keyword,
             "secondary_keywords": master_package["secondary_keywords"],
-            "tags": master_package["tags"],
-            "hashtags": ["#Shorts", "#Hollywood"] + [h for h in master_package["hashtags"][:3] if h != "#Shorts"],
+            "tags": [],
+            "hashtags": hashtags,
         }
 
 
