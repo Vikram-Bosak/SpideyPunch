@@ -1852,6 +1852,84 @@
       "final_status": "completed",
       "date": "2026-08-10",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1ITVf_PElJPSNR-uKbF86Zm-vq6hW8lag",
+      "drive_file_name": "i_still_cant_believe_bill_johnsons_intense_performance_as_leatherface.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/i_still_cant_believe_bill_johnsons_intense_performance_as_leatherface.mp4",
+      "movie_title": "I Still Cant Believe Bill Johnsons Intense Performance As Leatherface",
+      "seo": {
+        "movie_title": "I Still Cant Believe Bill Johnsons Intense Performance As Leatherface",
+        "source_file": "i_still_cant_believe_bill_johnsons_intense_performance_as_leatherface.mp4",
+        "primary_keyword": "I Still Cant Believe Bill Johnsons Intense Performance As Leatherface reaction",
+        "secondary_keywords": [
+          "I Still Cant Believe Bill Johnsons Intense Performance As Leatherface action scene",
+          "movie reaction I Still Cant Believe Bill Johnsons Intense Performance As Leatherface"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "I Still Cant Believe Bill Johnsons Intense Performance As Leatherface Reaction 🔥 #Shorts #MovieReaction #Hollywood",
+          "description": "",
+          "primary_keyword": "I Still Cant Believe Bill Johnsons Intense Performance As Leatherface reaction",
+          "secondary_keywords": [
+            "I Still Cant Believe Bill Johnsons Intense Performance As Leatherface action scene",
+            "movie reaction I Still Cant Believe Bill Johnsons Intense Performance As Leatherface"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in I Still Cant Believe Bill Johnsons Intense Performance As Leatherface! 😱",
+          "description": "This scene from I Still Cant Believe Bill Johnsons Intense Performance As Leatherface never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇",
+          "primary_keyword": "I Still Cant Believe Bill Johnsons Intense Performance As Leatherface reaction",
+          "hashtags": [
+            "#Reels",
+            "#MovieReaction",
+            "#IStillCantBelieveBillJohnsonsIntensePerformanceAsLeatherface"
+          ]
+        },
+        "youtube_title": "I Still Cant Believe Bill Johnsons Intense Performance As Leatherface Reaction 🔥 #Shorts #MovieReaction #Hollywood",
+        "youtube_description": "",
+        "facebook_caption": "This scene from I Still Cant Believe Bill Johnsons Intense Performance As Leatherface never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/1KQG9JvEdBI",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-10 14:43 UTC",
+        "slot_time": "08:12",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1532014371424105",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-10 14:43 UTC",
+        "slot_time": "08:12",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-10 14:43 UTC",
+      "completed_at": "2026-08-10 14:43 UTC",
+      "final_status": "completed",
+      "date": "2026-08-10",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
