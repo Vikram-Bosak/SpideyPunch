@@ -25,5 +25,14 @@
   "hashtag_base": [
     "Shorts", "Movie", "Movies", "MovieClip", "MovieScene", "Hollywood",
     "Film", "Cinema", "MovieMoment", "BestScene", "MovieShorts"
+  ],
+  "characters": [
+    "Spider-Man", "Batman", "Iron Man", "Captain America", "Thor", "Joker",
+    "Deadpool", "Wolverine", "Superman", "Wonder Woman"
+  ],
+  "action_reactions": [
+    "action scene", "epic reaction", "insane fight", "fight scene", "movie reaction",
+    "mind blowing scene", "epic fight scene", "climax scene"
   ]
 }
+

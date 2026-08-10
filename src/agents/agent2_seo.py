@@ -1,20 +1,6 @@
-"""Agent 2 - Movie Clip Analysis & SEO Agent.
+"""Agent 2 - Master SEO Agent & Platform SEO Adapters.
 
-Analyzes a movie clip (from its filename + optional metadata) and generates,
-in American English:
-
-  * Movie title / information
-  * Relevant movie context
-  * Search keywords
-  * YouTube SEO title
-  * YouTube description
-  * Facebook caption
-  * Relevant hashtags
-  * Metadata
-
-The generator is rule-based and deterministic so the pipeline works fully
-offline. If a user-supplied LLM API key is present (USER_LLM_API_KEY), the SEO
-is additionally enriched via an OpenAI-compatible chat-completions endpoint.
+Google Drive Video -> Video Analyzer -> SEO Agent -> SEO Validation Agent -> YouTube SEO / Facebook SEO.
 """
 
 from __future__ import annotations
@@ -30,7 +16,6 @@ from ..common.logger import get_logger
 
 logger = get_logger("agent2_seo")
 
-# Words/phrases that get stripped from a filename when deriving the movie title.
 _NOISE_TOKENS = re.compile(
     r"\b(clip|clips|scene|scenes|part|pt|episode|ep|s\d{1,2}e\d{1,2}"
     r"|season|trailer|official|hd|4k|1080p|720p|2160p|hdr|youtube|facebook"
@@ -41,10 +26,124 @@ _NOISE_TOKENS = re.compile(
 _EXT_RE = re.compile(r"\.(mp4|mov|m4v|mkv|webm|avi|mpg|mpeg)$", re.IGNORECASE)
 
 
+class YouTubeSeoAgent:
+    """Refines Master SEO Package for YouTube Upload SEO Factors."""
+
+    def optimize(self, master_package: dict[str, Any], movie_title: str) -> dict[str, Any]:
+        primary_keyword = master_package["primary_keyword"]
+        # Natural title targeting search intent + CTR (interesting but not misleading)
+        title = f"{movie_title} - Epic Action Scene Reaction! #Shorts"
+        if len(title) > 100:
+            title = f"{movie_title} Action Scene #Shorts"
+        
+        # Keyword-rich but natural description (reaction angle + video context)
+        description = (
+            f"Watching this incredible reaction clip from the movie {movie_title}! "
+            f"Here we analyze the main action sequence and character performance. "
+            f"Let us know your reaction in the comments below!\n\n"
+            f"Search queries: {', '.join(master_package['secondary_keywords'][:3])}."
+        )
+
+        return {
+            "title": title,
+            "description": description,
+            "primary_keyword": primary_keyword,
+            "secondary_keywords": master_package["secondary_keywords"],
+            "tags": master_package["tags"],
+            "hashtags": ["#Shorts", "#Hollywood"] + [h for h in master_package["hashtags"][:3] if h != "#Shorts"],
+        }
+
+
+class FacebookSeoAgent:
+    """Refines Master SEO Package for Facebook Discovery & Engagement Factors."""
+
+    def optimize(self, master_package: dict[str, Any], movie_title: str) -> dict[str, Any]:
+        primary_keyword = master_package["primary_keyword"]
+        
+        # Engaging, short, and searchable Facebook caption/header
+        title = f"Insane reaction to this moment in {movie_title}! 😱"
+        
+        # Short but context-rich description + Call to Action (CTA)
+        description = (
+            f"This scene from {movie_title} never gets old! "
+            f"Is this the ultimate action moment? Share your favorite scene in the comments! 👇"
+        )
+        
+        # Limited relevant hashtags
+        hashtags = ["#Reels", "#MovieReaction", f"#{re.sub(r'[^a-zA-Z0-9]', '', movie_title)}"]
+
+        return {
+            "title": title,
+            "description": description,
+            "primary_keyword": primary_keyword,
+            "hashtags": hashtags,
+        }
+
+
+class SeoValidationAgent:
+    """Verifies that the generated metadata is accurate, compliant, and optimized."""
+
+    def validate(self, master_package: dict[str, Any], movie_title: str) -> tuple[int, list[str]]:
+        errors = []
+        score = 100
+
+        primary_kw = master_package.get("primary_keyword", "")
+        secondary_kws = master_package.get("secondary_keywords", [])
+        tags = master_package.get("tags", [])
+        hashtags = master_package.get("hashtags", [])
+
+        # 1. Primary Keyword checks
+        if not primary_kw:
+            errors.append("No primary keyword selected.")
+            score -= 20
+        elif movie_title.lower() not in primary_kw.lower():
+            errors.append("Primary keyword does not naturally include movie name.")
+            score -= 15
+
+        # 2. Keyword stuffing check
+        # If there are too many unrelated actors or universes listed, flag it
+        unrelated_tags_count = 0
+        for tag in tags:
+            # Simple heuristic: tags should relate to movie title elements
+            words = movie_title.lower().split()
+            if not any(w in tag.lower() for w in words) and tag.lower() not in ["action clip", "movie reaction", "shorts", "reels"]:
+                unrelated_tags_count += 1
+        if unrelated_tags_count > 6:
+            errors.append("Potential keyword stuffing detected with unrelated tags.")
+            score -= 15
+
+        # 3. Unnecessary or excessive hashtags
+        if len(hashtags) > 8:
+            errors.append("Too many hashtags (excessive hashtag usage).")
+            score -= 10
+
+        return max(score, 0), errors
+
+    def refine(self, master_package: dict[str, Any], movie_title: str, errors: list[str]) -> dict[str, Any]:
+        """Automatically improves Master SEO Package parameters to correct issues."""
+        logger.info("Validation errors found: %s. Improving metadata automatically...", errors)
+        for err in errors:
+            if "movie name" in err:
+                master_package["primary_keyword"] = f"{movie_title} reaction"
+            if "keyword stuffing" in err:
+                # Keep only tags that contain title words or core actions
+                words = movie_title.lower().split()
+                master_package["tags"] = [
+                    t for t in master_package["tags"]
+                    if any(w in t.lower() for w in words) or t.lower() in ["action clip", "movie reaction"]
+                ]
+            if "Too many hashtags" in err:
+                master_package["hashtags"] = master_package["hashtags"][:4]
+        return master_package
+
+
 class SeoAgent:
     def __init__(self) -> None:
         self.settings = load_settings()
         self._profiles = self._load_profiles()
+        self.validator = SeoValidationAgent()
+        self.youtube_seo = YouTubeSeoAgent()
+        self.facebook_seo = FacebookSeoAgent()
 
     @staticmethod
     def _load_profiles() -> dict[str, Any]:
@@ -55,130 +154,81 @@ class SeoAgent:
         logger.warning("seo_profiles.json not found; using empty profiles.")
         return {}
 
-    # -- analysis -----------------------------------------------------------
-    def analyze(self, clip: dict[str, Any]) -> dict[str, Any]:
-        """Build SEO metadata for a clip.
-
-        clip expects keys: drive_file_name (or file name) and optional
-        movie_hint. Returns a full metadata dict.
-        """
+    def analyze(self, clip: dict[str, Any], used_keywords: list[str] | None = None) -> dict[str, Any]:
+        """Runs the Master SEO Flow: Research -> Master Package -> Validate -> Platform Refinements."""
         file_name = clip.get("drive_file_name") or clip.get("name", "")
         movie_title = clip.get("movie_hint") or self._extract_movie_title(file_name)
+        used_kws_set = set(k.lower() for k in (used_keywords or []))
 
-        base = self._base_keywords(movie_title)
+        # 1. Master SEO Generation
+        primary_keyword = f"{movie_title} reaction"
+        if primary_keyword.lower() in used_kws_set:
+            primary_keyword = f"{movie_title} action scene reaction"
 
-        rule_seo = {
+        secondary_keywords = [
+            f"{movie_title} action scene",
+            f"movie reaction {movie_title}",
+            f"Hollywood action reaction"
+        ]
+        # Filter duplicates
+        secondary_keywords = [k for k in secondary_keywords if k.lower() not in used_kws_set]
+        if not secondary_keywords:
+            secondary_keywords = [f"{movie_title} action clip"]
+
+        tags = [movie_title, "movie reaction", "action clip"]
+        hashtags = ["#Shorts", "#MovieReaction", f"#{re.sub(r'[^a-zA-Z0-9]', '', movie_title)}"]
+
+        master_package = {
+            "primary_keyword": primary_keyword,
+            "secondary_keywords": secondary_keywords,
+            "tags": tags,
+            "hashtags": hashtags,
+        }
+
+        # Optional LLM override for master package
+        llm_master = self._llm_enrich(movie_title, file_name, used_kws_set)
+        if llm_master:
+            master_package.update(llm_master)
+
+        # 2. Validation
+        score, errors = self.validator.validate(master_package, movie_title)
+        if score < 85:
+            master_package = self.validator.refine(master_package, movie_title, errors)
+            score, errors = self.validator.validate(master_package, movie_title)
+
+        # 3. Platform SEO Generation
+        yt_meta = self.youtube_seo.optimize(master_package, movie_title)
+        fb_meta = self.facebook_seo.optimize(master_package, movie_title)
+
+        return {
             "movie_title": movie_title,
             "source_file": file_name,
-            "search_keywords": base["keywords"],
-            "tags": base["tags"],
-            "hashtags": base["hashtags"],
-            "youtube_title": self._youtube_title(movie_title),
-            "youtube_description": self._youtube_description(movie_title),
-            "facebook_caption": self._facebook_caption(movie_title),
+            "primary_keyword": master_package["primary_keyword"],
+            "secondary_keywords": master_package["secondary_keywords"],
+            "seo_score": score,
+            "validation_errors": errors,
+            "youtube": yt_meta,
+            "facebook": fb_meta,
+            # Backwards compatibility
+            "youtube_title": yt_meta["title"],
+            "youtube_description": yt_meta["description"],
+            "facebook_caption": fb_meta["description"],
+            "tags": yt_meta["tags"],
+            "hashtags": yt_meta["hashtags"],
             "category_id": self.settings.get("youtube", {}).get("category_id", "24"),
             "locale": self.settings.get("seo", {}).get("locale", "en-US"),
         }
 
-        llm_seo = self._llm_enrich(movie_title, file_name)
-        if llm_seo:
-            rule_seo["llm_enriched"] = True
-            # LLM fields win for titles/descriptions; keywords/hashtags are merged.
-            rule_seo["youtube_title"] = llm_seo.get("youtube_title") or rule_seo["youtube_title"]
-            rule_seo["youtube_description"] = (
-                llm_seo.get("youtube_description") or rule_seo["youtube_description"]
-            )
-            rule_seo["facebook_caption"] = llm_seo.get("facebook_caption") or rule_seo["facebook_caption"]
-            rule_seo["search_keywords"] = self._merge_unique(
-                rule_seo["search_keywords"], llm_seo.get("search_keywords", [])
-            )
-            rule_seo["hashtags"] = self._merge_unique(
-                rule_seo["hashtags"], llm_seo.get("hashtags", [])
-            )
-        else:
-            rule_seo["llm_enriched"] = False
-
-        return rule_seo
-
-    # -- movie title extraction ---------------------------------------------
     def _extract_movie_title(self, file_name: str) -> str:
         stem = _EXT_RE.sub("", file_name)
         stem = stem.replace("_", " ").replace("-", " ").replace(".", " ")
         cleaned = _NOISE_TOKENS.sub(" ", stem)
         cleaned = re.sub(r"\s{2,}", " ", cleaned).strip()
         if cleaned:
-            # Title-case the cleaned name for a natural movie title.
             return " ".join(w.capitalize() for w in cleaned.split())
-        # Fall back to a cleaned version of the raw filename.
         return " ".join(w.capitalize() for w in stem.split())
 
-    # -- keyword builders ---------------------------------------------------
-    def _base_keywords(self, movie_title: str) -> dict[str, list[str]]:
-        profiles = self._profiles
-        keywords: list[str] = []
-        for group in (
-            "hollywood_genres", "universes", "genres", "video_formats", "audience_intent",
-        ):
-            keywords.extend(profiles.get(group, []))
-
-        keywords.extend([
-            f"{movie_title} movie", f"{movie_title} movie clip",
-            f"{movie_title} best scene", f"{movie_title} movie scene",
-            f"{movie_title} movie moments", f"{movie_title} full movie scene",
-        ])
-
-        title_words = movie_title.split()
-        if len(title_words) >= 2:
-            keywords.append(" ".join(title_words))
-
-        keywords = self._dedupe(keywords)
-
-        # A curated tag set for YouTube (<=500 chars).
-        tags = self._dedupe(
-            [movie_title, f"{movie_title} movie", movie_title + " scene",
-             movie_title + " clip", movie_title + " best scene"]
-            + profiles.get("hollywood_genres", [])[:6]
-        )
-
-        # Hashtags (mix of base + movie-derived, alphanumeric only).
-        movie_tag = re.sub(r"[^a-zA-Z0-9]", "", movie_title)
-        hashtags = list(profiles.get("hashtag_base", []))
-        if movie_tag:
-            hashtags.append(movie_tag)
-            hashtags.append(f"{movie_tag}Movie")
-        hashtags = self._dedupe([f"#{h}" for h in hashtags])
-
-        return {"keywords": keywords, "tags": tags, "hashtags": hashtags}
-
-    # -- content builders ---------------------------------------------------
-    def _youtube_title(self, movie_title: str) -> str:
-        return f"{movie_title} - Best Scene | Hollywood Movie Moment #Shorts"
-
-    def _youtube_description(self, movie_title: str) -> str:
-        lines = [
-            f"{movie_title} - one of the most memorable scenes from Hollywood.",
-            "",
-            "This short highlights an iconic moment from the movie. Watch the "
-            "full picture for the complete story.",
-            "",
-            "Follow for daily Hollywood movie clips, epic scenes, and the best "
-            "moments in cinema history.",
-            "",
-            "Tags:",
-            "#Shorts #Movie #Hollywood #MovieScene #MovieMoment #Film #Cinema",
-        ]
-        return "\n".join(lines)
-
-    def _facebook_caption(self, movie_title: str) -> str:
-        return (
-            f"{movie_title} - Best Scene | Hollywood Movie Moment\n\n"
-            "An unforgettable moment from this iconic film. Comment below with "
-            "your favorite movie scene of all time!\n\n"
-            "#Shorts #Movie #Hollywood #MovieScene #MovieMoment"
-        )
-
-    # -- optional LLM enrichment ---------------------------------------------
-    def _llm_enrich(self, movie_title: str, source_file: str) -> dict[str, Any] | None:
+    def _llm_enrich(self, movie_title: str, source_file: str, used_keywords: set[str]) -> dict[str, Any] | None:
         api_key = getenv(self.settings.get("seo", {}).get("llm", {}).get("api_key_env", "USER_LLM_API_KEY"))
         if not api_key:
             return None
@@ -191,26 +241,25 @@ class SeoAgent:
             self.settings.get("seo", {}).get("llm", {}).get("model_default", "deepseek-chat"),
         )
         prompt = (
-            "You write SEO metadata for a YouTube Short / Facebook Reel that "
-            "shows a scene from a Hollywood movie. The target audience is in the "
-            "United States, so write in natural American English, not translated "
-            "English. Return JSON only with these keys: youtube_title, "
-            "youtube_description, facebook_caption, search_keywords (list), "
-            "hashtags (list of 10-15).\n"
-            f"Movie title hint: {movie_title}\n"
-            f"Source file name: {source_file}\n"
-            "Keep titles under 100 characters and mention the movie name. "
-            "Add #Shorts for YouTube."
+            "You write highly relevant, non-spammy Master SEO metadata for a movie reaction clip. "
+            "Target US audience (American English). DO NOT use keyword stuffing or false claims. "
+            "Return JSON only:\n"
+            "{\n"
+            "  \"primary_keyword\": \"Targeted search term (includes movie name)\",\n"
+            "  \"secondary_keywords\": [\"list of 3 unique long-tail terms\"],\n"
+            "  \"tags\": [\"list of 4-6 highly relevant movie tags\"],\n"
+            "  \"hashtags\": [\"list of 3 hashtags\"]\n"
+            "}\n"
+            f"Movie: {movie_title}\n"
+            f"Filename: {source_file}\n"
+            f"Avoid: {list(used_keywords)}\n"
         )
         try:
             payload = {
                 "model": model,
-                "messages": [
-                    {"role": "system", "content": "You are an expert social media SEO writer."},
-                    {"role": "user", "content": prompt},
-                ],
+                "messages": [{"role": "user", "content": prompt}],
                 "temperature": 0.7,
-                "max_tokens": 900,
+                "max_tokens": 800,
             }
             url = base_url.rstrip("/") + "/chat/completions"
             request = urllib.request.Request(
@@ -224,35 +273,14 @@ class SeoAgent:
             )
             with urllib.request.urlopen(request, timeout=30) as resp:
                 body = json.loads(resp.read().decode("utf-8"))
-            content = body["choices"][0]["message"]["content"]
-            content = content.strip()
+            content = body["choices"][0]["message"]["content"].strip()
             if content.startswith("```"):
                 content = re.sub(r"^```(?:json)?\s*|\s*```$", "", content)
-            parsed = json.loads(content)
-            parsed["search_keywords"] = [str(k) for k in parsed.get("search_keywords", [])]
-            parsed["hashtags"] = [str(h) for h in parsed.get("hashtags", [])]
-            logger.info("LLM SEO enrichment completed for %s", movie_title)
-            return parsed
-        except Exception as exc:  # noqa: BLE001 - fall back to rule-based
-            logger.warning("LLM enrichment failed (%s); using rule-based SEO.", exc)
+            return json.loads(content)
+        except Exception as exc:
+            logger.warning("LLM Master enrichment failed (%s); using rule-based.", exc)
             return None
 
-    # -- helpers ------------------------------------------------------------
-    @staticmethod
-    def _dedupe(items: list[str]) -> list[str]:
-        seen: set[str] = set()
-        out: list[str] = []
-        for item in items:
-            key = item.lower()
-            if key not in seen:
-                seen.add(key)
-                out.append(item)
-        return out
 
-    def _merge_unique(self, primary: list[str], secondary: list[str]) -> list[str]:
-        return self._dedupe(list(primary) + list(secondary))
-
-
-def analyze_clip(clip: dict[str, Any]) -> dict[str, Any]:
-    """Convenience entry point used by the orchestrator."""
-    return SeoAgent().analyze(clip)
+def analyze_clip(clip: dict[str, Any], used_keywords: list[str] | None = None) -> dict[str, Any]:
+    return SeoAgent().analyze(clip, used_keywords)

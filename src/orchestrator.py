@@ -206,7 +206,13 @@ class Orchestrator:
 
         # Agent 2 - SEO metadata (American English).
         try:
-            seo = self._seo().analyze(clip)
+            # Collect previously used keywords across past jobs to avoid duplicates
+            used_keywords = []
+            for j in state.get("jobs", []):
+                if j.get("seo") and j["seo"].get("primary_keyword"):
+                    used_keywords.append(j["seo"]["primary_keyword"])
+                    used_keywords.extend(j["seo"].get("secondary_keywords", []))
+            seo = self._seo().analyze(clip, used_keywords=used_keywords)
         except Exception as exc:  # noqa: BLE001
             logger.error("Agent 2 (SEO) failed: %s", exc)
             self._report_seo_error(slot, clip, today, str(exc))
@@ -294,9 +300,9 @@ class Orchestrator:
         try:
             url = self._youtube().upload_short(
                 local_path=job["local_path"],
-                title=job["seo"]["youtube_title"],
-                description=job["seo"]["youtube_description"],
-                tags=job["seo"]["tags"],
+                title=job["seo"]["youtube"]["title"],
+                description=job["seo"]["youtube"]["description"],
+                tags=job["seo"]["youtube"]["tags"],
                 category_id=job["seo"]["category_id"],
             )
             yt["status"] = "success"
@@ -319,7 +325,7 @@ class Orchestrator:
         try:
             url = self._facebook().upload_reel(
                 local_path=job["local_path"],
-                caption=job["seo"]["facebook_caption"],
+                caption=job["seo"]["facebook"]["description"],
             )
             fb["status"] = "success"
             fb["url"] = url
@@ -417,6 +423,7 @@ class Orchestrator:
                 "success": job["facebook"]["status"] == "success",
                 "url": job["facebook"].get("url"),
             },
+            "seo": job.get("seo"),
             "source_file": job["drive_file_name"],
             "moved_to_uploaded": moved,
             "upload_time": job.get("started_at"),

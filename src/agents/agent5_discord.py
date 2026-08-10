@@ -36,27 +36,61 @@ class DiscordReportingAgent:
         return bool(self.webhook_url)
 
     def send_report(self, report: dict[str, Any]) -> bool:
-        """Send a rich embed report. Returns True on success."""
+        """Send a formatted text report. Returns True on success."""
         if not self.webhook_url:
             logger.warning("Discord webhook not configured; skipping report.")
             return False
 
-        status = report.get("overall_status", "unknown")
-        color = EMBED_COLOR_SUCCESS
-        if status == "failed":
-            color = EMBED_COLOR_FAILURE
-        elif status == "partial":
-            color = EMBED_COLOR_WARNING
+        seo = report.get("seo") or {}
+        yt = report.get("youtube") or {}
+        fb = report.get("facebook") or {}
 
-        embed = {
-            "title": self.report_title,
-            "color": color,
-            "description": self._build_description(report),
-            "fields": self._build_fields(report),
-            "timestamp": self._iso_report_ts(report),
-        }
+        yt_ok = "✅" if yt.get("success") else "❌"
+        fb_ok = "✅" if fb.get("success") else "❌"
 
-        payload = {"embeds": [embed]}
+        status_str = "✅ SUCCESS" if report.get("overall_status") == "completed" else "❌ FAILED"
+        if report.get("overall_status") == "partial":
+            status_str = "⚠️ PARTIAL SUCCESS"
+
+        upload_time_str = report.get("upload_time") or "N/A"
+        # Extract HH:MM AM/PM if possible from ISO/timestamp
+        try:
+            from datetime import datetime
+            if " " in upload_time_str:
+                dt_part = upload_time_str.split(" ")[1] # e.g. 11:30
+                hour, minute = map(int, dt_part.split(":"))
+                ampm = "AM" if hour < 12 else "PM"
+                hour_12 = hour if hour <= 12 else hour - 12
+                if hour_12 == 0:
+                    hour_12 = 12
+                upload_time_str = f"{hour_12:02d}:{minute:02d} {ampm}"
+        except Exception:
+            pass
+
+        text_content = (
+            f"🎬 **VIDEO UPLOAD REPORT**\n\n"
+            f"**Video**: {report.get('source_file') or 'N/A'}\n\n"
+            f"🔎 **SEO**\n"
+            f"**Primary Keyword**:\n{seo.get('primary_keyword') or 'N/A'}\n\n"
+            f"**Secondary Keywords**:\n" + "\n".join(seo.get('secondary_keywords', [])) + f"\n\n"
+            f"📺 **YouTube**\n"
+            f"SEO Title: ✅\n"
+            f"Description: ✅\n"
+            f"Tags: ✅\n"
+            f"Hashtags: ✅\n"
+            f"Upload: {yt_ok}\n"
+            f"URL: {yt.get('url') or 'N/A'}\n\n"
+            f"📘 **Facebook**\n"
+            f"Caption: ✅\n"
+            f"Keywords: ✅\n"
+            f"Hashtags: ✅\n"
+            f"Upload: {fb_ok}\n"
+            f"URL: {fb.get('url') or 'N/A'}\n\n"
+            f"⏱ **Upload Time**:\n{upload_time_str}\n\n"
+            f"**STATUS**: {status_str}"
+        )
+
+        payload = {"content": text_content}
         try:
             resp = requests.post(self.webhook_url, json=payload, timeout=30)
             if resp.status_code in (200, 204):
@@ -114,8 +148,37 @@ class DiscordReportingAgent:
             ])
 
         fields = [
-            {"name": "YouTube", "value": youtube_lines(), "inline": True},
-            {"name": "Facebook", "value": facebook_lines(), "inline": True},
+            {"name": "YouTube Status", "value": youtube_lines(), "inline": True},
+            {"name": "Facebook Status", "value": facebook_lines(), "inline": True},
+        ]
+
+        seo = report.get("seo")
+        if seo:
+            fields.extend([
+                {
+                    "name": "SEO Details",
+                    "value": f"**Primary Keyword**: {seo.get('primary_keyword') or 'N/A'}\n"
+                             f"**Secondary Keywords**: {', '.join(seo.get('secondary_keywords', [])) or 'N/A'}\n"
+                             f"**SEO Score**: {seo.get('seo_score', 'N/A')}/100\n"
+                             f"**Validation Errors**: {', '.join(seo.get('validation_errors', [])) or 'None'}",
+                    "inline": False
+                },
+                {
+                    "name": "YouTube SEO Metadata",
+                    "value": f"**Title**: {seo.get('youtube_title') or 'N/A'}\n"
+                             f"**Description**: {seo.get('youtube_description')[:250] or 'N/A'}...\n"
+                             f"**Tags**: {', '.join(seo.get('tags', [])) or 'N/A'}\n"
+                             f"**Hashtags**: {', '.join(seo.get('hashtags', [])) or 'N/A'}",
+                    "inline": False
+                },
+                {
+                    "name": "Facebook SEO Metadata",
+                    "value": f"**Caption**: {seo.get('facebook_caption') or 'N/A'}",
+                    "inline": False
+                }
+            ])
+
+        fields.extend([
             {
                 "name": "Google Drive",
                 "value": f"Source: {report.get('source_file') or 'N/A'}\n"
@@ -137,7 +200,7 @@ class DiscordReportingAgent:
                 "value": report.get("actions_run_url") or "N/A",
                 "inline": False,
             },
-        ]
+        ])
         errors = report.get("errors")
         if errors:
             fields.append(
