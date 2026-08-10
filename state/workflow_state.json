@@ -2164,6 +2164,84 @@
       "final_status": "completed",
       "date": "2026-08-10",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1RTXs7mxW02gIowR-OibcaLLb430e3xK9",
+      "drive_file_name": "when_robin_williams_delivered_that_iconic_speech_to_the_medical.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/when_robin_williams_delivered_that_iconic_speech_to_the_medical.mp4",
+      "movie_title": "When Robin Williams Delivered That Iconic Speech To The Medical",
+      "seo": {
+        "movie_title": "When Robin Williams Delivered That Iconic Speech To The Medical",
+        "source_file": "when_robin_williams_delivered_that_iconic_speech_to_the_medical.mp4",
+        "primary_keyword": "When Robin Williams Delivered That Iconic Speech To The Medical reaction",
+        "secondary_keywords": [
+          "When Robin Williams Delivered That Iconic Speech To The Medical action scene",
+          "movie reaction When Robin Williams Delivered That Iconic Speech To The Medical"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "When Robin Williams Delivered That Iconic Speech To The Medical Reaction 🔥 #Shorts #MovieReaction #Hollywood",
+          "description": "",
+          "primary_keyword": "When Robin Williams Delivered That Iconic Speech To The Medical reaction",
+          "secondary_keywords": [
+            "When Robin Williams Delivered That Iconic Speech To The Medical action scene",
+            "movie reaction When Robin Williams Delivered That Iconic Speech To The Medical"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in When Robin Williams Delivered That Iconic Speech To The Medical! 😱",
+          "description": "This scene from When Robin Williams Delivered That Iconic Speech To The Medical never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇",
+          "primary_keyword": "When Robin Williams Delivered That Iconic Speech To The Medical reaction",
+          "hashtags": [
+            "#Reels",
+            "#MovieReaction",
+            "#WhenRobinWilliamsDeliveredThatIconicSpeechToTheMedical"
+          ]
+        },
+        "youtube_title": "When Robin Williams Delivered That Iconic Speech To The Medical Reaction 🔥 #Shorts #MovieReaction #Hollywood",
+        "youtube_description": "",
+        "facebook_caption": "This scene from When Robin Williams Delivered That Iconic Speech To The Medical never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/-ac-7423eYQ",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-10 18:32 UTC",
+        "slot_time": "08:12",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/3384192305086151",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-10 18:32 UTC",
+        "slot_time": "08:12",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-10 18:32 UTC",
+      "completed_at": "2026-08-10 18:32 UTC",
+      "final_status": "completed",
+      "date": "2026-08-10",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
