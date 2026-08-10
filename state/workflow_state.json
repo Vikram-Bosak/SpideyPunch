@@ -2086,6 +2086,84 @@
       "final_status": "completed",
       "date": "2026-08-10",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "10zIifCp-od1hJt5if2QaI9gnrWSDSVdJ",
+      "drive_file_name": "reese_witherspoons_iconic_courtroom_win_in_legally_blonde_2001_was.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/reese_witherspoons_iconic_courtroom_win_in_legally_blonde_2001_was.mp4",
+      "movie_title": "Reese Witherspoons Iconic Courtroom Win In Legally Blonde 2001 Was",
+      "seo": {
+        "movie_title": "Reese Witherspoons Iconic Courtroom Win In Legally Blonde 2001 Was",
+        "source_file": "reese_witherspoons_iconic_courtroom_win_in_legally_blonde_2001_was.mp4",
+        "primary_keyword": "Reese Witherspoons Iconic Courtroom Win In Legally Blonde 2001 Was reaction",
+        "secondary_keywords": [
+          "Reese Witherspoons Iconic Courtroom Win In Legally Blonde 2001 Was action scene",
+          "movie reaction Reese Witherspoons Iconic Courtroom Win In Legally Blonde 2001 Was"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Reese Witherspoons Iconic Courtroom Win In Legally Blonde 2001 Was Reaction 🔥 #Shorts #MovieReaction #Hollywood",
+          "description": "",
+          "primary_keyword": "Reese Witherspoons Iconic Courtroom Win In Legally Blonde 2001 Was reaction",
+          "secondary_keywords": [
+            "Reese Witherspoons Iconic Courtroom Win In Legally Blonde 2001 Was action scene",
+            "movie reaction Reese Witherspoons Iconic Courtroom Win In Legally Blonde 2001 Was"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Reese Witherspoons Iconic Courtroom Win In Legally Blonde 2001 Was! 😱",
+          "description": "This scene from Reese Witherspoons Iconic Courtroom Win In Legally Blonde 2001 Was never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇",
+          "primary_keyword": "Reese Witherspoons Iconic Courtroom Win In Legally Blonde 2001 Was reaction",
+          "hashtags": [
+            "#Reels",
+            "#MovieReaction",
+            "#ReeseWitherspoonsIconicCourtroomWinInLegallyBlonde2001Was"
+          ]
+        },
+        "youtube_title": "Reese Witherspoons Iconic Courtroom Win In Legally Blonde 2001 Was Reaction 🔥 #Shorts #MovieReaction #Hollywood",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Reese Witherspoons Iconic Courtroom Win In Legally Blonde 2001 Was never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/gIJysr4YtTw",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-10 17:35 UTC",
+        "slot_time": "08:12",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1721494562403185",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-10 17:35 UTC",
+        "slot_time": "08:12",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-10 17:35 UTC",
+      "completed_at": "2026-08-10 17:35 UTC",
+      "final_status": "completed",
+      "date": "2026-08-10",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
