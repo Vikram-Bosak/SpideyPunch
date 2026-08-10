@@ -1694,6 +1694,86 @@
       "final_status": "completed",
       "date": "2026-08-09",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1wJeRXjqL82LXqMbURpLv3kKPbiElNZQD",
+      "drive_file_name": "that_insane_entrance_in_avengers_age_of_ultron_2015_where.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/that_insane_entrance_in_avengers_age_of_ultron_2015_where.mp4",
+      "movie_title": "That Insane Entrance In Avengers Age Of Ultron 2015 Where",
+      "seo": {
+        "movie_title": "That Insane Entrance In Avengers Age Of Ultron 2015 Where",
+        "source_file": "that_insane_entrance_in_avengers_age_of_ultron_2015_where.mp4",
+        "primary_keyword": "That Insane Entrance In Avengers Age Of Ultron 2015 Where reaction",
+        "secondary_keywords": [
+          "That Insane Entrance In Avengers Age Of Ultron 2015 Where action scene",
+          "movie reaction That Insane Entrance In Avengers Age Of Ultron 2015 Where",
+          "Hollywood action reaction"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "That Insane Entrance In Avengers Age Of Ultron 2015 Where Reaction 🔥 #Shorts #MovieReaction #Hollywood",
+          "description": "",
+          "primary_keyword": "That Insane Entrance In Avengers Age Of Ultron 2015 Where reaction",
+          "secondary_keywords": [
+            "That Insane Entrance In Avengers Age Of Ultron 2015 Where action scene",
+            "movie reaction That Insane Entrance In Avengers Age Of Ultron 2015 Where",
+            "Hollywood action reaction"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in That Insane Entrance In Avengers Age Of Ultron 2015 Where! 😱",
+          "description": "This scene from That Insane Entrance In Avengers Age Of Ultron 2015 Where never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇",
+          "primary_keyword": "That Insane Entrance In Avengers Age Of Ultron 2015 Where reaction",
+          "hashtags": [
+            "#Reels",
+            "#MovieReaction",
+            "#ThatInsaneEntranceInAvengersAgeOfUltron2015Where"
+          ]
+        },
+        "youtube_title": "That Insane Entrance In Avengers Age Of Ultron 2015 Where Reaction 🔥 #Shorts #MovieReaction #Hollywood",
+        "youtube_description": "",
+        "facebook_caption": "This scene from That Insane Entrance In Avengers Age Of Ultron 2015 Where never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/tilXczTI83M",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-10 08:38 UTC",
+        "slot_time": "08:12",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/2127803368616086",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-10 08:38 UTC",
+        "slot_time": "08:12",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-10 08:37 UTC",
+      "completed_at": "2026-08-10 08:38 UTC",
+      "final_status": "completed",
+      "date": "2026-08-10",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
@@ -1711,6 +1791,13 @@
       "3": "14:02",
       "4": "18:02",
       "5": "21:01"
+    },
+    "2026-08-10": {
+      "1": "08:12",
+      "2": "11:03",
+      "3": "14:14",
+      "4": "18:15",
+      "5": "21:12"
     }
   }
 }
