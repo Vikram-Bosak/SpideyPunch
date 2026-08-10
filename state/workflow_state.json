@@ -1774,6 +1774,84 @@
       "final_status": "completed",
       "date": "2026-08-10",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1nD00vA34uwlF11LF5iy9lmjbuAYBNPTx",
+      "drive_file_name": "watching_the_epic_mammoth_stampede_in_10000_bc_2008_still.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/watching_the_epic_mammoth_stampede_in_10000_bc_2008_still.mp4",
+      "movie_title": "Watching The Epic Mammoth Stampede In 10000 Bc 2008 Still",
+      "seo": {
+        "movie_title": "Watching The Epic Mammoth Stampede In 10000 Bc 2008 Still",
+        "source_file": "watching_the_epic_mammoth_stampede_in_10000_bc_2008_still.mp4",
+        "primary_keyword": "Watching The Epic Mammoth Stampede In 10000 Bc 2008 Still reaction",
+        "secondary_keywords": [
+          "Watching The Epic Mammoth Stampede In 10000 Bc 2008 Still action scene",
+          "movie reaction Watching The Epic Mammoth Stampede In 10000 Bc 2008 Still"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Watching The Epic Mammoth Stampede In 10000 Bc 2008 Still Reaction 🔥 #Shorts #MovieReaction #Hollywood",
+          "description": "",
+          "primary_keyword": "Watching The Epic Mammoth Stampede In 10000 Bc 2008 Still reaction",
+          "secondary_keywords": [
+            "Watching The Epic Mammoth Stampede In 10000 Bc 2008 Still action scene",
+            "movie reaction Watching The Epic Mammoth Stampede In 10000 Bc 2008 Still"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Watching The Epic Mammoth Stampede In 10000 Bc 2008 Still! 😱",
+          "description": "This scene from Watching The Epic Mammoth Stampede In 10000 Bc 2008 Still never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇",
+          "primary_keyword": "Watching The Epic Mammoth Stampede In 10000 Bc 2008 Still reaction",
+          "hashtags": [
+            "#Reels",
+            "#MovieReaction",
+            "#WatchingTheEpicMammothStampedeIn10000Bc2008Still"
+          ]
+        },
+        "youtube_title": "Watching The Epic Mammoth Stampede In 10000 Bc 2008 Still Reaction 🔥 #Shorts #MovieReaction #Hollywood",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Watching The Epic Mammoth Stampede In 10000 Bc 2008 Still never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/Eh__4m29Tvg",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-10 13:42 UTC",
+        "slot_time": "08:12",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/910490018246342",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-10 13:42 UTC",
+        "slot_time": "08:12",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-10 13:42 UTC",
+      "completed_at": "2026-08-10 13:42 UTC",
+      "final_status": "completed",
+      "date": "2026-08-10",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
