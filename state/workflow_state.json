@@ -2008,6 +2008,84 @@
       "final_status": "completed",
       "date": "2026-08-10",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1wCFIJ_5Cv3Vfc4q9yQ2Y-VPKai4UnSQc",
+      "drive_file_name": "im_still_laughing_about_that_hilarious_7second_scene_from_bad.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/im_still_laughing_about_that_hilarious_7second_scene_from_bad.mp4",
+      "movie_title": "Im Still Laughing About That Hilarious 7second From Bad",
+      "seo": {
+        "movie_title": "Im Still Laughing About That Hilarious 7second From Bad",
+        "source_file": "im_still_laughing_about_that_hilarious_7second_scene_from_bad.mp4",
+        "primary_keyword": "Im Still Laughing About That Hilarious 7second From Bad reaction",
+        "secondary_keywords": [
+          "Im Still Laughing About That Hilarious 7second From Bad action scene",
+          "movie reaction Im Still Laughing About That Hilarious 7second From Bad"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Im Still Laughing About That Hilarious 7second From Bad Reaction 🔥 #Shorts #MovieReaction #Hollywood",
+          "description": "",
+          "primary_keyword": "Im Still Laughing About That Hilarious 7second From Bad reaction",
+          "secondary_keywords": [
+            "Im Still Laughing About That Hilarious 7second From Bad action scene",
+            "movie reaction Im Still Laughing About That Hilarious 7second From Bad"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Im Still Laughing About That Hilarious 7second From Bad! 😱",
+          "description": "This scene from Im Still Laughing About That Hilarious 7second From Bad never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇",
+          "primary_keyword": "Im Still Laughing About That Hilarious 7second From Bad reaction",
+          "hashtags": [
+            "#Reels",
+            "#MovieReaction",
+            "#ImStillLaughingAboutThatHilarious7secondFromBad"
+          ]
+        },
+        "youtube_title": "Im Still Laughing About That Hilarious 7second From Bad Reaction 🔥 #Shorts #MovieReaction #Hollywood",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Im Still Laughing About That Hilarious 7second From Bad never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/n-X_yX5GVFo",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-10 16:30 UTC",
+        "slot_time": "08:12",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1756675305362021",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-10 16:31 UTC",
+        "slot_time": "08:12",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-10 16:30 UTC",
+      "completed_at": "2026-08-10 16:31 UTC",
+      "final_status": "completed",
+      "date": "2026-08-10",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
