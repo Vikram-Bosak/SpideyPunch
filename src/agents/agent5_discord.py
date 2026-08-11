@@ -45,49 +45,56 @@ class DiscordReportingAgent:
         yt = report.get("youtube") or {}
         fb = report.get("facebook") or {}
 
-        yt_ok = "✅" if yt.get("success") else "❌"
-        fb_ok = "✅" if fb.get("success") else "❌"
+        errors = report.get("errors") or []
+        yt_err = ""
+        fb_err = ""
+        for err in errors:
+            if err.lower().startswith("youtube"):
+                yt_err = f" ({err})"
+            elif err.lower().startswith("facebook"):
+                fb_err = f" ({err})"
 
-        status_str = "✅ SUCCESS" if report.get("overall_status") == "completed" else "❌ FAILED"
-        if report.get("overall_status") == "partial":
-            status_str = "⚠️ PARTIAL SUCCESS"
+        yt_status = "Success" if yt.get("success") else (f"Failed{yt_err}" if yt_err else "Failed")
+        fb_status = "Success" if fb.get("success") else (f"Failed{fb_err}" if fb_err else "Failed")
 
-        upload_time_str = report.get("upload_time") or "N/A"
-        # Extract HH:MM AM/PM if possible from ISO/timestamp
-        try:
-            from datetime import datetime
-            if " " in upload_time_str:
-                dt_part = upload_time_str.split(" ")[1] # e.g. 11:30
-                hour, minute = map(int, dt_part.split(":"))
-                ampm = "AM" if hour < 12 else "PM"
-                hour_12 = hour if hour <= 12 else hour - 12
-                if hour_12 == 0:
-                    hour_12 = 12
-                upload_time_str = f"{hour_12:02d}:{minute:02d} {ampm}"
-        except Exception:
-            pass
+        overall = report.get("overall_status")
+        if overall == "completed":
+            header = "✅ **Pipeline Run Completed**"
+        elif overall == "partial":
+            header = "⚠️ **Pipeline Run Partial Success**"
+        else:
+            header = "❌ **Pipeline Run Failed**"
+
+        seo_title = seo.get("youtube_title") or seo.get("title") or "N/A"
+        description = seo.get("facebook_caption") or seo.get("description") or "N/A"
+        hashtags = " ".join(seo.get("hashtags") or [])
+
+        repo_name = getenv("GITHUB_REPOSITORY", "Vikram-Bosak/SpideyPunch")
+        repo_url = f"https://github.com/{repo_name}"
 
         text_content = (
-            f"🎬 **VIDEO UPLOAD REPORT**\n\n"
-            f"**Video**: {report.get('source_file') or 'N/A'}\n\n"
-            f"🔎 **SEO**\n"
-            f"**Primary Keyword**:\n{seo.get('primary_keyword') or 'N/A'}\n\n"
-            f"**Secondary Keywords**:\n" + "\n".join(seo.get('secondary_keywords', [])) + f"\n\n"
-            f"📺 **YouTube**\n"
-            f"SEO Title: ✅\n"
-            f"Description: ✅\n"
-            f"Tags: ✅\n"
-            f"Hashtags: ✅\n"
-            f"Upload: {yt_ok}\n"
-            f"URL: {yt.get('url') or 'N/A'}\n\n"
-            f"📘 **Facebook**\n"
-            f"Caption: ✅\n"
-            f"Keywords: ✅\n"
-            f"Hashtags: ✅\n"
-            f"Upload: {fb_ok}\n"
-            f"URL: {fb.get('url') or 'N/A'}\n\n"
-            f"⏱ **Upload Time**:\n{upload_time_str}\n\n"
-            f"**STATUS**: {status_str}"
+            f"{header}\n\n"
+            f"🎬 **Video Name:**\n"
+            f"{report.get('source_file') or 'N/A'}\n\n"
+            f"📤 **Facebook Upload Status:** {fb_status}\n"
+            f"📤 **YouTube Upload Status:** {yt_status}\n"
+            f"📤 **TikTok Upload Status:** N/A\n\n"
+            f"🏷️ **SEO Title:**\n"
+            f"{seo_title}\n\n"
+            f"📝 **Description:**\n"
+            f"{description}\n\n"
+            f"{hashtags}\n\n"
+            f"Original File: Google Drive\n\n"
+            f"🔗 **Facebook Reel URL:**\n"
+            f"{fb.get('url') or 'N/A'}\n\n"
+            f"▶️ **YouTube Video URL:**\n"
+            f"{yt.get('url') or 'N/A'}\n\n"
+            f"🎵 **TikTok Video URL:**\n"
+            f"N/A\n\n"
+            f"📦 **GitHub Repository:**\n"
+            f"{repo_url}\n\n"
+            f"📄 **Workflow Run:**\n"
+            f"{report.get('actions_run_url') or 'N/A'}"
         )
 
         payload = {"content": text_content}
