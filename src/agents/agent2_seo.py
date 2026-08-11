@@ -50,9 +50,9 @@ class YouTubeSeoAgent:
         hashtags = ["#Shorts", "#MovieReaction", "#Hollywood"]
 
         # Combined YouTube title formatting
-        final_title = f"{title_base} {emoji} {' '.join(hashtags)}"
+        final_title = f"{title_base} {emoji}"
         if len(final_title) > 100:
-            final_title = f"{movie_title} Reaction {emoji} {' '.join(hashtags)}"
+            final_title = f"{movie_title} Reaction {emoji}"
 
         # Description must be completely empty
         description = ""
