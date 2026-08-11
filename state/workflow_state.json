@@ -2242,6 +2242,84 @@
       "final_status": "completed",
       "date": "2026-08-10",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "125fbNhitqoUIBEz0NHvQZ9pXFthlKCUU",
+      "drive_file_name": "i_just_cant_get_over_that_explosion_scene_in_new.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/i_just_cant_get_over_that_explosion_scene_in_new.mp4",
+      "movie_title": "I Just Cant Get Over That Explosion In New",
+      "seo": {
+        "movie_title": "I Just Cant Get Over That Explosion In New",
+        "source_file": "i_just_cant_get_over_that_explosion_scene_in_new.mp4",
+        "primary_keyword": "I Just Cant Get Over That Explosion In New reaction",
+        "secondary_keywords": [
+          "I Just Cant Get Over That Explosion In New action scene",
+          "movie reaction I Just Cant Get Over That Explosion In New"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "I Just Cant Get Over That Explosion In New Reaction 🔥 #Shorts #MovieReaction #Hollywood",
+          "description": "",
+          "primary_keyword": "I Just Cant Get Over That Explosion In New reaction",
+          "secondary_keywords": [
+            "I Just Cant Get Over That Explosion In New action scene",
+            "movie reaction I Just Cant Get Over That Explosion In New"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in I Just Cant Get Over That Explosion In New! 😱",
+          "description": "This scene from I Just Cant Get Over That Explosion In New never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇",
+          "primary_keyword": "I Just Cant Get Over That Explosion In New reaction",
+          "hashtags": [
+            "#Reels",
+            "#MovieReaction",
+            "#IJustCantGetOverThatExplosionInNew"
+          ]
+        },
+        "youtube_title": "I Just Cant Get Over That Explosion In New Reaction 🔥 #Shorts #MovieReaction #Hollywood",
+        "youtube_description": "",
+        "facebook_caption": "This scene from I Just Cant Get Over That Explosion In New never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/QioJ1GZhYLw",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-11 08:18 UTC",
+        "slot_time": "08:02",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/2220316695485382",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-11 08:19 UTC",
+        "slot_time": "08:02",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-11 08:18 UTC",
+      "completed_at": "2026-08-11 08:19 UTC",
+      "final_status": "completed",
+      "date": "2026-08-11",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
@@ -2266,6 +2344,13 @@
       "3": "14:14",
       "4": "18:15",
       "5": "21:12"
+    },
+    "2026-08-11": {
+      "1": "08:02",
+      "2": "11:02",
+      "3": "14:14",
+      "4": "18:08",
+      "5": "21:15"
     }
   }
 }
