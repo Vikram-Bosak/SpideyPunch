@@ -2398,6 +2398,84 @@
       "final_status": "completed",
       "date": "2026-08-11",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1U9XzrmyKqovQFI_tePuorHsP8ep9xstP",
+      "drive_file_name": "when_alex_russell_filmed_that_adorable_date_scene_with_laura.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/when_alex_russell_filmed_that_adorable_date_scene_with_laura.mp4",
+      "movie_title": "When Alex Russell Filmed That Adorable Date With Laura",
+      "seo": {
+        "movie_title": "When Alex Russell Filmed That Adorable Date With Laura",
+        "source_file": "when_alex_russell_filmed_that_adorable_date_scene_with_laura.mp4",
+        "primary_keyword": "When Alex Russell Filmed That Adorable Date With Laura reaction",
+        "secondary_keywords": [
+          "When Alex Russell Filmed That Adorable Date With Laura action scene",
+          "movie reaction When Alex Russell Filmed That Adorable Date With Laura"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "When Alex Russell Filmed That Adorable Date With Laura Reaction 🔥",
+          "description": "",
+          "primary_keyword": "When Alex Russell Filmed That Adorable Date With Laura reaction",
+          "secondary_keywords": [
+            "When Alex Russell Filmed That Adorable Date With Laura action scene",
+            "movie reaction When Alex Russell Filmed That Adorable Date With Laura"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in When Alex Russell Filmed That Adorable Date With Laura! 😱",
+          "description": "This scene from When Alex Russell Filmed That Adorable Date With Laura never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇",
+          "primary_keyword": "When Alex Russell Filmed That Adorable Date With Laura reaction",
+          "hashtags": [
+            "#Reels",
+            "#MovieReaction",
+            "#WhenAlexRussellFilmedThatAdorableDateWithLaura"
+          ]
+        },
+        "youtube_title": "When Alex Russell Filmed That Adorable Date With Laura Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from When Alex Russell Filmed That Adorable Date With Laura never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/2xf0LWcFEi0",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-11 08:26 UTC",
+        "slot_time": "08:02",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/891960053608073",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-11 08:27 UTC",
+        "slot_time": "08:02",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-11 08:26 UTC",
+      "completed_at": "2026-08-11 08:27 UTC",
+      "final_status": "completed",
+      "date": "2026-08-11",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
