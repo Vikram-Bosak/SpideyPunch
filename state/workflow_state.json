@@ -2476,6 +2476,84 @@
       "final_status": "completed",
       "date": "2026-08-11",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1RfuXmPj-GHxjYNPOYk7evE6QqK1Sg4Yg",
+      "drive_file_name": "leslie_nielsen_the_comedy_legend_brought_his_signature_deadpan_humor.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/leslie_nielsen_the_comedy_legend_brought_his_signature_deadpan_humor.mp4",
+      "movie_title": "Leslie Nielsen The Comedy Legend Brought His Signature Deadpan Humor",
+      "seo": {
+        "movie_title": "Leslie Nielsen The Comedy Legend Brought His Signature Deadpan Humor",
+        "source_file": "leslie_nielsen_the_comedy_legend_brought_his_signature_deadpan_humor.mp4",
+        "primary_keyword": "Leslie Nielsen The Comedy Legend Brought His Signature Deadpan Humor reaction",
+        "secondary_keywords": [
+          "Leslie Nielsen The Comedy Legend Brought His Signature Deadpan Humor action scene",
+          "movie reaction Leslie Nielsen The Comedy Legend Brought His Signature Deadpan Humor"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Leslie Nielsen The Comedy Legend Brought His Signature Deadpan Humor Reaction 🔥",
+          "description": "",
+          "primary_keyword": "Leslie Nielsen The Comedy Legend Brought His Signature Deadpan Humor reaction",
+          "secondary_keywords": [
+            "Leslie Nielsen The Comedy Legend Brought His Signature Deadpan Humor action scene",
+            "movie reaction Leslie Nielsen The Comedy Legend Brought His Signature Deadpan Humor"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Leslie Nielsen The Comedy Legend Brought His Signature Deadpan Humor! 😱",
+          "description": "This scene from Leslie Nielsen The Comedy Legend Brought His Signature Deadpan Humor never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇",
+          "primary_keyword": "Leslie Nielsen The Comedy Legend Brought His Signature Deadpan Humor reaction",
+          "hashtags": [
+            "#Reels",
+            "#MovieReaction",
+            "#LeslieNielsenTheComedyLegendBroughtHisSignatureDeadpanHumor"
+          ]
+        },
+        "youtube_title": "Leslie Nielsen The Comedy Legend Brought His Signature Deadpan Humor Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Leslie Nielsen The Comedy Legend Brought His Signature Deadpan Humor never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/gVScA6LOfj4",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-11 12:49 UTC",
+        "slot_time": "08:02",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/2401078923635541",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-11 12:49 UTC",
+        "slot_time": "08:02",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-11 12:49 UTC",
+      "completed_at": "2026-08-11 12:49 UTC",
+      "final_status": "completed",
+      "date": "2026-08-11",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
