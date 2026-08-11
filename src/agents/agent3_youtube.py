@@ -65,9 +65,6 @@ class YouTubeUploadAgent:
     ) -> str:
         """Upload a video as a Short and return the public URL."""
         title = self._enforce_title_limit(title)
-        settings_yt = self.settings.get("youtube", {})
-        if settings_yt.get("shorts", True) and "#Shorts" not in title:
-            title = f"{title} #Shorts"
 
         body = {
             "snippet": {
