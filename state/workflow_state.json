@@ -2320,6 +2320,84 @@
       "final_status": "completed",
       "date": "2026-08-11",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1U4gz17YslWKNnsQ2EFa2frpyynzt9Wu8",
+      "drive_file_name": "the_infamous_old_painless_scene_in_predator_1987_is_still.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/the_infamous_old_painless_scene_in_predator_1987_is_still.mp4",
+      "movie_title": "The Infamous Old Painless In Predator 1987 Is Still",
+      "seo": {
+        "movie_title": "The Infamous Old Painless In Predator 1987 Is Still",
+        "source_file": "the_infamous_old_painless_scene_in_predator_1987_is_still.mp4",
+        "primary_keyword": "The Infamous Old Painless In Predator 1987 Is Still reaction",
+        "secondary_keywords": [
+          "The Infamous Old Painless In Predator 1987 Is Still action scene",
+          "movie reaction The Infamous Old Painless In Predator 1987 Is Still"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "The Infamous Old Painless In Predator 1987 Is Still Reaction 🔥",
+          "description": "",
+          "primary_keyword": "The Infamous Old Painless In Predator 1987 Is Still reaction",
+          "secondary_keywords": [
+            "The Infamous Old Painless In Predator 1987 Is Still action scene",
+            "movie reaction The Infamous Old Painless In Predator 1987 Is Still"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in The Infamous Old Painless In Predator 1987 Is Still! 😱",
+          "description": "This scene from The Infamous Old Painless In Predator 1987 Is Still never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇",
+          "primary_keyword": "The Infamous Old Painless In Predator 1987 Is Still reaction",
+          "hashtags": [
+            "#Reels",
+            "#MovieReaction",
+            "#TheInfamousOldPainlessInPredator1987IsStill"
+          ]
+        },
+        "youtube_title": "The Infamous Old Painless In Predator 1987 Is Still Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from The Infamous Old Painless In Predator 1987 Is Still never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/nbXygjrPpYQ",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-11 08:23 UTC",
+        "slot_time": "08:02",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1620769782894613",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-11 08:23 UTC",
+        "slot_time": "08:02",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-11 08:22 UTC",
+      "completed_at": "2026-08-11 08:23 UTC",
+      "final_status": "completed",
+      "date": "2026-08-11",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
