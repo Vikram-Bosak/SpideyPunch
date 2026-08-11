@@ -1,7 +1,7 @@
 {
   "version": 2,
   "timezone": "America/New_York",
-  "jitter_minutes": [1, 15],
+  "jitter_minutes": [-10, 10],
   "slots": [
     { "video_number": 1, "time": "08:00" },
     { "video_number": 2, "time": "11:00" },
