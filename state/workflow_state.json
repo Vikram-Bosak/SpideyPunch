@@ -3178,6 +3178,84 @@
       "final_status": "completed",
       "date": "2026-08-12",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1SMUW4d6hApu-3aAs4dtQQqO_nv4gJWM7",
+      "drive_file_name": "i_still_cant_get_enough_of_that_adorable_hawkeye_family.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/i_still_cant_get_enough_of_that_adorable_hawkeye_family.mp4",
+      "movie_title": "I Still Cant Get Enough Of That Adorable Hawkeye Family",
+      "seo": {
+        "movie_title": "I Still Cant Get Enough Of That Adorable Hawkeye Family",
+        "source_file": "i_still_cant_get_enough_of_that_adorable_hawkeye_family.mp4",
+        "primary_keyword": "I Still Cant Get Enough Of That Adorable Hawkeye Family reaction",
+        "secondary_keywords": [
+          "I Still Cant Get Enough Of That Adorable Hawkeye Family action scene",
+          "movie reaction I Still Cant Get Enough Of That Adorable Hawkeye Family"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "I Still Cant Get Enough Of That Adorable Hawkeye Family Reaction 🔥",
+          "description": "",
+          "primary_keyword": "I Still Cant Get Enough Of That Adorable Hawkeye Family reaction",
+          "secondary_keywords": [
+            "I Still Cant Get Enough Of That Adorable Hawkeye Family action scene",
+            "movie reaction I Still Cant Get Enough Of That Adorable Hawkeye Family"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in I Still Cant Get Enough Of That Adorable Hawkeye Family! 😱",
+          "description": "This scene from I Still Cant Get Enough Of That Adorable Hawkeye Family never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇",
+          "primary_keyword": "I Still Cant Get Enough Of That Adorable Hawkeye Family reaction",
+          "hashtags": [
+            "#Reels",
+            "#MovieReaction",
+            "#IStillCantGetEnoughOfThatAdorableHawkeyeFamily"
+          ]
+        },
+        "youtube_title": "I Still Cant Get Enough Of That Adorable Hawkeye Family Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from I Still Cant Get Enough Of That Adorable Hawkeye Family never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/FvYQDfuj6M4",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-12 18:53 UTC",
+        "slot_time": "07:12",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/878160278491920",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-12 18:53 UTC",
+        "slot_time": "07:12",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-12 18:53 UTC",
+      "completed_at": "2026-08-12 18:53 UTC",
+      "final_status": "completed",
+      "date": "2026-08-12",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
