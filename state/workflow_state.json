@@ -3022,6 +3022,84 @@
       "final_status": "completed",
       "date": "2026-08-12",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1v4S0jcubf3orejFzgAiKoAde4dMgh6o8",
+      "drive_file_name": "you_know_the_part_in_superhero_movie_2008_where_the.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/you_know_the_part_in_superhero_movie_2008_where_the.mp4",
+      "movie_title": "You Know The In Superhero 2008 Where The",
+      "seo": {
+        "movie_title": "You Know The In Superhero 2008 Where The",
+        "source_file": "you_know_the_part_in_superhero_movie_2008_where_the.mp4",
+        "primary_keyword": "You Know The In Superhero 2008 Where The reaction",
+        "secondary_keywords": [
+          "You Know The In Superhero 2008 Where The action scene",
+          "movie reaction You Know The In Superhero 2008 Where The"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "You Know The In Superhero 2008 Where The Reaction 🔥",
+          "description": "",
+          "primary_keyword": "You Know The In Superhero 2008 Where The reaction",
+          "secondary_keywords": [
+            "You Know The In Superhero 2008 Where The action scene",
+            "movie reaction You Know The In Superhero 2008 Where The"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in You Know The In Superhero 2008 Where The! 😱",
+          "description": "This scene from You Know The In Superhero 2008 Where The never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇",
+          "primary_keyword": "You Know The In Superhero 2008 Where The reaction",
+          "hashtags": [
+            "#Reels",
+            "#MovieReaction",
+            "#YouKnowTheInSuperhero2008WhereThe"
+          ]
+        },
+        "youtube_title": "You Know The In Superhero 2008 Where The Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from You Know The In Superhero 2008 Where The never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/8DtrqrRw-5Y",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-12 16:51 UTC",
+        "slot_time": "07:12",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/2826360351074850",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-12 16:52 UTC",
+        "slot_time": "07:12",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-12 16:51 UTC",
+      "completed_at": "2026-08-12 16:52 UTC",
+      "final_status": "completed",
+      "date": "2026-08-12",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
