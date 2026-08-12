@@ -2710,6 +2710,84 @@
       "final_status": "completed",
       "date": "2026-08-11",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "11DCCsffE7ZK0gpK1A7anUYQj6-YYwXYv",
+      "drive_file_name": "in_the_hilarious_2008_spoof_superhero_movie_drake_bells_character.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/in_the_hilarious_2008_spoof_superhero_movie_drake_bells_character.mp4",
+      "movie_title": "In The Hilarious 2008 Spoof Superhero Drake Bells Character",
+      "seo": {
+        "movie_title": "In The Hilarious 2008 Spoof Superhero Drake Bells Character",
+        "source_file": "in_the_hilarious_2008_spoof_superhero_movie_drake_bells_character.mp4",
+        "primary_keyword": "In The Hilarious 2008 Spoof Superhero Drake Bells Character reaction",
+        "secondary_keywords": [
+          "In The Hilarious 2008 Spoof Superhero Drake Bells Character action scene",
+          "movie reaction In The Hilarious 2008 Spoof Superhero Drake Bells Character"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "In The Hilarious 2008 Spoof Superhero Drake Bells Character Reaction 🔥",
+          "description": "",
+          "primary_keyword": "In The Hilarious 2008 Spoof Superhero Drake Bells Character reaction",
+          "secondary_keywords": [
+            "In The Hilarious 2008 Spoof Superhero Drake Bells Character action scene",
+            "movie reaction In The Hilarious 2008 Spoof Superhero Drake Bells Character"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in In The Hilarious 2008 Spoof Superhero Drake Bells Character! 😱",
+          "description": "This scene from In The Hilarious 2008 Spoof Superhero Drake Bells Character never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇",
+          "primary_keyword": "In The Hilarious 2008 Spoof Superhero Drake Bells Character reaction",
+          "hashtags": [
+            "#Reels",
+            "#MovieReaction",
+            "#InTheHilarious2008SpoofSuperheroDrakeBellsCharacter"
+          ]
+        },
+        "youtube_title": "In The Hilarious 2008 Spoof Superhero Drake Bells Character Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from In The Hilarious 2008 Spoof Superhero Drake Bells Character never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/zp0xn8bBQjc",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-12 12:25 UTC",
+        "slot_time": "07:12",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1072141921898734",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-12 12:26 UTC",
+        "slot_time": "07:12",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-12 12:25 UTC",
+      "completed_at": "2026-08-12 12:26 UTC",
+      "final_status": "completed",
+      "date": "2026-08-12",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
@@ -2741,6 +2819,13 @@
       "3": "14:14",
       "4": "18:08",
       "5": "21:15"
+    },
+    "2026-08-12": {
+      "1": "07:12",
+      "2": "10:15",
+      "3": "13:45",
+      "4": "17:13",
+      "5": "20:26"
     }
   }
 }
