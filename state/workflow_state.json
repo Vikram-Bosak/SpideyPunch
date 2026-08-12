@@ -2944,6 +2944,84 @@
       "final_status": "completed",
       "date": "2026-08-12",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1jGuNka-XxejhHXxQBUvnpXvSpOz6MrLQ",
+      "drive_file_name": "the_infamous_dinner_scene_in_ai_artificial_intelligence_2001_is.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/the_infamous_dinner_scene_in_ai_artificial_intelligence_2001_is.mp4",
+      "movie_title": "The Infamous Dinner In Ai Artificial Intelligence 2001 Is",
+      "seo": {
+        "movie_title": "The Infamous Dinner In Ai Artificial Intelligence 2001 Is",
+        "source_file": "the_infamous_dinner_scene_in_ai_artificial_intelligence_2001_is.mp4",
+        "primary_keyword": "The Infamous Dinner In Ai Artificial Intelligence 2001 Is reaction",
+        "secondary_keywords": [
+          "The Infamous Dinner In Ai Artificial Intelligence 2001 Is action scene",
+          "movie reaction The Infamous Dinner In Ai Artificial Intelligence 2001 Is"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "The Infamous Dinner In Ai Artificial Intelligence 2001 Is Reaction 🔥",
+          "description": "",
+          "primary_keyword": "The Infamous Dinner In Ai Artificial Intelligence 2001 Is reaction",
+          "secondary_keywords": [
+            "The Infamous Dinner In Ai Artificial Intelligence 2001 Is action scene",
+            "movie reaction The Infamous Dinner In Ai Artificial Intelligence 2001 Is"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in The Infamous Dinner In Ai Artificial Intelligence 2001 Is! 😱",
+          "description": "This scene from The Infamous Dinner In Ai Artificial Intelligence 2001 Is never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇",
+          "primary_keyword": "The Infamous Dinner In Ai Artificial Intelligence 2001 Is reaction",
+          "hashtags": [
+            "#Reels",
+            "#MovieReaction",
+            "#TheInfamousDinnerInAiArtificialIntelligence2001Is"
+          ]
+        },
+        "youtube_title": "The Infamous Dinner In Ai Artificial Intelligence 2001 Is Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from The Infamous Dinner In Ai Artificial Intelligence 2001 Is never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/hg5YWLhEh0Q",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-12 15:53 UTC",
+        "slot_time": "07:12",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/2675931639492654",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-12 15:54 UTC",
+        "slot_time": "07:12",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-12 15:53 UTC",
+      "completed_at": "2026-08-12 15:54 UTC",
+      "final_status": "completed",
+      "date": "2026-08-12",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
