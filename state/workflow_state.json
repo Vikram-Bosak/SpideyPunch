@@ -3337,6 +3337,87 @@
       "final_status": "completed",
       "date": "2026-08-13",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1qr-7BgrrsBfFS0q3MgqnX0yAXOkwtomQ",
+      "drive_file_name": "in_the_iconic_shower_scene_from_psycho_1960_janet_leighs.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/in_the_iconic_shower_scene_from_psycho_1960_janet_leighs.mp4",
+      "movie_title": "In The Iconic Shower From Psycho 1960 Janet Leighs",
+      "seo": {
+        "movie_title": "In The Iconic Shower From Psycho 1960 Janet Leighs",
+        "source_file": "in_the_iconic_shower_scene_from_psycho_1960_janet_leighs.mp4",
+        "primary_keyword": "In The Iconic Shower From Psycho 1960 Janet Leighs reaction",
+        "secondary_keywords": [
+          "In The Iconic Shower From Psycho 1960 Janet Leighs action scene",
+          "movie reaction In The Iconic Shower From Psycho 1960 Janet Leighs"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "In The Iconic Shower From Psycho 1960 Janet Leighs Reaction 🔥",
+          "description": "",
+          "primary_keyword": "In The Iconic Shower From Psycho 1960 Janet Leighs reaction",
+          "secondary_keywords": [
+            "In The Iconic Shower From Psycho 1960 Janet Leighs action scene",
+            "movie reaction In The Iconic Shower From Psycho 1960 Janet Leighs"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in In The Iconic Shower From Psycho 1960 Janet Leighs! 😱",
+          "description": "This scene from In The Iconic Shower From Psycho 1960 Janet Leighs never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#InTheIconicShowerFromPsycho1960JanetLeighs #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "In The Iconic Shower From Psycho 1960 Janet Leighs reaction",
+          "hashtags": [
+            "#InTheIconicShowerFromPsycho1960JanetLeighs",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "In The Iconic Shower From Psycho 1960 Janet Leighs Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from In The Iconic Shower From Psycho 1960 Janet Leighs never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#InTheIconicShowerFromPsycho1960JanetLeighs #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/am7WkuCzYI4",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-13 12:26 UTC",
+        "slot_time": "07:59",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1988150891830650",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-13 12:26 UTC",
+        "slot_time": "07:59",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-13 12:26 UTC",
+      "completed_at": "2026-08-13 12:26 UTC",
+      "final_status": "completed",
+      "date": "2026-08-13",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
