@@ -3661,6 +3661,87 @@
       "final_status": "completed",
       "date": "2026-08-13",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1tjPg7UlMY5RaEI7mczEGowM3jeex1R8O",
+      "drive_file_name": "in_the_epic_disaster_movie_the_day_after_tomorrow_2004.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/in_the_epic_disaster_movie_the_day_after_tomorrow_2004.mp4",
+      "movie_title": "In The Epic Disaster The Day After Tomorrow 2004",
+      "seo": {
+        "movie_title": "In The Epic Disaster The Day After Tomorrow 2004",
+        "source_file": "in_the_epic_disaster_movie_the_day_after_tomorrow_2004.mp4",
+        "primary_keyword": "In The Epic Disaster The Day After Tomorrow 2004 reaction",
+        "secondary_keywords": [
+          "In The Epic Disaster The Day After Tomorrow 2004 action scene",
+          "movie reaction In The Epic Disaster The Day After Tomorrow 2004"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "In The Epic Disaster The Day After Tomorrow 2004 Reaction 🔥",
+          "description": "",
+          "primary_keyword": "In The Epic Disaster The Day After Tomorrow 2004 reaction",
+          "secondary_keywords": [
+            "In The Epic Disaster The Day After Tomorrow 2004 action scene",
+            "movie reaction In The Epic Disaster The Day After Tomorrow 2004"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in In The Epic Disaster The Day After Tomorrow 2004! 😱",
+          "description": "This scene from In The Epic Disaster The Day After Tomorrow 2004 never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#InTheEpicDisasterTheDayAfterTomorrow2004 #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "In The Epic Disaster The Day After Tomorrow 2004 reaction",
+          "hashtags": [
+            "#InTheEpicDisasterTheDayAfterTomorrow2004",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "In The Epic Disaster The Day After Tomorrow 2004 Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from In The Epic Disaster The Day After Tomorrow 2004 never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#InTheEpicDisasterTheDayAfterTomorrow2004 #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/CnGTktae6lg",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-13 16:49 UTC",
+        "slot_time": "07:59",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1088568773834797",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-13 16:50 UTC",
+        "slot_time": "07:59",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-13 16:49 UTC",
+      "completed_at": "2026-08-13 16:50 UTC",
+      "final_status": "completed",
+      "date": "2026-08-13",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
