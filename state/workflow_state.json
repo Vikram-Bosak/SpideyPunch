@@ -3742,6 +3742,87 @@
       "final_status": "completed",
       "date": "2026-08-13",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "15sdrE1ZBId1vx3D9W3uVzcoGpO-_Qg7h",
+      "drive_file_name": "you_wont_believe_what_happened_during_that_iconic_7second_scene.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/you_wont_believe_what_happened_during_that_iconic_7second_scene.mp4",
+      "movie_title": "You Wont Believe What Happened During That Iconic 7second",
+      "seo": {
+        "movie_title": "You Wont Believe What Happened During That Iconic 7second",
+        "source_file": "you_wont_believe_what_happened_during_that_iconic_7second_scene.mp4",
+        "primary_keyword": "You Wont Believe What Happened During That Iconic 7second reaction",
+        "secondary_keywords": [
+          "You Wont Believe What Happened During That Iconic 7second action scene",
+          "movie reaction You Wont Believe What Happened During That Iconic 7second"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "You Wont Believe What Happened During That Iconic 7second Reaction 🔥",
+          "description": "",
+          "primary_keyword": "You Wont Believe What Happened During That Iconic 7second reaction",
+          "secondary_keywords": [
+            "You Wont Believe What Happened During That Iconic 7second action scene",
+            "movie reaction You Wont Believe What Happened During That Iconic 7second"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in You Wont Believe What Happened During That Iconic 7second! 😱",
+          "description": "This scene from You Wont Believe What Happened During That Iconic 7second never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#YouWontBelieveWhatHappenedDuringThatIconic7second #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "You Wont Believe What Happened During That Iconic 7second reaction",
+          "hashtags": [
+            "#YouWontBelieveWhatHappenedDuringThatIconic7second",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "You Wont Believe What Happened During That Iconic 7second Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from You Wont Believe What Happened During That Iconic 7second never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#YouWontBelieveWhatHappenedDuringThatIconic7second #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/qudInEmA6iA",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-13 17:52 UTC",
+        "slot_time": "07:59",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1604020697804977",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-13 17:53 UTC",
+        "slot_time": "07:59",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-13 17:52 UTC",
+      "completed_at": "2026-08-13 17:53 UTC",
+      "final_status": "completed",
+      "date": "2026-08-13",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
