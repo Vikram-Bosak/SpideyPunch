@@ -3580,6 +3580,87 @@
       "final_status": "completed",
       "date": "2026-08-13",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1q5b3fzzgQ8dPviU_JfgEq5NZBPw8OXcH",
+      "drive_file_name": "in_the_avengers_2012_that_epic_we_have_a_hulk.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/in_the_avengers_2012_that_epic_we_have_a_hulk.mp4",
+      "movie_title": "In The Avengers 2012 That Epic We Have A Hulk",
+      "seo": {
+        "movie_title": "In The Avengers 2012 That Epic We Have A Hulk",
+        "source_file": "in_the_avengers_2012_that_epic_we_have_a_hulk.mp4",
+        "primary_keyword": "In The Avengers 2012 That Epic We Have A Hulk reaction",
+        "secondary_keywords": [
+          "In The Avengers 2012 That Epic We Have A Hulk action scene",
+          "movie reaction In The Avengers 2012 That Epic We Have A Hulk"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "In The Avengers 2012 That Epic We Have A Hulk Reaction 🔥",
+          "description": "",
+          "primary_keyword": "In The Avengers 2012 That Epic We Have A Hulk reaction",
+          "secondary_keywords": [
+            "In The Avengers 2012 That Epic We Have A Hulk action scene",
+            "movie reaction In The Avengers 2012 That Epic We Have A Hulk"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in In The Avengers 2012 That Epic We Have A Hulk! 😱",
+          "description": "This scene from In The Avengers 2012 That Epic We Have A Hulk never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#InTheAvengers2012ThatEpicWeHaveAHulk #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "In The Avengers 2012 That Epic We Have A Hulk reaction",
+          "hashtags": [
+            "#InTheAvengers2012ThatEpicWeHaveAHulk",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "In The Avengers 2012 That Epic We Have A Hulk Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from In The Avengers 2012 That Epic We Have A Hulk never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#InTheAvengers2012ThatEpicWeHaveAHulk #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/yOeFefHlpK4",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-13 15:53 UTC",
+        "slot_time": "07:59",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1574920054039619",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-13 15:53 UTC",
+        "slot_time": "07:59",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-13 15:53 UTC",
+      "completed_at": "2026-08-13 15:53 UTC",
+      "final_status": "completed",
+      "date": "2026-08-13",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
