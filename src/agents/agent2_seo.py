@@ -82,12 +82,44 @@ class FacebookSeoAgent:
             f"Is this the ultimate action moment? Share your favorite scene in the comments! 👇"
         )
         
-        # Limited relevant hashtags
-        hashtags = ["#Reels", "#MovieReaction", f"#{re.sub(r'[^a-zA-Z0-9]', '', movie_title)}"]
+        # Automatically generate relevant hashtags based on movie title, tags, and keywords
+        hashtags = []
+        
+        # 1. Movie title hashtag (e.g. #SpiderMan)
+        movie_tag = f"#{re.sub(r'[^a-zA-Z0-9]', '', movie_title)}"
+        if movie_tag not in hashtags:
+            hashtags.append(movie_tag)
+            
+        # 2. Extract tags/keywords from master_package
+        for tag in master_package.get("tags", []):
+            camel_tag = "".join(w.capitalize() for w in re.findall(r'[a-zA-Z0-9]+', tag))
+            if camel_tag:
+                hashtag = f"#{camel_tag}"
+                # Avoid YouTube-specific hashtags on Facebook
+                if hashtag.lower() not in ["#shorts", "#youtube", "#youtubeshorts"] and hashtag not in hashtags:
+                    hashtags.append(hashtag)
+
+        # 3. Use master package hashtags if they exist
+        for h in master_package.get("hashtags", []):
+            if not h.startswith("#"):
+                h = f"#{h}"
+            # Ensure no Youtube specific hashtags like #Shorts
+            if h.lower() not in ["#shorts", "#youtube", "#youtubeshorts"] and h not in hashtags:
+                hashtags.append(h)
+
+        # Ensure we have common Facebook Reels/movie hashtags
+        default_fb_tags = ["#Reels", "#MovieReaction", "#Hollywood", "#ActionScene"]
+        for dt in default_fb_tags:
+            if dt.lower() not in [h.lower() for h in hashtags]:
+                hashtags.append(dt)
+
+        # Join the hashtags and append to the description
+        hashtag_line = " ".join(hashtags)
+        description_with_hashtags = f"{description}\n\n{hashtag_line}"
 
         return {
             "title": title,
-            "description": description,
+            "description": description_with_hashtags,
             "primary_keyword": primary_keyword,
             "hashtags": hashtags,
         }
