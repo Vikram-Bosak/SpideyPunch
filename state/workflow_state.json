@@ -3256,6 +3256,87 @@
       "final_status": "completed",
       "date": "2026-08-12",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1uziDi8wboMSOud3oaz_jSM1HeqQeTxkC",
+      "drive_file_name": "the_sniper_vs_drones_scene_in_infinite_2021_is_insane.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/the_sniper_vs_drones_scene_in_infinite_2021_is_insane.mp4",
+      "movie_title": "The Sniper Vs Drones In Infinite 2021 Is Insane",
+      "seo": {
+        "movie_title": "The Sniper Vs Drones In Infinite 2021 Is Insane",
+        "source_file": "the_sniper_vs_drones_scene_in_infinite_2021_is_insane.mp4",
+        "primary_keyword": "The Sniper Vs Drones In Infinite 2021 Is Insane reaction",
+        "secondary_keywords": [
+          "The Sniper Vs Drones In Infinite 2021 Is Insane action scene",
+          "movie reaction The Sniper Vs Drones In Infinite 2021 Is Insane"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "The Sniper Vs Drones In Infinite 2021 Is Insane Reaction 🔥",
+          "description": "",
+          "primary_keyword": "The Sniper Vs Drones In Infinite 2021 Is Insane reaction",
+          "secondary_keywords": [
+            "The Sniper Vs Drones In Infinite 2021 Is Insane action scene",
+            "movie reaction The Sniper Vs Drones In Infinite 2021 Is Insane"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in The Sniper Vs Drones In Infinite 2021 Is Insane! 😱",
+          "description": "This scene from The Sniper Vs Drones In Infinite 2021 Is Insane never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TheSniperVsDronesInInfinite2021IsInsane #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "The Sniper Vs Drones In Infinite 2021 Is Insane reaction",
+          "hashtags": [
+            "#TheSniperVsDronesInInfinite2021IsInsane",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "The Sniper Vs Drones In Infinite 2021 Is Insane Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from The Sniper Vs Drones In Infinite 2021 Is Insane never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TheSniperVsDronesInInfinite2021IsInsane #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/7oFUZt8xx9A",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-13 08:56 UTC",
+        "slot_time": "07:59",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1415450223783763",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-13 08:56 UTC",
+        "slot_time": "07:59",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-13 08:56 UTC",
+      "completed_at": "2026-08-13 08:56 UTC",
+      "final_status": "completed",
+      "date": "2026-08-13",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
@@ -3294,6 +3375,13 @@
       "3": "13:45",
       "4": "17:13",
       "5": "20:26"
+    },
+    "2026-08-13": {
+      "1": "07:59",
+      "2": "10:07",
+      "3": "13:48",
+      "4": "17:28",
+      "5": "21:00"
     }
   }
 }
