@@ -4147,6 +4147,87 @@
       "final_status": "completed",
       "date": "2026-08-14",
       "max_retries": 3
+    },
+    {
+      "video_number": 3,
+      "drive_file_id": "1AprLG69VlqU6h59YiN270tIkTHjf_yt0",
+      "drive_file_name": "during_the_intense_space_battle_scenes_in_serenity_2006_the.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/during_the_intense_space_battle_scenes_in_serenity_2006_the.mp4",
+      "movie_title": "During The Intense Space Battle In Serenity 2006 The",
+      "seo": {
+        "movie_title": "During The Intense Space Battle In Serenity 2006 The",
+        "source_file": "during_the_intense_space_battle_scenes_in_serenity_2006_the.mp4",
+        "primary_keyword": "During The Intense Space Battle In Serenity 2006 The reaction",
+        "secondary_keywords": [
+          "During The Intense Space Battle In Serenity 2006 The action scene",
+          "movie reaction During The Intense Space Battle In Serenity 2006 The"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "During The Intense Space Battle In Serenity 2006 The Reaction 🔥",
+          "description": "",
+          "primary_keyword": "During The Intense Space Battle In Serenity 2006 The reaction",
+          "secondary_keywords": [
+            "During The Intense Space Battle In Serenity 2006 The action scene",
+            "movie reaction During The Intense Space Battle In Serenity 2006 The"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in During The Intense Space Battle In Serenity 2006 The! 😱",
+          "description": "This scene from During The Intense Space Battle In Serenity 2006 The never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#DuringTheIntenseSpaceBattleInSerenity2006The #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "During The Intense Space Battle In Serenity 2006 The reaction",
+          "hashtags": [
+            "#DuringTheIntenseSpaceBattleInSerenity2006The",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "During The Intense Space Battle In Serenity 2006 The Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from During The Intense Space Battle In Serenity 2006 The never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#DuringTheIntenseSpaceBattleInSerenity2006The #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/zvk3pEnJwmo",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-14 17:27 UTC",
+        "slot_time": "13:09",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1997426311233032",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-14 17:27 UTC",
+        "slot_time": "13:09",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-14 17:27 UTC",
+      "completed_at": "2026-08-14 17:27 UTC",
+      "final_status": "completed",
+      "date": "2026-08-14",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
