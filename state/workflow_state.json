@@ -3985,6 +3985,87 @@
       "final_status": "completed",
       "date": "2026-08-13",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1-EYS03uAulFxOjzQC6c8dqrTs8mQbDCY",
+      "drive_file_name": "im_still_laughing_about_the_epic_school_fight_scene_in.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/im_still_laughing_about_the_epic_school_fight_scene_in.mp4",
+      "movie_title": "Im Still Laughing About The Epic School Fight In",
+      "seo": {
+        "movie_title": "Im Still Laughing About The Epic School Fight In",
+        "source_file": "im_still_laughing_about_the_epic_school_fight_scene_in.mp4",
+        "primary_keyword": "Im Still Laughing About The Epic School Fight In reaction",
+        "secondary_keywords": [
+          "Im Still Laughing About The Epic School Fight In action scene",
+          "movie reaction Im Still Laughing About The Epic School Fight In"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Im Still Laughing About The Epic School Fight In Reaction ⚔️",
+          "description": "",
+          "primary_keyword": "Im Still Laughing About The Epic School Fight In reaction",
+          "secondary_keywords": [
+            "Im Still Laughing About The Epic School Fight In action scene",
+            "movie reaction Im Still Laughing About The Epic School Fight In"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Im Still Laughing About The Epic School Fight In! 😱",
+          "description": "This scene from Im Still Laughing About The Epic School Fight In never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ImStillLaughingAboutTheEpicSchoolFightIn #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Im Still Laughing About The Epic School Fight In reaction",
+          "hashtags": [
+            "#ImStillLaughingAboutTheEpicSchoolFightIn",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Im Still Laughing About The Epic School Fight In Reaction ⚔️",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Im Still Laughing About The Epic School Fight In never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ImStillLaughingAboutTheEpicSchoolFightIn #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/KYc38iDMeo0",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-14 11:27 UTC",
+        "slot_time": "07:27",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1044764345189101",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-14 11:27 UTC",
+        "slot_time": "07:27",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-14 11:27 UTC",
+      "completed_at": "2026-08-14 11:27 UTC",
+      "final_status": "completed",
+      "date": "2026-08-14",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
@@ -4030,6 +4111,13 @@
       "3": "13:48",
       "4": "17:28",
       "5": "21:00"
+    },
+    "2026-08-14": {
+      "1": "07:27",
+      "2": "10:38",
+      "3": "13:09",
+      "4": "17:42",
+      "5": "20:31"
     }
   }
 }
