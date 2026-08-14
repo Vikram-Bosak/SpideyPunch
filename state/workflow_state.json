@@ -4066,6 +4066,87 @@
       "final_status": "completed",
       "date": "2026-08-14",
       "max_retries": 3
+    },
+    {
+      "video_number": 2,
+      "drive_file_id": "1WcmT7ESJT6ZYxzAgSD_6f62TDiKLSj1O",
+      "drive_file_name": "the_intense_and_eerie_atmosphere_of_annabelle_creation_2017_still.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/the_intense_and_eerie_atmosphere_of_annabelle_creation_2017_still.mp4",
+      "movie_title": "The Intense And Eerie Atmosphere Of Annabelle Creation 2017 Still",
+      "seo": {
+        "movie_title": "The Intense And Eerie Atmosphere Of Annabelle Creation 2017 Still",
+        "source_file": "the_intense_and_eerie_atmosphere_of_annabelle_creation_2017_still.mp4",
+        "primary_keyword": "The Intense And Eerie Atmosphere Of Annabelle Creation 2017 Still reaction",
+        "secondary_keywords": [
+          "The Intense And Eerie Atmosphere Of Annabelle Creation 2017 Still action scene",
+          "movie reaction The Intense And Eerie Atmosphere Of Annabelle Creation 2017 Still"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "The Intense And Eerie Atmosphere Of Annabelle Creation 2017 Still Reaction 🔥",
+          "description": "",
+          "primary_keyword": "The Intense And Eerie Atmosphere Of Annabelle Creation 2017 Still reaction",
+          "secondary_keywords": [
+            "The Intense And Eerie Atmosphere Of Annabelle Creation 2017 Still action scene",
+            "movie reaction The Intense And Eerie Atmosphere Of Annabelle Creation 2017 Still"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in The Intense And Eerie Atmosphere Of Annabelle Creation 2017 Still! 😱",
+          "description": "This scene from The Intense And Eerie Atmosphere Of Annabelle Creation 2017 Still never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TheIntenseAndEerieAtmosphereOfAnnabelleCreation2017Still #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "The Intense And Eerie Atmosphere Of Annabelle Creation 2017 Still reaction",
+          "hashtags": [
+            "#TheIntenseAndEerieAtmosphereOfAnnabelleCreation2017Still",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "The Intense And Eerie Atmosphere Of Annabelle Creation 2017 Still Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from The Intense And Eerie Atmosphere Of Annabelle Creation 2017 Still never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TheIntenseAndEerieAtmosphereOfAnnabelleCreation2017Still #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/XkoNlkNc50E",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-14 14:38 UTC",
+        "slot_time": "10:38",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1041446155161490",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-14 14:38 UTC",
+        "slot_time": "10:38",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-14 14:38 UTC",
+      "completed_at": "2026-08-14 14:38 UTC",
+      "final_status": "completed",
+      "date": "2026-08-14",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
