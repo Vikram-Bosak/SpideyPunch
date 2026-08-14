@@ -172,8 +172,8 @@ class Orchestrator:
         force = getenv("_FORCE_SLOT") == "1"
         for slot in self.schedule.get("slots", []):
             video_number = int(slot.get("video_number", 0))
-            existing = state_lib.find_job_by_number(state, video_number)
-            if existing and existing.get("date") == today:
+            existing = state_lib.find_job_by_number(state, video_number, today)
+            if existing:
                 if existing.get("final_status") in ("completed", "failed", "partial"):
                     continue
             if force:
@@ -184,8 +184,8 @@ class Orchestrator:
 
     def _start_new_job(self, state: dict[str, Any], slot: dict[str, Any], today: str) -> dict[str, Any] | None:
         video_number = int(slot.get("video_number", 0))
-        existing = state_lib.find_job_by_number(state, video_number)
-        if existing and existing.get("date") == today:
+        existing = state_lib.find_job_by_number(state, video_number, today)
+        if existing:
             if existing.get("final_status") not in ("completed", "failed", "partial"):
                 return existing
 

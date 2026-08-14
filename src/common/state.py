@@ -59,10 +59,11 @@ def find_job_by_file(state: dict[str, Any], drive_file_id: str) -> dict[str, Any
     return None
 
 
-def find_job_by_number(state: dict[str, Any], video_number: int) -> dict[str, Any] | None:
+def find_job_by_number(state: dict[str, Any], video_number: int, date: str | None = None) -> dict[str, Any] | None:
     for job in state.get("jobs", []):
         if job.get("video_number") == video_number:
-            return job
+            if date is None or job.get("date") == date:
+                return job
     return None
 
 
