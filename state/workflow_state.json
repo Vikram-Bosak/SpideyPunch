@@ -4228,6 +4228,87 @@
       "final_status": "completed",
       "date": "2026-08-14",
       "max_retries": 3
+    },
+    {
+      "video_number": 4,
+      "drive_file_id": "1LnwyVbh9h2FhM5y2ae0DtuYyKlcUawtn",
+      "drive_file_name": "idris_elbas_intense_scenes_in_beast_2022_werent_just_about.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/idris_elbas_intense_scenes_in_beast_2022_werent_just_about.mp4",
+      "movie_title": "Idris Elbas Intense In Beast 2022 Werent Just About",
+      "seo": {
+        "movie_title": "Idris Elbas Intense In Beast 2022 Werent Just About",
+        "source_file": "idris_elbas_intense_scenes_in_beast_2022_werent_just_about.mp4",
+        "primary_keyword": "Idris Elbas Intense In Beast 2022 Werent Just About reaction",
+        "secondary_keywords": [
+          "Idris Elbas Intense In Beast 2022 Werent Just About action scene",
+          "movie reaction Idris Elbas Intense In Beast 2022 Werent Just About"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Idris Elbas Intense In Beast 2022 Werent Just About Reaction 🔥",
+          "description": "",
+          "primary_keyword": "Idris Elbas Intense In Beast 2022 Werent Just About reaction",
+          "secondary_keywords": [
+            "Idris Elbas Intense In Beast 2022 Werent Just About action scene",
+            "movie reaction Idris Elbas Intense In Beast 2022 Werent Just About"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Idris Elbas Intense In Beast 2022 Werent Just About! 😱",
+          "description": "This scene from Idris Elbas Intense In Beast 2022 Werent Just About never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#IdrisElbasIntenseInBeast2022WerentJustAbout #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Idris Elbas Intense In Beast 2022 Werent Just About reaction",
+          "hashtags": [
+            "#IdrisElbasIntenseInBeast2022WerentJustAbout",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Idris Elbas Intense In Beast 2022 Werent Just About Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Idris Elbas Intense In Beast 2022 Werent Just About never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#IdrisElbasIntenseInBeast2022WerentJustAbout #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/35or9ACsv4o",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-14 21:58 UTC",
+        "slot_time": "17:42",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1087067590652121",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-14 21:58 UTC",
+        "slot_time": "17:42",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-14 21:57 UTC",
+      "completed_at": "2026-08-14 21:58 UTC",
+      "final_status": "completed",
+      "date": "2026-08-14",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
