@@ -3904,6 +3904,87 @@
       "final_status": "completed",
       "date": "2026-08-13",
       "max_retries": 3
+    },
+    {
+      "video_number": 2,
+      "drive_file_id": "1MNJlE8b_GXXp3Gb6Q6Zo2CfYCLcO2v8V",
+      "drive_file_name": "when_tobey_maguire_was_filming_that_epic_fight_scene_against.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/when_tobey_maguire_was_filming_that_epic_fight_scene_against.mp4",
+      "movie_title": "When Tobey Maguire Was Filming That Epic Fight Against",
+      "seo": {
+        "movie_title": "When Tobey Maguire Was Filming That Epic Fight Against",
+        "source_file": "when_tobey_maguire_was_filming_that_epic_fight_scene_against.mp4",
+        "primary_keyword": "When Tobey Maguire Was Filming That Epic Fight Against reaction",
+        "secondary_keywords": [
+          "When Tobey Maguire Was Filming That Epic Fight Against action scene",
+          "movie reaction When Tobey Maguire Was Filming That Epic Fight Against"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "When Tobey Maguire Was Filming That Epic Fight Against Reaction ⚔️",
+          "description": "",
+          "primary_keyword": "When Tobey Maguire Was Filming That Epic Fight Against reaction",
+          "secondary_keywords": [
+            "When Tobey Maguire Was Filming That Epic Fight Against action scene",
+            "movie reaction When Tobey Maguire Was Filming That Epic Fight Against"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in When Tobey Maguire Was Filming That Epic Fight Against! 😱",
+          "description": "This scene from When Tobey Maguire Was Filming That Epic Fight Against never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#WhenTobeyMaguireWasFilmingThatEpicFightAgainst #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "When Tobey Maguire Was Filming That Epic Fight Against reaction",
+          "hashtags": [
+            "#WhenTobeyMaguireWasFilmingThatEpicFightAgainst",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "When Tobey Maguire Was Filming That Epic Fight Against Reaction ⚔️",
+        "youtube_description": "",
+        "facebook_caption": "This scene from When Tobey Maguire Was Filming That Epic Fight Against never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#WhenTobeyMaguireWasFilmingThatEpicFightAgainst #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/c1qQ9aLd3Cw",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-14 03:51 UTC",
+        "slot_time": "10:07",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1403607571679439",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-14 03:51 UTC",
+        "slot_time": "10:07",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-14 03:51 UTC",
+      "completed_at": "2026-08-14 03:51 UTC",
+      "final_status": "completed",
+      "date": "2026-08-13",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
