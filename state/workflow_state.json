@@ -4633,6 +4633,87 @@
       "final_status": "completed",
       "date": "2026-08-15",
       "max_retries": 3
+    },
+    {
+      "video_number": 4,
+      "drive_file_id": "1kGmQ0KmNe8E9JJ7StKB3qE2yiD8J7WMX",
+      "drive_file_name": "the_2025_movie_galactus_annihilates_fantastic_four_fight_scene.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/the_2025_movie_galactus_annihilates_fantastic_four_fight_scene.mp4",
+      "movie_title": "The 2025 Galactus Annihilates Fantastic Four Fight",
+      "seo": {
+        "movie_title": "The 2025 Galactus Annihilates Fantastic Four Fight",
+        "source_file": "the_2025_movie_galactus_annihilates_fantastic_four_fight_scene.mp4",
+        "primary_keyword": "The 2025 Galactus Annihilates Fantastic Four Fight reaction",
+        "secondary_keywords": [
+          "The 2025 Galactus Annihilates Fantastic Four Fight action scene",
+          "movie reaction The 2025 Galactus Annihilates Fantastic Four Fight"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "The 2025 Galactus Annihilates Fantastic Four Fight Reaction ⚔️",
+          "description": "",
+          "primary_keyword": "The 2025 Galactus Annihilates Fantastic Four Fight reaction",
+          "secondary_keywords": [
+            "The 2025 Galactus Annihilates Fantastic Four Fight action scene",
+            "movie reaction The 2025 Galactus Annihilates Fantastic Four Fight"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in The 2025 Galactus Annihilates Fantastic Four Fight! 😱",
+          "description": "This scene from The 2025 Galactus Annihilates Fantastic Four Fight never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#The2025GalactusAnnihilatesFantasticFourFight #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "The 2025 Galactus Annihilates Fantastic Four Fight reaction",
+          "hashtags": [
+            "#The2025GalactusAnnihilatesFantasticFourFight",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "The 2025 Galactus Annihilates Fantastic Four Fight Reaction ⚔️",
+        "youtube_description": "",
+        "facebook_caption": "This scene from The 2025 Galactus Annihilates Fantastic Four Fight never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#The2025GalactusAnnihilatesFantasticFourFight #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/OpqN3m2x4l4",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-15 21:55 UTC",
+        "slot_time": "17:40",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1097045403268392",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-15 21:55 UTC",
+        "slot_time": "17:40",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-15 21:55 UTC",
+      "completed_at": "2026-08-15 21:55 UTC",
+      "final_status": "completed",
+      "date": "2026-08-15",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
