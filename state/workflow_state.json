@@ -4309,6 +4309,87 @@
       "final_status": "completed",
       "date": "2026-08-14",
       "max_retries": 3
+    },
+    {
+      "video_number": 5,
+      "drive_file_id": "1LMD7IEUJJvu8_cQVkzfAVd6_1h__8fBt",
+      "drive_file_name": "the_day_after_tomorrows_iconic_tornado_scene_in_2004_was.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/the_day_after_tomorrows_iconic_tornado_scene_in_2004_was.mp4",
+      "movie_title": "The Day After Tomorrows Iconic Tornado In 2004 Was",
+      "seo": {
+        "movie_title": "The Day After Tomorrows Iconic Tornado In 2004 Was",
+        "source_file": "the_day_after_tomorrows_iconic_tornado_scene_in_2004_was.mp4",
+        "primary_keyword": "The Day After Tomorrows Iconic Tornado In 2004 Was reaction",
+        "secondary_keywords": [
+          "The Day After Tomorrows Iconic Tornado In 2004 Was action scene",
+          "movie reaction The Day After Tomorrows Iconic Tornado In 2004 Was"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "The Day After Tomorrows Iconic Tornado In 2004 Was Reaction 🔥",
+          "description": "",
+          "primary_keyword": "The Day After Tomorrows Iconic Tornado In 2004 Was reaction",
+          "secondary_keywords": [
+            "The Day After Tomorrows Iconic Tornado In 2004 Was action scene",
+            "movie reaction The Day After Tomorrows Iconic Tornado In 2004 Was"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in The Day After Tomorrows Iconic Tornado In 2004 Was! 😱",
+          "description": "This scene from The Day After Tomorrows Iconic Tornado In 2004 Was never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TheDayAfterTomorrowsIconicTornadoIn2004Was #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "The Day After Tomorrows Iconic Tornado In 2004 Was reaction",
+          "hashtags": [
+            "#TheDayAfterTomorrowsIconicTornadoIn2004Was",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "The Day After Tomorrows Iconic Tornado In 2004 Was Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from The Day After Tomorrows Iconic Tornado In 2004 Was never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TheDayAfterTomorrowsIconicTornadoIn2004Was #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/xQViF6krFhI",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-15 01:25 UTC",
+        "slot_time": "20:31",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1769668677710879",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-15 01:25 UTC",
+        "slot_time": "20:31",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-15 01:25 UTC",
+      "completed_at": "2026-08-15 01:25 UTC",
+      "final_status": "completed",
+      "date": "2026-08-14",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
