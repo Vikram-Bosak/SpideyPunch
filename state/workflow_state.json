@@ -4471,6 +4471,87 @@
       "final_status": "completed",
       "date": "2026-08-15",
       "max_retries": 3
+    },
+    {
+      "video_number": 2,
+      "drive_file_id": "1sDLhJDXtKHpHBXmfBUdKj5IqyaiZJ2iR",
+      "drive_file_name": "during_the_heartstopping_cut_the_rope_scene_in_vertical_limit.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/during_the_heartstopping_cut_the_rope_scene_in_vertical_limit.mp4",
+      "movie_title": "During The Heartstopping Cut The Rope In Vertical Limit",
+      "seo": {
+        "movie_title": "During The Heartstopping Cut The Rope In Vertical Limit",
+        "source_file": "during_the_heartstopping_cut_the_rope_scene_in_vertical_limit.mp4",
+        "primary_keyword": "During The Heartstopping Cut The Rope In Vertical Limit reaction",
+        "secondary_keywords": [
+          "During The Heartstopping Cut The Rope In Vertical Limit action scene",
+          "movie reaction During The Heartstopping Cut The Rope In Vertical Limit"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "During The Heartstopping Cut The Rope In Vertical Limit Reaction 🔥",
+          "description": "",
+          "primary_keyword": "During The Heartstopping Cut The Rope In Vertical Limit reaction",
+          "secondary_keywords": [
+            "During The Heartstopping Cut The Rope In Vertical Limit action scene",
+            "movie reaction During The Heartstopping Cut The Rope In Vertical Limit"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in During The Heartstopping Cut The Rope In Vertical Limit! 😱",
+          "description": "This scene from During The Heartstopping Cut The Rope In Vertical Limit never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#DuringTheHeartstoppingCutTheRopeInVerticalLimit #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "During The Heartstopping Cut The Rope In Vertical Limit reaction",
+          "hashtags": [
+            "#DuringTheHeartstoppingCutTheRopeInVerticalLimit",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "During The Heartstopping Cut The Rope In Vertical Limit Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from During The Heartstopping Cut The Rope In Vertical Limit never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#DuringTheHeartstoppingCutTheRopeInVerticalLimit #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/qmwltPxjOqs",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-15 14:26 UTC",
+        "slot_time": "10:00",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/2135269537345070",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-15 14:26 UTC",
+        "slot_time": "10:00",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-15 14:26 UTC",
+      "completed_at": "2026-08-15 14:26 UTC",
+      "final_status": "completed",
+      "date": "2026-08-15",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
