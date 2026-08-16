@@ -5038,6 +5038,87 @@
       "final_status": "completed",
       "date": "2026-08-16",
       "max_retries": 3
+    },
+    {
+      "video_number": 4,
+      "drive_file_id": "1obJQTS2tp2jAVUp_5Q3LRZEuKClIoF0h",
+      "drive_file_name": "im_still_reeling_from_that_insane_rabid_monkey_fight_in.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/im_still_reeling_from_that_insane_rabid_monkey_fight_in.mp4",
+      "movie_title": "Im Still Reeling From That Insane Rabid Monkey Fight In",
+      "seo": {
+        "movie_title": "Im Still Reeling From That Insane Rabid Monkey Fight In",
+        "source_file": "im_still_reeling_from_that_insane_rabid_monkey_fight_in.mp4",
+        "primary_keyword": "Im Still Reeling From That Insane Rabid Monkey Fight In reaction",
+        "secondary_keywords": [
+          "Im Still Reeling From That Insane Rabid Monkey Fight In action scene",
+          "movie reaction Im Still Reeling From That Insane Rabid Monkey Fight In"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Im Still Reeling From That Insane Rabid Monkey Fight In Reaction ⚔️",
+          "description": "",
+          "primary_keyword": "Im Still Reeling From That Insane Rabid Monkey Fight In reaction",
+          "secondary_keywords": [
+            "Im Still Reeling From That Insane Rabid Monkey Fight In action scene",
+            "movie reaction Im Still Reeling From That Insane Rabid Monkey Fight In"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Im Still Reeling From That Insane Rabid Monkey Fight In! 😱",
+          "description": "This scene from Im Still Reeling From That Insane Rabid Monkey Fight In never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ImStillReelingFromThatInsaneRabidMonkeyFightIn #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Im Still Reeling From That Insane Rabid Monkey Fight In reaction",
+          "hashtags": [
+            "#ImStillReelingFromThatInsaneRabidMonkeyFightIn",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Im Still Reeling From That Insane Rabid Monkey Fight In Reaction ⚔️",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Im Still Reeling From That Insane Rabid Monkey Fight In never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ImStillReelingFromThatInsaneRabidMonkeyFightIn #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/cGYXvROwSQE",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-16 21:42 UTC",
+        "slot_time": "17:27",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1826697025375210",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-16 21:42 UTC",
+        "slot_time": "17:27",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-16 21:42 UTC",
+      "completed_at": "2026-08-16 21:42 UTC",
+      "final_status": "completed",
+      "date": "2026-08-16",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
