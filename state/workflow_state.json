@@ -4876,6 +4876,87 @@
       "final_status": "completed",
       "date": "2026-08-16",
       "max_retries": 3
+    },
+    {
+      "video_number": 2,
+      "drive_file_id": "1MPdOgGA8QK29fZq6KHNX1204Xtl026Yx",
+      "drive_file_name": "you_know_that_crazy_intense_interstellar_war_scene_in_starship.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/you_know_that_crazy_intense_interstellar_war_scene_in_starship.mp4",
+      "movie_title": "You Know That Crazy Intense Interstellar War In Starship",
+      "seo": {
+        "movie_title": "You Know That Crazy Intense Interstellar War In Starship",
+        "source_file": "you_know_that_crazy_intense_interstellar_war_scene_in_starship.mp4",
+        "primary_keyword": "You Know That Crazy Intense Interstellar War In Starship reaction",
+        "secondary_keywords": [
+          "You Know That Crazy Intense Interstellar War In Starship action scene",
+          "movie reaction You Know That Crazy Intense Interstellar War In Starship"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "You Know That Crazy Intense Interstellar War In Starship Reaction 🔥",
+          "description": "",
+          "primary_keyword": "You Know That Crazy Intense Interstellar War In Starship reaction",
+          "secondary_keywords": [
+            "You Know That Crazy Intense Interstellar War In Starship action scene",
+            "movie reaction You Know That Crazy Intense Interstellar War In Starship"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in You Know That Crazy Intense Interstellar War In Starship! 😱",
+          "description": "This scene from You Know That Crazy Intense Interstellar War In Starship never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#YouKnowThatCrazyIntenseInterstellarWarInStarship #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "You Know That Crazy Intense Interstellar War In Starship reaction",
+          "hashtags": [
+            "#YouKnowThatCrazyIntenseInterstellarWarInStarship",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "You Know That Crazy Intense Interstellar War In Starship Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from You Know That Crazy Intense Interstellar War In Starship never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#YouKnowThatCrazyIntenseInterstellarWarInStarship #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/1BS2wLc6NKQ",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-16 14:15 UTC",
+        "slot_time": "10:09",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1080434227891076",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-16 14:16 UTC",
+        "slot_time": "10:09",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-16 14:15 UTC",
+      "completed_at": "2026-08-16 14:16 UTC",
+      "final_status": "completed",
+      "date": "2026-08-16",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
