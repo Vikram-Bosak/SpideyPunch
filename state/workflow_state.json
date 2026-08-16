@@ -4795,6 +4795,87 @@
       "final_status": "completed",
       "date": "2026-08-15",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1Y8BOcOwzKmfzK2nWqRuBDnVgMVK6lzAP",
+      "drive_file_name": "who_else_remembers_that_epic_black_panther_chase_scene_in.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/who_else_remembers_that_epic_black_panther_chase_scene_in.mp4",
+      "movie_title": "Who Else Remembers That Epic Black Panther Chase In",
+      "seo": {
+        "movie_title": "Who Else Remembers That Epic Black Panther Chase In",
+        "source_file": "who_else_remembers_that_epic_black_panther_chase_scene_in.mp4",
+        "primary_keyword": "Who Else Remembers That Epic Black Panther Chase In reaction",
+        "secondary_keywords": [
+          "Who Else Remembers That Epic Black Panther Chase In action scene",
+          "movie reaction Who Else Remembers That Epic Black Panther Chase In"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Who Else Remembers That Epic Black Panther Chase In Reaction 🔥",
+          "description": "",
+          "primary_keyword": "Who Else Remembers That Epic Black Panther Chase In reaction",
+          "secondary_keywords": [
+            "Who Else Remembers That Epic Black Panther Chase In action scene",
+            "movie reaction Who Else Remembers That Epic Black Panther Chase In"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Who Else Remembers That Epic Black Panther Chase In! 😱",
+          "description": "This scene from Who Else Remembers That Epic Black Panther Chase In never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#WhoElseRemembersThatEpicBlackPantherChaseIn #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Who Else Remembers That Epic Black Panther Chase In reaction",
+          "hashtags": [
+            "#WhoElseRemembersThatEpicBlackPantherChaseIn",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Who Else Remembers That Epic Black Panther Chase In Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Who Else Remembers That Epic Black Panther Chase In never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#WhoElseRemembersThatEpicBlackPantherChaseIn #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/o1pilHJOrds",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-16 11:13 UTC",
+        "slot_time": "07:03",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/920252767211180",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-16 11:14 UTC",
+        "slot_time": "07:03",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-16 11:13 UTC",
+      "completed_at": "2026-08-16 11:14 UTC",
+      "final_status": "completed",
+      "date": "2026-08-16",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
@@ -4854,6 +4935,13 @@
       "3": "13:52",
       "4": "17:40",
       "5": "20:07"
+    },
+    "2026-08-16": {
+      "1": "07:03",
+      "2": "10:09",
+      "3": "13:09",
+      "4": "17:27",
+      "5": "20:03"
     }
   }
 }
