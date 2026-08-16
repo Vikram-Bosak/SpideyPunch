@@ -4714,6 +4714,87 @@
       "final_status": "completed",
       "date": "2026-08-15",
       "max_retries": 3
+    },
+    {
+      "video_number": 5,
+      "drive_file_id": "1JBqigkIBjvmE-WRbAiw4I7O8UEcGEXof",
+      "drive_file_name": "macaulay_culkins_psychopathic_character_in_the_good_son_1993_had.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/macaulay_culkins_psychopathic_character_in_the_good_son_1993_had.mp4",
+      "movie_title": "Macaulay Culkins Psychopathic Character In The Good Son 1993 Had",
+      "seo": {
+        "movie_title": "Macaulay Culkins Psychopathic Character In The Good Son 1993 Had",
+        "source_file": "macaulay_culkins_psychopathic_character_in_the_good_son_1993_had.mp4",
+        "primary_keyword": "Macaulay Culkins Psychopathic Character In The Good Son 1993 Had reaction",
+        "secondary_keywords": [
+          "Macaulay Culkins Psychopathic Character In The Good Son 1993 Had action scene",
+          "movie reaction Macaulay Culkins Psychopathic Character In The Good Son 1993 Had"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Macaulay Culkins Psychopathic Character In The Good Son 1993 Had Reaction 🔥",
+          "description": "",
+          "primary_keyword": "Macaulay Culkins Psychopathic Character In The Good Son 1993 Had reaction",
+          "secondary_keywords": [
+            "Macaulay Culkins Psychopathic Character In The Good Son 1993 Had action scene",
+            "movie reaction Macaulay Culkins Psychopathic Character In The Good Son 1993 Had"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Macaulay Culkins Psychopathic Character In The Good Son 1993 Had! 😱",
+          "description": "This scene from Macaulay Culkins Psychopathic Character In The Good Son 1993 Had never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#MacaulayCulkinsPsychopathicCharacterInTheGoodSon1993Had #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Macaulay Culkins Psychopathic Character In The Good Son 1993 Had reaction",
+          "hashtags": [
+            "#MacaulayCulkinsPsychopathicCharacterInTheGoodSon1993Had",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Macaulay Culkins Psychopathic Character In The Good Son 1993 Had Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Macaulay Culkins Psychopathic Character In The Good Son 1993 Had never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#MacaulayCulkinsPsychopathicCharacterInTheGoodSon1993Had #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/Z-g8nhalYFE",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-16 01:13 UTC",
+        "slot_time": "20:07",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/939653959178783",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-16 01:13 UTC",
+        "slot_time": "20:07",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-16 01:13 UTC",
+      "completed_at": "2026-08-16 01:14 UTC",
+      "final_status": "completed",
+      "date": "2026-08-15",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
