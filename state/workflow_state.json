@@ -5267,18 +5267,18 @@
         "retry_due": false
       },
       "facebook": {
-        "status": "pending",
+        "status": "failed",
         "url": null,
-        "error": "Facebook upload session start failed: {\"error\":{\"message\":\"(#200) Subject does not have permission to post videos on this target\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AzQ-P7AgDX2OB88_AMgCDx_\"}}",
-        "retries": 2,
-        "last_attempt": "2026-08-17 13:48 UTC",
+        "error": "Facebook upload session start failed: {\"error\":{\"message\":\"(#200) Subject does not have permission to post videos on this target\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AYNtH7eyyBX028CWmMx9euT\"}}",
+        "retries": 3,
+        "last_attempt": "2026-08-17 13:59 UTC",
         "slot_time": "07:26",
-        "retry_due": true
+        "retry_due": false
       },
-      "moved_to_uploaded": false,
+      "moved_to_uploaded": true,
       "started_at": "2026-08-17 13:29 UTC",
-      "completed_at": null,
-      "final_status": null,
+      "completed_at": "2026-08-17 13:59 UTC",
+      "final_status": "partial",
       "date": "2026-08-17",
       "max_retries": 3
     }
