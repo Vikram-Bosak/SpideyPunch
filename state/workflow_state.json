@@ -5431,9 +5431,9 @@
       "facebook": {
         "status": "pending",
         "url": null,
-        "error": "Facebook upload session start failed: {\"error\":{\"message\":\"Error validating access token: Session has expired on Monday, 17-Aug-26 10:00:00 PDT. The current time is Monday, 17-Aug-26 10:22:03 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":463,\"fbtrace_id\":\"AowjDM3_HoMj3jo8tRL8qQZ\"}}",
-        "retries": 1,
-        "last_attempt": "2026-08-17 17:22 UTC",
+        "error": "Facebook upload session start failed: {\"error\":{\"message\":\"Error validating access token: Session has expired on Monday, 17-Aug-26 10:00:00 PDT. The current time is Monday, 17-Aug-26 10:53:01 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":463,\"fbtrace_id\":\"AEe_T_oL6UXLWn8wC4qtbuT\"}}",
+        "retries": 2,
+        "last_attempt": "2026-08-17 17:53 UTC",
         "slot_time": "13:18",
         "retry_due": true
       },
