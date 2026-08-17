@@ -5281,6 +5281,87 @@
       "final_status": "partial",
       "date": "2026-08-17",
       "max_retries": 3
+    },
+    {
+      "video_number": 2,
+      "drive_file_id": "1D9ysbkz5wj-21nO1w-Gov5FDM4aGzdzh",
+      "drive_file_name": "you_know_whats_wild_about_that_iconic_fight_scene_between.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/you_know_whats_wild_about_that_iconic_fight_scene_between.mp4",
+      "movie_title": "You Know Whats Wild About That Iconic Fight Between",
+      "seo": {
+        "movie_title": "You Know Whats Wild About That Iconic Fight Between",
+        "source_file": "you_know_whats_wild_about_that_iconic_fight_scene_between.mp4",
+        "primary_keyword": "You Know Whats Wild About That Iconic Fight Between reaction",
+        "secondary_keywords": [
+          "You Know Whats Wild About That Iconic Fight Between action scene",
+          "movie reaction You Know Whats Wild About That Iconic Fight Between"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "You Know Whats Wild About That Iconic Fight Between Reaction ⚔️",
+          "description": "",
+          "primary_keyword": "You Know Whats Wild About That Iconic Fight Between reaction",
+          "secondary_keywords": [
+            "You Know Whats Wild About That Iconic Fight Between action scene",
+            "movie reaction You Know Whats Wild About That Iconic Fight Between"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in You Know Whats Wild About That Iconic Fight Between! 😱",
+          "description": "This scene from You Know Whats Wild About That Iconic Fight Between never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#YouKnowWhatsWildAboutThatIconicFightBetween #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "You Know Whats Wild About That Iconic Fight Between reaction",
+          "hashtags": [
+            "#YouKnowWhatsWildAboutThatIconicFightBetween",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "You Know Whats Wild About That Iconic Fight Between Reaction ⚔️",
+        "youtube_description": "",
+        "facebook_caption": "This scene from You Know Whats Wild About That Iconic Fight Between never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#YouKnowWhatsWildAboutThatIconicFightBetween #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/3MuhUuSmX6c",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-17 15:42 UTC",
+        "slot_time": "10:01",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "pending",
+        "url": null,
+        "error": "Facebook upload session start failed: {\"error\":{\"message\":\"(#200) Subject does not have permission to post videos on this target\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AKzdXIUYUfTv-lOt547i5IS\"}}",
+        "retries": 1,
+        "last_attempt": "2026-08-17 15:42 UTC",
+        "slot_time": "10:01",
+        "retry_due": true
+      },
+      "moved_to_uploaded": false,
+      "started_at": "2026-08-17 15:42 UTC",
+      "completed_at": null,
+      "final_status": null,
+      "date": "2026-08-17",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
