@@ -5269,9 +5269,9 @@
       "facebook": {
         "status": "pending",
         "url": null,
-        "error": "Facebook upload session start failed: {\"error\":{\"message\":\"(#200) Subject does not have permission to post videos on this target\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"Ai8C44hkW3YE1K1RlourLEz\"}}",
-        "retries": 1,
-        "last_attempt": "2026-08-17 13:29 UTC",
+        "error": "Facebook upload session start failed: {\"error\":{\"message\":\"(#200) Subject does not have permission to post videos on this target\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"AzQ-P7AgDX2OB88_AMgCDx_\"}}",
+        "retries": 2,
+        "last_attempt": "2026-08-17 13:48 UTC",
         "slot_time": "07:26",
         "retry_due": true
       },
