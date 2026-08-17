@@ -5362,6 +5362,87 @@
       "final_status": "partial",
       "date": "2026-08-17",
       "max_retries": 3
+    },
+    {
+      "video_number": 3,
+      "drive_file_id": "1ucb6FT4OKzaZAm_yvgD6u6-DRBytZa6e",
+      "drive_file_name": "you_wont_believe_what_happened_during_the_intense_scene_in.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/you_wont_believe_what_happened_during_the_intense_scene_in.mp4",
+      "movie_title": "You Wont Believe What Happened During The Intense In",
+      "seo": {
+        "movie_title": "You Wont Believe What Happened During The Intense In",
+        "source_file": "you_wont_believe_what_happened_during_the_intense_scene_in.mp4",
+        "primary_keyword": "You Wont Believe What Happened During The Intense In reaction",
+        "secondary_keywords": [
+          "You Wont Believe What Happened During The Intense In action scene",
+          "movie reaction You Wont Believe What Happened During The Intense In"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "You Wont Believe What Happened During The Intense In Reaction 🔥",
+          "description": "",
+          "primary_keyword": "You Wont Believe What Happened During The Intense In reaction",
+          "secondary_keywords": [
+            "You Wont Believe What Happened During The Intense In action scene",
+            "movie reaction You Wont Believe What Happened During The Intense In"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in You Wont Believe What Happened During The Intense In! 😱",
+          "description": "This scene from You Wont Believe What Happened During The Intense In never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#YouWontBelieveWhatHappenedDuringTheIntenseIn #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "You Wont Believe What Happened During The Intense In reaction",
+          "hashtags": [
+            "#YouWontBelieveWhatHappenedDuringTheIntenseIn",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "You Wont Believe What Happened During The Intense In Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from You Wont Believe What Happened During The Intense In never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#YouWontBelieveWhatHappenedDuringTheIntenseIn #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/ofOGCoskFHY",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-17 17:22 UTC",
+        "slot_time": "13:18",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "pending",
+        "url": null,
+        "error": "Facebook upload session start failed: {\"error\":{\"message\":\"Error validating access token: Session has expired on Monday, 17-Aug-26 10:00:00 PDT. The current time is Monday, 17-Aug-26 10:22:03 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":463,\"fbtrace_id\":\"AowjDM3_HoMj3jo8tRL8qQZ\"}}",
+        "retries": 1,
+        "last_attempt": "2026-08-17 17:22 UTC",
+        "slot_time": "13:18",
+        "retry_due": true
+      },
+      "moved_to_uploaded": false,
+      "started_at": "2026-08-17 17:22 UTC",
+      "completed_at": null,
+      "final_status": null,
+      "date": "2026-08-17",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
