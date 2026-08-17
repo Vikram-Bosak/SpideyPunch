@@ -5119,6 +5119,87 @@
       "final_status": "completed",
       "date": "2026-08-16",
       "max_retries": 3
+    },
+    {
+      "video_number": 5,
+      "drive_file_id": "1SPKGO-KhgYpM-Sh3FBoLm19P88VK_68x",
+      "drive_file_name": "keanu_reeves_emotional_reaction_in_the_lake_houses_wait_two.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/keanu_reeves_emotional_reaction_in_the_lake_houses_wait_two.mp4",
+      "movie_title": "Keanu Reeves Emotional Reaction In The Lake Houses Wait Two",
+      "seo": {
+        "movie_title": "Keanu Reeves Emotional Reaction In The Lake Houses Wait Two",
+        "source_file": "keanu_reeves_emotional_reaction_in_the_lake_houses_wait_two.mp4",
+        "primary_keyword": "Keanu Reeves Emotional Reaction In The Lake Houses Wait Two reaction",
+        "secondary_keywords": [
+          "Keanu Reeves Emotional Reaction In The Lake Houses Wait Two action scene",
+          "movie reaction Keanu Reeves Emotional Reaction In The Lake Houses Wait Two"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Keanu Reeves Emotional Reaction In The Lake Houses Wait Two Reaction ⚔️",
+          "description": "",
+          "primary_keyword": "Keanu Reeves Emotional Reaction In The Lake Houses Wait Two reaction",
+          "secondary_keywords": [
+            "Keanu Reeves Emotional Reaction In The Lake Houses Wait Two action scene",
+            "movie reaction Keanu Reeves Emotional Reaction In The Lake Houses Wait Two"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Keanu Reeves Emotional Reaction In The Lake Houses Wait Two! 😱",
+          "description": "This scene from Keanu Reeves Emotional Reaction In The Lake Houses Wait Two never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#KeanuReevesEmotionalReactionInTheLakeHousesWaitTwo #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Keanu Reeves Emotional Reaction In The Lake Houses Wait Two reaction",
+          "hashtags": [
+            "#KeanuReevesEmotionalReactionInTheLakeHousesWaitTwo",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Keanu Reeves Emotional Reaction In The Lake Houses Wait Two Reaction ⚔️",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Keanu Reeves Emotional Reaction In The Lake Houses Wait Two never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#KeanuReevesEmotionalReactionInTheLakeHousesWaitTwo #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/S8yD7cyVhns",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-17 01:02 UTC",
+        "slot_time": "20:03",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1419146670133605",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-17 01:02 UTC",
+        "slot_time": "20:03",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-17 01:02 UTC",
+      "completed_at": "2026-08-17 01:02 UTC",
+      "final_status": "completed",
+      "date": "2026-08-16",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
