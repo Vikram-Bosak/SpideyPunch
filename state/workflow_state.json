@@ -5443,6 +5443,87 @@
       "final_status": "partial",
       "date": "2026-08-17",
       "max_retries": 3
+    },
+    {
+      "video_number": 4,
+      "drive_file_id": "1k3n2GdkZHuMr5LP3V43V_zMkBIWahVR2",
+      "drive_file_name": "i_still_cant_get_over_that_iconic_scene_in_they.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/i_still_cant_get_over_that_iconic_scene_in_they.mp4",
+      "movie_title": "I Still Cant Get Over That Iconic In They",
+      "seo": {
+        "movie_title": "I Still Cant Get Over That Iconic In They",
+        "source_file": "i_still_cant_get_over_that_iconic_scene_in_they.mp4",
+        "primary_keyword": "I Still Cant Get Over That Iconic In They reaction",
+        "secondary_keywords": [
+          "I Still Cant Get Over That Iconic In They action scene",
+          "movie reaction I Still Cant Get Over That Iconic In They"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "I Still Cant Get Over That Iconic In They Reaction 🔥",
+          "description": "",
+          "primary_keyword": "I Still Cant Get Over That Iconic In They reaction",
+          "secondary_keywords": [
+            "I Still Cant Get Over That Iconic In They action scene",
+            "movie reaction I Still Cant Get Over That Iconic In They"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in I Still Cant Get Over That Iconic In They! 😱",
+          "description": "This scene from I Still Cant Get Over That Iconic In They never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#IStillCantGetOverThatIconicInThey #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "I Still Cant Get Over That Iconic In They reaction",
+          "hashtags": [
+            "#IStillCantGetOverThatIconicInThey",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "I Still Cant Get Over That Iconic In They Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from I Still Cant Get Over That Iconic In They never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#IStillCantGetOverThatIconicInThey #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/43R-GNEv7cw",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-17 21:20 UTC",
+        "slot_time": "17:16",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "pending",
+        "url": null,
+        "error": "Facebook upload session start failed: {\"error\":{\"message\":\"Error validating access token: Session has expired on Monday, 17-Aug-26 10:00:00 PDT. The current time is Monday, 17-Aug-26 14:20:50 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":463,\"fbtrace_id\":\"AszmpTGG6GgwUR_31GfpJK1\"}}",
+        "retries": 1,
+        "last_attempt": "2026-08-17 21:20 UTC",
+        "slot_time": "17:16",
+        "retry_due": true
+      },
+      "moved_to_uploaded": false,
+      "started_at": "2026-08-17 21:20 UTC",
+      "completed_at": null,
+      "final_status": null,
+      "date": "2026-08-17",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
