@@ -5510,18 +5510,18 @@
         "retry_due": false
       },
       "facebook": {
-        "status": "pending",
+        "status": "failed",
         "url": null,
-        "error": "Facebook upload session start failed: {\"error\":{\"message\":\"Error validating access token: Session has expired on Monday, 17-Aug-26 10:00:00 PDT. The current time is Monday, 17-Aug-26 14:48:37 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":463,\"fbtrace_id\":\"AopxJniwIVGNZIXhKPvm2gT\"}}",
-        "retries": 2,
-        "last_attempt": "2026-08-17 21:48 UTC",
+        "error": "Facebook upload session start failed: {\"error\":{\"message\":\"Error validating access token: Session has expired on Monday, 17-Aug-26 10:00:00 PDT. The current time is Monday, 17-Aug-26 15:17:01 PDT.\",\"type\":\"OAuthException\",\"code\":190,\"error_subcode\":463,\"fbtrace_id\":\"AQRoRYJFOyyi5aOsPKrKP_8\"}}",
+        "retries": 3,
+        "last_attempt": "2026-08-17 22:17 UTC",
         "slot_time": "17:16",
-        "retry_due": true
+        "retry_due": false
       },
-      "moved_to_uploaded": false,
+      "moved_to_uploaded": true,
       "started_at": "2026-08-17 21:20 UTC",
-      "completed_at": null,
-      "final_status": null,
+      "completed_at": "2026-08-17 22:17 UTC",
+      "final_status": "partial",
       "date": "2026-08-17",
       "max_retries": 3
     }
