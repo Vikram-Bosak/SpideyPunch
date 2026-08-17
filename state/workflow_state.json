@@ -5200,6 +5200,87 @@
       "final_status": "completed",
       "date": "2026-08-16",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1dh-dB_IEN_7LHQPRMc0xLA8RClxRcuBl",
+      "drive_file_name": "in_the_iconic_1994_movie_stargate_when_james_spaders_character.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/in_the_iconic_1994_movie_stargate_when_james_spaders_character.mp4",
+      "movie_title": "In The Iconic 1994 Stargate When James Spaders Character",
+      "seo": {
+        "movie_title": "In The Iconic 1994 Stargate When James Spaders Character",
+        "source_file": "in_the_iconic_1994_movie_stargate_when_james_spaders_character.mp4",
+        "primary_keyword": "In The Iconic 1994 Stargate When James Spaders Character reaction",
+        "secondary_keywords": [
+          "In The Iconic 1994 Stargate When James Spaders Character action scene",
+          "movie reaction In The Iconic 1994 Stargate When James Spaders Character"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "In The Iconic 1994 Stargate When James Spaders Character Reaction 🔥",
+          "description": "",
+          "primary_keyword": "In The Iconic 1994 Stargate When James Spaders Character reaction",
+          "secondary_keywords": [
+            "In The Iconic 1994 Stargate When James Spaders Character action scene",
+            "movie reaction In The Iconic 1994 Stargate When James Spaders Character"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in In The Iconic 1994 Stargate When James Spaders Character! 😱",
+          "description": "This scene from In The Iconic 1994 Stargate When James Spaders Character never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#InTheIconic1994StargateWhenJamesSpadersCharacter #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "In The Iconic 1994 Stargate When James Spaders Character reaction",
+          "hashtags": [
+            "#InTheIconic1994StargateWhenJamesSpadersCharacter",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "In The Iconic 1994 Stargate When James Spaders Character Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from In The Iconic 1994 Stargate When James Spaders Character never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#InTheIconic1994StargateWhenJamesSpadersCharacter #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/c1r-yE45cKE",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-17 13:29 UTC",
+        "slot_time": "07:26",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "pending",
+        "url": null,
+        "error": "Facebook upload session start failed: {\"error\":{\"message\":\"(#200) Subject does not have permission to post videos on this target\",\"type\":\"OAuthException\",\"code\":200,\"fbtrace_id\":\"Ai8C44hkW3YE1K1RlourLEz\"}}",
+        "retries": 1,
+        "last_attempt": "2026-08-17 13:29 UTC",
+        "slot_time": "07:26",
+        "retry_due": true
+      },
+      "moved_to_uploaded": false,
+      "started_at": "2026-08-17 13:29 UTC",
+      "completed_at": null,
+      "final_status": null,
+      "date": "2026-08-17",
+      "max_retries": 3
     }
   ],
   "reported_events": {},
@@ -5266,6 +5347,13 @@
       "3": "13:09",
       "4": "17:27",
       "5": "20:03"
+    },
+    "2026-08-17": {
+      "1": "07:26",
+      "2": "10:01",
+      "3": "13:18",
+      "4": "17:16",
+      "5": "20:45"
     }
   }
 }
