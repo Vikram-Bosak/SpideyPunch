@@ -75,6 +75,7 @@ class InstagramUploadAgent:
         init_params = {
             "upload_type": "resumable",
             "media_type": "REELS",
+            "caption": caption,
             "access_token": self.access_token,
         }
         resp = requests.post(init_url, data=init_params, timeout=60)
