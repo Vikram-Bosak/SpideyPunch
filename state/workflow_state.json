@@ -1,4 +1,106 @@
 {
   "version": 1,
-  "jobs": []
+  "jobs": [
+    {
+      "video_number": 1,
+      "drive_file_id": "1A4vvXRHiQrMbfCQAYD6fybOgiDb-GUpS",
+      "drive_file_name": "you_know_that_epic_scene_in_the_2019_movie_once.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/you_know_that_epic_scene_in_the_2019_movie_once.mp4",
+      "movie_title": "You Know That Epic In The 2019 Once",
+      "seo": {
+        "movie_title": "You Know That Epic In The 2019 Once",
+        "source_file": "you_know_that_epic_scene_in_the_2019_movie_once.mp4",
+        "primary_keyword": "You Know That Epic In The 2019 Once reaction",
+        "secondary_keywords": [
+          "You Know That Epic In The 2019 Once action scene",
+          "movie reaction You Know That Epic In The 2019 Once",
+          "Hollywood action reaction"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "You Know That Epic In The 2019 Once Action Scene Reaction 🔥",
+          "description": "",
+          "primary_keyword": "You Know That Epic In The 2019 Once reaction",
+          "secondary_keywords": [
+            "You Know That Epic In The 2019 Once action scene",
+            "movie reaction You Know That Epic In The 2019 Once",
+            "Hollywood action reaction"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in You Know That Epic In The 2019 Once! 😱",
+          "description": "This scene from You Know That Epic In The 2019 Once never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#YouKnowThatEpicInThe2019Once #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "You Know That Epic In The 2019 Once reaction",
+          "hashtags": [
+            "#YouKnowThatEpicInThe2019Once",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "You Know That Epic In The 2019 Once Action Scene Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from You Know That Epic In The 2019 Once never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#YouKnowThatEpicInThe2019Once #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/r83NpXLxw_4",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-18 01:02 UTC",
+        "slot_time": "07:40",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1557669992721975",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-18 01:03 UTC",
+        "slot_time": "07:40",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DcKY3t1DKSp/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-18 01:03 UTC",
+        "slot_time": "07:40",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-18 01:02 UTC",
+      "completed_at": "2026-08-18 01:04 UTC",
+      "final_status": "completed",
+      "date": "2026-08-17",
+      "max_retries": 3
+    }
+  ],
+  "daily_times": {
+    "2026-08-17": {
+      "1": "07:40",
+      "2": "10:36",
+      "3": "13:15",
+      "4": "17:45",
+      "5": "20:19"
+    }
+  }
 }
