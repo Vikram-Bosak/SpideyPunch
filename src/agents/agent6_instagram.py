@@ -22,11 +22,11 @@ class InstagramUploadAgent:
     def __init__(self) -> None:
         self.settings = load_settings()
         self.page_id = getenv("FACEBOOK_PAGE_ID")
-        self.access_token = getenv("FACEBOOK_PAGE_ACCESS_TOKEN")
+        self.access_token = getenv("INSTAGRAM_ACCESS_TOKEN") or getenv("FACEBOOK_PAGE_ACCESS_TOKEN")
         if not (self.page_id and self.access_token):
             raise RuntimeError(
                 "Instagram credentials missing. Set FACEBOOK_PAGE_ID and "
-                "FACEBOOK_PAGE_ACCESS_TOKEN."
+                "INSTAGRAM_ACCESS_TOKEN or FACEBOOK_PAGE_ACCESS_TOKEN."
             )
         self.api_version = self.settings.get("facebook", {}).get(
             "api_version", "v21.0"
