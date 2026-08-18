@@ -394,6 +394,7 @@ class Orchestrator:
     def _verify_uploads(self, job: dict[str, Any]) -> None:
         yt = job["youtube"]
         fb = job["facebook"]
+        ig = job.setdefault("instagram", _platform_default())
         if yt["status"] == "success" and yt.get("url"):
             try:
                 video_id = yt["url"].rstrip("/").split("/")[-1]
