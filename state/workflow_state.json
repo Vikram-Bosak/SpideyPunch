@@ -452,6 +452,96 @@
       "final_status": "completed",
       "date": "2026-08-18",
       "max_retries": 3
+    },
+    {
+      "video_number": 4,
+      "drive_file_id": "158YTEaPnxH-99eGqV7EX9OvE1HOH-8FF",
+      "drive_file_name": "im_still_reeling_from_that_insane_car_chase_scene_in.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/im_still_reeling_from_that_insane_car_chase_scene_in.mp4",
+      "movie_title": "Im Still Reeling From That Insane Car Chase In",
+      "seo": {
+        "movie_title": "Im Still Reeling From That Insane Car Chase In",
+        "source_file": "im_still_reeling_from_that_insane_car_chase_scene_in.mp4",
+        "primary_keyword": "Im Still Reeling From That Insane Car Chase In reaction",
+        "secondary_keywords": [
+          "Im Still Reeling From That Insane Car Chase In action scene",
+          "movie reaction Im Still Reeling From That Insane Car Chase In"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Im Still Reeling From That Insane Car Chase In Reaction 🔥",
+          "description": "",
+          "primary_keyword": "Im Still Reeling From That Insane Car Chase In reaction",
+          "secondary_keywords": [
+            "Im Still Reeling From That Insane Car Chase In action scene",
+            "movie reaction Im Still Reeling From That Insane Car Chase In"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Im Still Reeling From That Insane Car Chase In! 😱",
+          "description": "This scene from Im Still Reeling From That Insane Car Chase In never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ImStillReelingFromThatInsaneCarChaseIn #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Im Still Reeling From That Insane Car Chase In reaction",
+          "hashtags": [
+            "#ImStillReelingFromThatInsaneCarChaseIn",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Im Still Reeling From That Insane Car Chase In Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Im Still Reeling From That Insane Car Chase In never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ImStillReelingFromThatInsaneCarChaseIn #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/_q7SQIQ6yX4",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-18 21:45 UTC",
+        "slot_time": "17:32",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1772901757182242",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-18 21:46 UTC",
+        "slot_time": "17:32",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DcMnGPsAsBa/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-18 21:46 UTC",
+        "slot_time": "17:32",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-18 21:45 UTC",
+      "completed_at": "2026-08-18 21:46 UTC",
+      "final_status": "completed",
+      "date": "2026-08-18",
+      "max_retries": 3
     }
   ],
   "daily_times": {
