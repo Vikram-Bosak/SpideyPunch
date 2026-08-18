@@ -44,18 +44,23 @@ class DiscordReportingAgent:
         seo = report.get("seo") or {}
         yt = report.get("youtube") or {}
         fb = report.get("facebook") or {}
+        ig = report.get("instagram") or {}
 
         errors = report.get("errors") or []
         yt_err = ""
         fb_err = ""
+        ig_err = ""
         for err in errors:
             if err.lower().startswith("youtube"):
                 yt_err = f" ({err})"
             elif err.lower().startswith("facebook"):
                 fb_err = f" ({err})"
+            elif err.lower().startswith("instagram"):
+                ig_err = f" ({err})"
 
         yt_status = "Success" if yt.get("success") else (f"Failed{yt_err}" if yt_err else "Failed")
         fb_status = "Success" if fb.get("success") else (f"Failed{fb_err}" if fb_err else "Failed")
+        ig_status = "Success" if ig.get("success") else (f"Failed{ig_err}" if ig_err else "Failed")
 
         overall = report.get("overall_status")
         if overall == "completed":
@@ -78,6 +83,7 @@ class DiscordReportingAgent:
             f"{report.get('source_file') or 'N/A'}\n\n"
             f"📤 **Facebook Upload Status:** {fb_status}\n"
             f"📤 **YouTube Upload Status:** {yt_status}\n"
+            f"📤 **Instagram Upload Status:** {ig_status}\n"
             f"📤 **TikTok Upload Status:** N/A\n\n"
             f"🏷️ **SEO Title:**\n"
             f"{seo_title}\n\n"
@@ -89,6 +95,8 @@ class DiscordReportingAgent:
             f"{fb.get('url') or 'N/A'}\n\n"
             f"▶️ **YouTube Video URL:**\n"
             f"{yt.get('url') or 'N/A'}\n\n"
+            f"📸 **Instagram Reel URL:**\n"
+            f"{ig.get('url') or 'N/A'}\n\n"
             f"🎵 **TikTok Video URL:**\n"
             f"N/A\n\n"
             f"📦 **GitHub Repository:**\n"
@@ -154,9 +162,17 @@ class DiscordReportingAgent:
                 f"Public URL: {entry.get('url') or 'N/A'}",
             ])
 
+        def instagram_lines() -> str:
+            entry = report.get("instagram") or {}
+            return "\n".join([
+                f"Status: {tick(entry.get('success'))}",
+                f"Public URL: {entry.get('url') or 'N/A'}",
+            ])
+
         fields = [
             {"name": "YouTube Status", "value": youtube_lines(), "inline": True},
             {"name": "Facebook Status", "value": facebook_lines(), "inline": True},
+            {"name": "Instagram Status", "value": instagram_lines(), "inline": True},
         ]
 
         seo = report.get("seo")

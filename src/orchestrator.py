@@ -24,7 +24,7 @@ from typing import Any
 from .common import state as state_lib
 from .common.config import getenv, load_schedule, load_settings
 from .common.logger import get_logger
-from .common.state import new_job
+from .common.state import new_job, _platform_default
 from .common.time_utils import (
     apply_jitter,
     format_ts,
@@ -50,6 +50,7 @@ class Orchestrator:
         self._agent3 = None
         self._agent4 = None
         self._agent5 = None
+        self._agent6 = None
 
     # -- lazy agent construction --------------------------------------------
     def _drive_fetch(self):
@@ -81,6 +82,12 @@ class Orchestrator:
             from .agents.agent5_discord import DiscordReportingAgent
             self._agent5 = DiscordReportingAgent()
         return self._agent5
+
+    def _instagram(self):
+        if self._agent6 is None:
+            from .agents.agent6_instagram import InstagramUploadAgent
+            self._agent6 = InstagramUploadAgent()
+        return self._agent6
 
     @staticmethod
     def _build_actions_url() -> str:
@@ -159,12 +166,14 @@ class Orchestrator:
                 continue
             if force:
                 return job
-            yt, fb = job["youtube"], job["facebook"]
-            if yt["status"] == "pending" or fb["status"] == "pending":
+            yt, fb, ig = job["youtube"], job["facebook"], job.get("instagram", _platform_default())
+            if yt["status"] == "pending" or fb["status"] == "pending" or ig["status"] == "pending":
                 return job
             if yt["status"] == "failed" and yt["retries"] < self.max_retries:
                 return job
             if fb["status"] == "failed" and fb["retries"] < self.max_retries:
+                return job
+            if ig["status"] == "failed" and ig["retries"] < self.max_retries:
                 return job
         return None
 
@@ -232,6 +241,7 @@ class Orchestrator:
         slot_time = self._slot_time(state, today, video_number)
         job["youtube"]["slot_time"] = slot_time
         job["facebook"]["slot_time"] = slot_time
+        job.setdefault("instagram", _platform_default())["slot_time"] = slot_time
         state_lib.add_job(state, job)
         return job
 
@@ -246,11 +256,14 @@ class Orchestrator:
 
         yt = job["youtube"]
         fb = job["facebook"]
+        ig = job.setdefault("instagram", _platform_default())
 
         # Each CI run has a fresh checkout, so re-download the clip if the
         # local file was lost between runs (needed for resumable retries).
         if not self.dry_run and (
-            yt["status"] in ("pending", "failed") or fb["status"] in ("pending", "failed")
+            yt["status"] in ("pending", "failed")
+            or fb["status"] in ("pending", "failed")
+            or ig["status"] in ("pending", "failed")
         ):
             try:
                 job["local_path"] = self._drive_fetch().ensure_local_clip(
@@ -272,20 +285,29 @@ class Orchestrator:
         ) and fb["retries"] < self.max_retries:
             self._upload_facebook(job)
 
+        # Instagram
+        ig_time = ig.get("slot_time") or slot_time
+        if ig["status"] in ("pending", "failed") and (
+            force or stale or is_due(now, ig_time) or ig.get("retry_due")
+        ) and ig["retries"] < self.max_retries:
+            self._upload_instagram(job)
+
         # Verification
         self._verify_uploads(job)
 
         # Completion handling
         yt_ok = yt["status"] == "success"
         fb_ok = fb["status"] == "success"
+        ig_ok = ig["status"] == "success"
         yt_exhausted = yt["status"] == "failed"
         fb_exhausted = fb["status"] == "failed"
+        ig_exhausted = ig["status"] == "failed"
 
-        if yt_ok and fb_ok:
+        if yt_ok and fb_ok and ig_ok:
             self._finalize_success(state, job)
-        elif (yt_ok and fb_exhausted) or (fb_ok and yt_exhausted):
+        elif (yt_ok and fb_exhausted and ig_exhausted) or (fb_ok and yt_exhausted and ig_exhausted) or (ig_ok and yt_exhausted and fb_exhausted) or (yt_ok and fb_ok and ig_exhausted) or (yt_ok and ig_ok and fb_exhausted) or (fb_ok and ig_ok and yt_exhausted):
             self._finalize_partial(state, job)
-        elif yt_exhausted and fb_exhausted:
+        elif yt_exhausted and fb_exhausted and ig_exhausted:
             self._finalize_failed(state, job)
 
     def _upload_youtube(self, job: dict[str, Any]) -> None:
@@ -335,6 +357,28 @@ class Orchestrator:
         except Exception as exc:  # noqa: BLE001
             self._mark_failed(fb, str(exc), "Facebook")
 
+    def _upload_instagram(self, job: dict[str, Any]) -> None:
+        ig = job.setdefault("instagram", _platform_default())
+        logger.info("Uploading to Instagram: %s", job["drive_file_name"])
+        if self.dry_run:
+            ig["status"] = "success"
+            ig["url"] = "https://www.instagram.com/reel/DRYRUN"
+            ig["error"] = None
+            ig["last_attempt"] = format_ts(now_in_tz())
+            return
+        try:
+            url = self._instagram().upload_reel(
+                local_path=job["local_path"],
+                caption=job["seo"]["facebook"]["description"],
+            )
+            ig["status"] = "success"
+            ig["url"] = url
+            ig["error"] = None
+            ig["retry_due"] = False
+            ig["last_attempt"] = format_ts(now_in_tz())
+        except Exception as exc:  # noqa: BLE001
+            self._mark_failed(ig, str(exc), "Instagram")
+
     def _mark_failed(self, entry: dict[str, Any], error: str, platform: str) -> None:
         entry["retries"] = entry.get("retries", 0) + 1
         entry["error"] = error
@@ -361,6 +405,10 @@ class Orchestrator:
             video_id = fb["url"].rstrip("/").split("/")[-1]
             if not self.dry_run and not self._facebook().verify(video_id):
                 logger.warning("Facebook verification inconclusive for %s", video_id)
+        if ig["status"] == "success" and ig.get("url"):
+            video_id = ig["url"].rstrip("/").split("/")[-1]
+            if not self.dry_run and not self._instagram().verify(video_id):
+                logger.warning("Instagram verification inconclusive for %s", video_id)
 
     # -- finalization -------------------------------------------------------
     def _move_to_uploaded(self, job: dict[str, Any]) -> bool:
@@ -407,8 +455,8 @@ class Orchestrator:
     # -- reports ------------------------------------------------------------
     def _build_report(self, job: dict[str, Any], status: str, moved: bool) -> dict[str, Any]:
         errors: list[str] = []
-        for platform in ("youtube", "facebook"):
-            entry = job[platform]
+        for platform in ("youtube", "facebook", "instagram"):
+            entry = job.get(platform, _platform_default())
             if entry.get("error"):
                 errors.append(f"{platform.title()}: {entry['error']}")
         return {
@@ -422,6 +470,10 @@ class Orchestrator:
             "facebook": {
                 "success": job["facebook"]["status"] == "success",
                 "url": job["facebook"].get("url"),
+            },
+            "instagram": {
+                "success": job.get("instagram", {}).get("status") == "success",
+                "url": job.get("instagram", {}).get("url"),
             },
             "seo": job.get("seo"),
             "source_file": job["drive_file_name"],
@@ -452,6 +504,7 @@ class Orchestrator:
             "overall_status": "failed",
             "youtube": {"success": False, "url": None},
             "facebook": {"success": False, "url": None},
+            "instagram": {"success": False, "url": None},
             "source_file": "N/A",
             "moved_to_uploaded": False,
             "upload_time": format_ts(now_in_tz()),
@@ -469,6 +522,7 @@ class Orchestrator:
             "overall_status": "failed",
             "youtube": {"success": False, "url": None},
             "facebook": {"success": False, "url": None},
+            "instagram": {"success": False, "url": None},
             "source_file": "N/A",
             "moved_to_uploaded": False,
             "upload_time": format_ts(now_in_tz()),
@@ -486,6 +540,7 @@ class Orchestrator:
             "overall_status": "failed",
             "youtube": {"success": False, "url": None},
             "facebook": {"success": False, "url": None},
+            "instagram": {"success": False, "url": None},
             "source_file": clip.get("drive_file_name", "N/A"),
             "moved_to_uploaded": False,
             "upload_time": format_ts(now_in_tz()),
