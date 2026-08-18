@@ -182,6 +182,96 @@
       "final_status": "completed",
       "date": "2026-08-17",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1E4B43Mb1ZxVlW7sf9_AQ3EZKJBiNPEFD",
+      "drive_file_name": "the_dinner_scene_in_ai_artificial_intelligence_2001_where_david.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/the_dinner_scene_in_ai_artificial_intelligence_2001_where_david.mp4",
+      "movie_title": "The Dinner In Ai Artificial Intelligence 2001 Where David",
+      "seo": {
+        "movie_title": "The Dinner In Ai Artificial Intelligence 2001 Where David",
+        "source_file": "the_dinner_scene_in_ai_artificial_intelligence_2001_where_david.mp4",
+        "primary_keyword": "The Dinner In Ai Artificial Intelligence 2001 Where David reaction",
+        "secondary_keywords": [
+          "The Dinner In Ai Artificial Intelligence 2001 Where David action scene",
+          "movie reaction The Dinner In Ai Artificial Intelligence 2001 Where David"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "The Dinner In Ai Artificial Intelligence 2001 Where David Reaction 🔥",
+          "description": "",
+          "primary_keyword": "The Dinner In Ai Artificial Intelligence 2001 Where David reaction",
+          "secondary_keywords": [
+            "The Dinner In Ai Artificial Intelligence 2001 Where David action scene",
+            "movie reaction The Dinner In Ai Artificial Intelligence 2001 Where David"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in The Dinner In Ai Artificial Intelligence 2001 Where David! 😱",
+          "description": "This scene from The Dinner In Ai Artificial Intelligence 2001 Where David never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TheDinnerInAiArtificialIntelligence2001WhereDavid #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "The Dinner In Ai Artificial Intelligence 2001 Where David reaction",
+          "hashtags": [
+            "#TheDinnerInAiArtificialIntelligence2001WhereDavid",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "The Dinner In Ai Artificial Intelligence 2001 Where David Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from The Dinner In Ai Artificial Intelligence 2001 Where David never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TheDinnerInAiArtificialIntelligence2001WhereDavid #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/e6Q5fb4YEWg",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-18 10:06 UTC",
+        "slot_time": "07:41",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1998821374407606",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-18 10:06 UTC",
+        "slot_time": "07:41",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DcLXDovlGIi/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-18 10:07 UTC",
+        "slot_time": "07:41",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-18 10:06 UTC",
+      "completed_at": "2026-08-18 10:07 UTC",
+      "final_status": "completed",
+      "date": "2026-08-18",
+      "max_retries": 3
     }
   ],
   "daily_times": {
@@ -191,6 +281,13 @@
       "3": "13:15",
       "4": "17:45",
       "5": "20:19"
+    },
+    "2026-08-18": {
+      "1": "07:41",
+      "2": "10:35",
+      "3": "13:57",
+      "4": "17:32",
+      "5": "20:02"
     }
   }
 }
