@@ -632,6 +632,96 @@
       "final_status": "completed",
       "date": "2026-08-18",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1nZJMJ6Rq0xcYpNa8CkfhCbDUpBH-_LNX",
+      "drive_file_name": "the_infamous_highway_fight_scene_in_captain_america_the_winter.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/the_infamous_highway_fight_scene_in_captain_america_the_winter.mp4",
+      "movie_title": "The Infamous Highway Fight In Captain America The Winter",
+      "seo": {
+        "movie_title": "The Infamous Highway Fight In Captain America The Winter",
+        "source_file": "the_infamous_highway_fight_scene_in_captain_america_the_winter.mp4",
+        "primary_keyword": "The Infamous Highway Fight In Captain America The Winter reaction",
+        "secondary_keywords": [
+          "The Infamous Highway Fight In Captain America The Winter action scene",
+          "movie reaction The Infamous Highway Fight In Captain America The Winter"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "The Infamous Highway Fight In Captain America The Winter Reaction ⚔️",
+          "description": "",
+          "primary_keyword": "The Infamous Highway Fight In Captain America The Winter reaction",
+          "secondary_keywords": [
+            "The Infamous Highway Fight In Captain America The Winter action scene",
+            "movie reaction The Infamous Highway Fight In Captain America The Winter"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in The Infamous Highway Fight In Captain America The Winter! 😱",
+          "description": "This scene from The Infamous Highway Fight In Captain America The Winter never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TheInfamousHighwayFightInCaptainAmericaTheWinter #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "The Infamous Highway Fight In Captain America The Winter reaction",
+          "hashtags": [
+            "#TheInfamousHighwayFightInCaptainAmericaTheWinter",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "The Infamous Highway Fight In Captain America The Winter Reaction ⚔️",
+        "youtube_description": "",
+        "facebook_caption": "This scene from The Infamous Highway Fight In Captain America The Winter never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TheInfamousHighwayFightInCaptainAmericaTheWinter #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/ap673Bw3Vyc",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-19 11:19 UTC",
+        "slot_time": "07:16",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/887104937559173",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-19 11:19 UTC",
+        "slot_time": "07:16",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DcOELlXD3Vx/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-19 11:19 UTC",
+        "slot_time": "07:16",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-19 11:19 UTC",
+      "completed_at": "2026-08-19 11:19 UTC",
+      "final_status": "completed",
+      "date": "2026-08-19",
+      "max_retries": 3
     }
   ],
   "daily_times": {
@@ -648,6 +738,13 @@
       "3": "13:57",
       "4": "17:32",
       "5": "20:02"
+    },
+    "2026-08-19": {
+      "1": "07:16",
+      "2": "10:10",
+      "3": "13:47",
+      "4": "17:02",
+      "5": "20:21"
     }
   }
 }
