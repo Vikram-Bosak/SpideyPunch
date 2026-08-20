@@ -1082,6 +1082,96 @@
       "final_status": "completed",
       "date": "2026-08-19",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1fac2xr2-rpPdODJDtCanwf2a0O3jg69z",
+      "drive_file_name": "watching_the_t1000_melt_through_prison_bars_in_terminator_2.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/watching_the_t1000_melt_through_prison_bars_in_terminator_2.mp4",
+      "movie_title": "Watching The T1000 Melt Through Prison Bars In Terminator 2",
+      "seo": {
+        "movie_title": "Watching The T1000 Melt Through Prison Bars In Terminator 2",
+        "source_file": "watching_the_t1000_melt_through_prison_bars_in_terminator_2.mp4",
+        "primary_keyword": "Watching The T1000 Melt Through Prison Bars In Terminator 2 reaction",
+        "secondary_keywords": [
+          "Watching The T1000 Melt Through Prison Bars In Terminator 2 action scene",
+          "movie reaction Watching The T1000 Melt Through Prison Bars In Terminator 2"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Watching The T1000 Melt Through Prison Bars In Terminator 2 Reaction 🔥",
+          "description": "",
+          "primary_keyword": "Watching The T1000 Melt Through Prison Bars In Terminator 2 reaction",
+          "secondary_keywords": [
+            "Watching The T1000 Melt Through Prison Bars In Terminator 2 action scene",
+            "movie reaction Watching The T1000 Melt Through Prison Bars In Terminator 2"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Watching The T1000 Melt Through Prison Bars In Terminator 2! 😱",
+          "description": "This scene from Watching The T1000 Melt Through Prison Bars In Terminator 2 never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#WatchingTheT1000MeltThroughPrisonBarsInTerminator2 #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Watching The T1000 Melt Through Prison Bars In Terminator 2 reaction",
+          "hashtags": [
+            "#WatchingTheT1000MeltThroughPrisonBarsInTerminator2",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Watching The T1000 Melt Through Prison Bars In Terminator 2 Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Watching The T1000 Melt Through Prison Bars In Terminator 2 never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#WatchingTheT1000MeltThroughPrisonBarsInTerminator2 #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/L0QMguCIGZc",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-20 11:51 UTC",
+        "slot_time": "07:29",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1398091882280826",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-20 11:51 UTC",
+        "slot_time": "07:29",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DcQsp-3E_8-/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-20 11:52 UTC",
+        "slot_time": "07:29",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-20 11:51 UTC",
+      "completed_at": "2026-08-20 11:52 UTC",
+      "final_status": "completed",
+      "date": "2026-08-20",
+      "max_retries": 3
     }
   ],
   "daily_times": {
@@ -1105,6 +1195,13 @@
       "3": "13:47",
       "4": "17:02",
       "5": "20:21"
+    },
+    "2026-08-20": {
+      "1": "07:29",
+      "2": "10:40",
+      "3": "13:59",
+      "4": "17:17",
+      "5": "20:42"
     }
   }
 }
