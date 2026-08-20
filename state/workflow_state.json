@@ -1352,6 +1352,96 @@
       "final_status": "completed",
       "date": "2026-08-20",
       "max_retries": 3
+    },
+    {
+      "video_number": 4,
+      "drive_file_id": "15iysPE4pR_6hO3wr7ryYrlKQZO4QIyY8",
+      "drive_file_name": "captain_america_the_winter_soldier_is_still_one_of_the.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/captain_america_the_winter_soldier_is_still_one_of_the.mp4",
+      "movie_title": "Captain America The Winter Soldier Is Still One Of The",
+      "seo": {
+        "movie_title": "Captain America The Winter Soldier Is Still One Of The",
+        "source_file": "captain_america_the_winter_soldier_is_still_one_of_the.mp4",
+        "primary_keyword": "Captain America The Winter Soldier Is Still One Of The reaction",
+        "secondary_keywords": [
+          "Captain America The Winter Soldier Is Still One Of The action scene",
+          "movie reaction Captain America The Winter Soldier Is Still One Of The"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Captain America The Winter Soldier Is Still One Of The Reaction 🔥",
+          "description": "",
+          "primary_keyword": "Captain America The Winter Soldier Is Still One Of The reaction",
+          "secondary_keywords": [
+            "Captain America The Winter Soldier Is Still One Of The action scene",
+            "movie reaction Captain America The Winter Soldier Is Still One Of The"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Captain America The Winter Soldier Is Still One Of The! 😱",
+          "description": "This scene from Captain America The Winter Soldier Is Still One Of The never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#CaptainAmericaTheWinterSoldierIsStillOneOfThe #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Captain America The Winter Soldier Is Still One Of The reaction",
+          "hashtags": [
+            "#CaptainAmericaTheWinterSoldierIsStillOneOfThe",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Captain America The Winter Soldier Is Still One Of The Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Captain America The Winter Soldier Is Still One Of The never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#CaptainAmericaTheWinterSoldierIsStillOneOfThe #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/dmTihU09w7Y",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-20 21:42 UTC",
+        "slot_time": "17:17",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/4409250785999632",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-20 21:42 UTC",
+        "slot_time": "17:17",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DcRwRJxjJu9/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-20 21:43 UTC",
+        "slot_time": "17:17",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-20 21:42 UTC",
+      "completed_at": "2026-08-20 21:43 UTC",
+      "final_status": "completed",
+      "date": "2026-08-20",
+      "max_retries": 3
     }
   ],
   "daily_times": {
