@@ -992,6 +992,96 @@
       "final_status": "completed",
       "date": "2026-08-19",
       "max_retries": 3
+    },
+    {
+      "video_number": 5,
+      "drive_file_id": "1GIecy-auzdcJ6xPjwnUo3yWg71DfyFY2",
+      "drive_file_name": "you_wont_believe_what_went_down_on_the_set_of.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/you_wont_believe_what_went_down_on_the_set_of.mp4",
+      "movie_title": "You Wont Believe What Went Down On The Set Of",
+      "seo": {
+        "movie_title": "You Wont Believe What Went Down On The Set Of",
+        "source_file": "you_wont_believe_what_went_down_on_the_set_of.mp4",
+        "primary_keyword": "You Wont Believe What Went Down On The Set Of reaction",
+        "secondary_keywords": [
+          "You Wont Believe What Went Down On The Set Of action scene",
+          "movie reaction You Wont Believe What Went Down On The Set Of"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "You Wont Believe What Went Down On The Set Of Reaction 🔥",
+          "description": "",
+          "primary_keyword": "You Wont Believe What Went Down On The Set Of reaction",
+          "secondary_keywords": [
+            "You Wont Believe What Went Down On The Set Of action scene",
+            "movie reaction You Wont Believe What Went Down On The Set Of"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in You Wont Believe What Went Down On The Set Of! 😱",
+          "description": "This scene from You Wont Believe What Went Down On The Set Of never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#YouWontBelieveWhatWentDownOnTheSetOf #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "You Wont Believe What Went Down On The Set Of reaction",
+          "hashtags": [
+            "#YouWontBelieveWhatWentDownOnTheSetOf",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "You Wont Believe What Went Down On The Set Of Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from You Wont Believe What Went Down On The Set Of never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#YouWontBelieveWhatWentDownOnTheSetOf #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/gndf_RKiMHU",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-20 01:50 UTC",
+        "slot_time": "20:21",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1052630477350166",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-20 01:50 UTC",
+        "slot_time": "20:21",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DcPn4NKj8Uo/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-20 01:51 UTC",
+        "slot_time": "20:21",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-20 01:50 UTC",
+      "completed_at": "2026-08-20 01:51 UTC",
+      "final_status": "completed",
+      "date": "2026-08-19",
+      "max_retries": 3
     }
   ],
   "daily_times": {
