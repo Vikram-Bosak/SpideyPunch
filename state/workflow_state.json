@@ -1262,6 +1262,96 @@
       "final_status": "completed",
       "date": "2026-08-20",
       "max_retries": 3
+    },
+    {
+      "video_number": 3,
+      "drive_file_id": "1xTT_hrDASk2Tf4oEIHhe6PvyJRZyv34_",
+      "drive_file_name": "you_know_that_intense_chainsaw_scene_with_samuel_l_jackson.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/you_know_that_intense_chainsaw_scene_with_samuel_l_jackson.mp4",
+      "movie_title": "You Know That Intense Chainsaw With Samuel L Jackson",
+      "seo": {
+        "movie_title": "You Know That Intense Chainsaw With Samuel L Jackson",
+        "source_file": "you_know_that_intense_chainsaw_scene_with_samuel_l_jackson.mp4",
+        "primary_keyword": "You Know That Intense Chainsaw With Samuel L Jackson reaction",
+        "secondary_keywords": [
+          "You Know That Intense Chainsaw With Samuel L Jackson action scene",
+          "movie reaction You Know That Intense Chainsaw With Samuel L Jackson"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "You Know That Intense Chainsaw With Samuel L Jackson Reaction 🔥",
+          "description": "",
+          "primary_keyword": "You Know That Intense Chainsaw With Samuel L Jackson reaction",
+          "secondary_keywords": [
+            "You Know That Intense Chainsaw With Samuel L Jackson action scene",
+            "movie reaction You Know That Intense Chainsaw With Samuel L Jackson"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in You Know That Intense Chainsaw With Samuel L Jackson! 😱",
+          "description": "This scene from You Know That Intense Chainsaw With Samuel L Jackson never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#YouKnowThatIntenseChainsawWithSamuelLJackson #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "You Know That Intense Chainsaw With Samuel L Jackson reaction",
+          "hashtags": [
+            "#YouKnowThatIntenseChainsawWithSamuelLJackson",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "You Know That Intense Chainsaw With Samuel L Jackson Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from You Know That Intense Chainsaw With Samuel L Jackson never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#YouKnowThatIntenseChainsawWithSamuelLJackson #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/iQ8hTswehD0",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-20 18:03 UTC",
+        "slot_time": "13:59",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/4391678457737999",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-20 18:04 UTC",
+        "slot_time": "13:59",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DcRXQ_UDzr-/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-20 18:04 UTC",
+        "slot_time": "13:59",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-20 18:03 UTC",
+      "completed_at": "2026-08-20 18:04 UTC",
+      "final_status": "completed",
+      "date": "2026-08-20",
+      "max_retries": 3
     }
   ],
   "daily_times": {
