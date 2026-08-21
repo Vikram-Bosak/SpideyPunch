@@ -1532,6 +1532,96 @@
       "final_status": "completed",
       "date": "2026-08-20",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1LVzVM0veu1vSIsrSMrJIiRtmz9UlKLRL",
+      "drive_file_name": "the_matrix_lobby_shootout_still_gives_me_chills_to_this.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/the_matrix_lobby_shootout_still_gives_me_chills_to_this.mp4",
+      "movie_title": "The Matrix Lobby Shootout Still Gives Me Chills To This",
+      "seo": {
+        "movie_title": "The Matrix Lobby Shootout Still Gives Me Chills To This",
+        "source_file": "the_matrix_lobby_shootout_still_gives_me_chills_to_this.mp4",
+        "primary_keyword": "The Matrix Lobby Shootout Still Gives Me Chills To This reaction",
+        "secondary_keywords": [
+          "The Matrix Lobby Shootout Still Gives Me Chills To This action scene",
+          "movie reaction The Matrix Lobby Shootout Still Gives Me Chills To This"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "The Matrix Lobby Shootout Still Gives Me Chills To This Reaction 🔥",
+          "description": "",
+          "primary_keyword": "The Matrix Lobby Shootout Still Gives Me Chills To This reaction",
+          "secondary_keywords": [
+            "The Matrix Lobby Shootout Still Gives Me Chills To This action scene",
+            "movie reaction The Matrix Lobby Shootout Still Gives Me Chills To This"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in The Matrix Lobby Shootout Still Gives Me Chills To This! 😱",
+          "description": "This scene from The Matrix Lobby Shootout Still Gives Me Chills To This never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TheMatrixLobbyShootoutStillGivesMeChillsToThis #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "The Matrix Lobby Shootout Still Gives Me Chills To This reaction",
+          "hashtags": [
+            "#TheMatrixLobbyShootoutStillGivesMeChillsToThis",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "The Matrix Lobby Shootout Still Gives Me Chills To This Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from The Matrix Lobby Shootout Still Gives Me Chills To This never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TheMatrixLobbyShootoutStillGivesMeChillsToThis #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/9C9EPJxSJBc",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-21 11:50 UTC",
+        "slot_time": "07:28",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1318405810372192",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-21 11:50 UTC",
+        "slot_time": "07:28",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DcTRWFmgtOJ/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-21 11:51 UTC",
+        "slot_time": "07:28",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-21 11:50 UTC",
+      "completed_at": "2026-08-21 11:51 UTC",
+      "final_status": "completed",
+      "date": "2026-08-21",
+      "max_retries": 3
     }
   ],
   "daily_times": {
@@ -1562,6 +1652,13 @@
       "3": "13:59",
       "4": "17:17",
       "5": "20:42"
+    },
+    "2026-08-21": {
+      "1": "07:28",
+      "2": "10:39",
+      "3": "13:24",
+      "4": "17:23",
+      "5": "20:18"
     }
   }
 }
