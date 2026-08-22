@@ -2252,6 +2252,96 @@
       "final_status": "completed",
       "date": "2026-08-22",
       "max_retries": 3
+    },
+    {
+      "video_number": 4,
+      "drive_file_id": "1JA2s7_ulhzwlKkD8kZqrAr049M-KFFwt",
+      "drive_file_name": "keanu_reeves_and_carrieanne_mosss_iconic_lobby_shootout_in_the.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/keanu_reeves_and_carrieanne_mosss_iconic_lobby_shootout_in_the.mp4",
+      "movie_title": "Keanu Reeves And Carrieanne Mosss Iconic Lobby Shootout In The",
+      "seo": {
+        "movie_title": "Keanu Reeves And Carrieanne Mosss Iconic Lobby Shootout In The",
+        "source_file": "keanu_reeves_and_carrieanne_mosss_iconic_lobby_shootout_in_the.mp4",
+        "primary_keyword": "Keanu Reeves And Carrieanne Mosss Iconic Lobby Shootout In The reaction",
+        "secondary_keywords": [
+          "Keanu Reeves And Carrieanne Mosss Iconic Lobby Shootout In The action scene",
+          "movie reaction Keanu Reeves And Carrieanne Mosss Iconic Lobby Shootout In The"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Keanu Reeves And Carrieanne Mosss Iconic Lobby Shootout In The Reaction 🔥",
+          "description": "",
+          "primary_keyword": "Keanu Reeves And Carrieanne Mosss Iconic Lobby Shootout In The reaction",
+          "secondary_keywords": [
+            "Keanu Reeves And Carrieanne Mosss Iconic Lobby Shootout In The action scene",
+            "movie reaction Keanu Reeves And Carrieanne Mosss Iconic Lobby Shootout In The"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Keanu Reeves And Carrieanne Mosss Iconic Lobby Shootout In The! 😱",
+          "description": "This scene from Keanu Reeves And Carrieanne Mosss Iconic Lobby Shootout In The never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#KeanuReevesAndCarrieanneMosssIconicLobbyShootoutInThe #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Keanu Reeves And Carrieanne Mosss Iconic Lobby Shootout In The reaction",
+          "hashtags": [
+            "#KeanuReevesAndCarrieanneMosssIconicLobbyShootoutInThe",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Keanu Reeves And Carrieanne Mosss Iconic Lobby Shootout In The Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Keanu Reeves And Carrieanne Mosss Iconic Lobby Shootout In The never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#KeanuReevesAndCarrieanneMosssIconicLobbyShootoutInThe #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/eWzMr6XHL-M",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-22 21:56 UTC",
+        "slot_time": "17:48",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1597320075315707",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-22 21:57 UTC",
+        "slot_time": "17:48",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DcW7hF7kgph/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-22 21:57 UTC",
+        "slot_time": "17:48",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-22 21:56 UTC",
+      "completed_at": "2026-08-22 21:57 UTC",
+      "final_status": "completed",
+      "date": "2026-08-22",
+      "max_retries": 3
     }
   ],
   "daily_times": {
