@@ -1982,6 +1982,96 @@
       "final_status": "completed",
       "date": "2026-08-21",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1Jt2AFjx0IoG432iK2i1QOa4Zxx22-IeN",
+      "drive_file_name": "i_still_cant_get_over_the_iconic_lobby_shootout_scene.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/i_still_cant_get_over_the_iconic_lobby_shootout_scene.mp4",
+      "movie_title": "I Still Cant Get Over The Iconic Lobby Shootout",
+      "seo": {
+        "movie_title": "I Still Cant Get Over The Iconic Lobby Shootout",
+        "source_file": "i_still_cant_get_over_the_iconic_lobby_shootout_scene.mp4",
+        "primary_keyword": "I Still Cant Get Over The Iconic Lobby Shootout reaction",
+        "secondary_keywords": [
+          "I Still Cant Get Over The Iconic Lobby Shootout action scene",
+          "movie reaction I Still Cant Get Over The Iconic Lobby Shootout"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "I Still Cant Get Over The Iconic Lobby Shootout Reaction 🔥",
+          "description": "",
+          "primary_keyword": "I Still Cant Get Over The Iconic Lobby Shootout reaction",
+          "secondary_keywords": [
+            "I Still Cant Get Over The Iconic Lobby Shootout action scene",
+            "movie reaction I Still Cant Get Over The Iconic Lobby Shootout"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in I Still Cant Get Over The Iconic Lobby Shootout! 😱",
+          "description": "This scene from I Still Cant Get Over The Iconic Lobby Shootout never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#IStillCantGetOverTheIconicLobbyShootout #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "I Still Cant Get Over The Iconic Lobby Shootout reaction",
+          "hashtags": [
+            "#IStillCantGetOverTheIconicLobbyShootout",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "I Still Cant Get Over The Iconic Lobby Shootout Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from I Still Cant Get Over The Iconic Lobby Shootout never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#IStillCantGetOverTheIconicLobbyShootout #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/E7H894pXeqA",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-22 11:36 UTC",
+        "slot_time": "07:01",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1777933790066318",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-22 11:37 UTC",
+        "slot_time": "07:01",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DcV0mxZgh6R/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-22 11:38 UTC",
+        "slot_time": "07:01",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-22 11:36 UTC",
+      "completed_at": "2026-08-22 11:38 UTC",
+      "final_status": "completed",
+      "date": "2026-08-22",
+      "max_retries": 3
     }
   ],
   "daily_times": {
@@ -2019,6 +2109,13 @@
       "3": "13:24",
       "4": "17:23",
       "5": "20:18"
+    },
+    "2026-08-22": {
+      "1": "07:01",
+      "2": "10:23",
+      "3": "13:36",
+      "4": "17:48",
+      "5": "20:49"
     }
   }
 }
