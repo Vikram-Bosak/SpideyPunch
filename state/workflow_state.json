@@ -1892,6 +1892,96 @@
       "final_status": "completed",
       "date": "2026-08-21",
       "max_retries": 3
+    },
+    {
+      "video_number": 5,
+      "drive_file_id": "130UovRsuIqDkcQ3CaQbZ0QQT8fSAd6xP",
+      "drive_file_name": "that_iconic_chainsaw_scene_in_pulp_fiction_1994_where_samuel.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/that_iconic_chainsaw_scene_in_pulp_fiction_1994_where_samuel.mp4",
+      "movie_title": "That Iconic Chainsaw In Pulp Fiction 1994 Where Samuel",
+      "seo": {
+        "movie_title": "That Iconic Chainsaw In Pulp Fiction 1994 Where Samuel",
+        "source_file": "that_iconic_chainsaw_scene_in_pulp_fiction_1994_where_samuel.mp4",
+        "primary_keyword": "That Iconic Chainsaw In Pulp Fiction 1994 Where Samuel reaction",
+        "secondary_keywords": [
+          "That Iconic Chainsaw In Pulp Fiction 1994 Where Samuel action scene",
+          "movie reaction That Iconic Chainsaw In Pulp Fiction 1994 Where Samuel"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "That Iconic Chainsaw In Pulp Fiction 1994 Where Samuel Reaction 🔥",
+          "description": "",
+          "primary_keyword": "That Iconic Chainsaw In Pulp Fiction 1994 Where Samuel reaction",
+          "secondary_keywords": [
+            "That Iconic Chainsaw In Pulp Fiction 1994 Where Samuel action scene",
+            "movie reaction That Iconic Chainsaw In Pulp Fiction 1994 Where Samuel"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in That Iconic Chainsaw In Pulp Fiction 1994 Where Samuel! 😱",
+          "description": "This scene from That Iconic Chainsaw In Pulp Fiction 1994 Where Samuel never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ThatIconicChainsawInPulpFiction1994WhereSamuel #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "That Iconic Chainsaw In Pulp Fiction 1994 Where Samuel reaction",
+          "hashtags": [
+            "#ThatIconicChainsawInPulpFiction1994WhereSamuel",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "That Iconic Chainsaw In Pulp Fiction 1994 Where Samuel Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from That Iconic Chainsaw In Pulp Fiction 1994 Where Samuel never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ThatIconicChainsawInPulpFiction1994WhereSamuel #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/3daRVxM9JS8",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-22 00:51 UTC",
+        "slot_time": "20:18",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1707894643825850",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-22 00:51 UTC",
+        "slot_time": "20:18",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DcUquXfklKQ/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-22 00:52 UTC",
+        "slot_time": "20:18",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-22 00:51 UTC",
+      "completed_at": "2026-08-22 00:52 UTC",
+      "final_status": "completed",
+      "date": "2026-08-21",
+      "max_retries": 3
     }
   ],
   "daily_times": {
