@@ -2432,6 +2432,96 @@
       "final_status": "completed",
       "date": "2026-08-22",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1sEzlg-Q4K3d5dmxKvqScNx_17xnDN88v",
+      "drive_file_name": "the_infamous_i_shot_marvin_in_the_face_scene_from.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/the_infamous_i_shot_marvin_in_the_face_scene_from.mp4",
+      "movie_title": "The Infamous I Shot Marvin In The Face From",
+      "seo": {
+        "movie_title": "The Infamous I Shot Marvin In The Face From",
+        "source_file": "the_infamous_i_shot_marvin_in_the_face_scene_from.mp4",
+        "primary_keyword": "The Infamous I Shot Marvin In The Face From reaction",
+        "secondary_keywords": [
+          "The Infamous I Shot Marvin In The Face From action scene",
+          "movie reaction The Infamous I Shot Marvin In The Face From"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "The Infamous I Shot Marvin In The Face From Reaction 🔥",
+          "description": "",
+          "primary_keyword": "The Infamous I Shot Marvin In The Face From reaction",
+          "secondary_keywords": [
+            "The Infamous I Shot Marvin In The Face From action scene",
+            "movie reaction The Infamous I Shot Marvin In The Face From"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in The Infamous I Shot Marvin In The Face From! 😱",
+          "description": "This scene from The Infamous I Shot Marvin In The Face From never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TheInfamousIShotMarvinInTheFaceFrom #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "The Infamous I Shot Marvin In The Face From reaction",
+          "hashtags": [
+            "#TheInfamousIShotMarvinInTheFaceFrom",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "The Infamous I Shot Marvin In The Face From Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from The Infamous I Shot Marvin In The Face From never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TheInfamousIShotMarvinInTheFaceFrom #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/t5NWVLTYZrs",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-23 11:14 UTC",
+        "slot_time": "07:03",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/933340685824339",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-23 11:15 UTC",
+        "slot_time": "07:03",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DcYW34qDdZL/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-23 11:15 UTC",
+        "slot_time": "07:03",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-23 11:14 UTC",
+      "completed_at": "2026-08-23 11:15 UTC",
+      "final_status": "completed",
+      "date": "2026-08-23",
+      "max_retries": 3
     }
   ],
   "daily_times": {
@@ -2476,6 +2566,13 @@
       "3": "13:36",
       "4": "17:48",
       "5": "20:49"
+    },
+    "2026-08-23": {
+      "1": "07:03",
+      "2": "10:12",
+      "3": "13:44",
+      "4": "17:08",
+      "5": "20:37"
     }
   }
 }
