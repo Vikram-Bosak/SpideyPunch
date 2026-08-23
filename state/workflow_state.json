@@ -2522,6 +2522,96 @@
       "final_status": "completed",
       "date": "2026-08-23",
       "max_retries": 3
+    },
+    {
+      "video_number": 2,
+      "drive_file_id": "1N5n10zRqrCH0RcsMMszkv78zBOnK49h4",
+      "drive_file_name": "the_iconic_rooftop_showdown_in_the_matrix_1999_who.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/the_iconic_rooftop_showdown_in_the_matrix_1999_who.mp4",
+      "movie_title": "The Iconic Rooftop Showdown In The Matrix 1999 Who",
+      "seo": {
+        "movie_title": "The Iconic Rooftop Showdown In The Matrix 1999 Who",
+        "source_file": "the_iconic_rooftop_showdown_in_the_matrix_1999_who.mp4",
+        "primary_keyword": "The Iconic Rooftop Showdown In The Matrix 1999 Who reaction",
+        "secondary_keywords": [
+          "The Iconic Rooftop Showdown In The Matrix 1999 Who action scene",
+          "movie reaction The Iconic Rooftop Showdown In The Matrix 1999 Who"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "The Iconic Rooftop Showdown In The Matrix 1999 Who Reaction 🔥",
+          "description": "",
+          "primary_keyword": "The Iconic Rooftop Showdown In The Matrix 1999 Who reaction",
+          "secondary_keywords": [
+            "The Iconic Rooftop Showdown In The Matrix 1999 Who action scene",
+            "movie reaction The Iconic Rooftop Showdown In The Matrix 1999 Who"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in The Iconic Rooftop Showdown In The Matrix 1999 Who! 😱",
+          "description": "This scene from The Iconic Rooftop Showdown In The Matrix 1999 Who never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TheIconicRooftopShowdownInTheMatrix1999Who #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "The Iconic Rooftop Showdown In The Matrix 1999 Who reaction",
+          "hashtags": [
+            "#TheIconicRooftopShowdownInTheMatrix1999Who",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "The Iconic Rooftop Showdown In The Matrix 1999 Who Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from The Iconic Rooftop Showdown In The Matrix 1999 Who never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TheIconicRooftopShowdownInTheMatrix1999Who #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/C6KJu6-Qx1A",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-23 14:16 UTC",
+        "slot_time": "10:12",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1372439621680276",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-23 14:17 UTC",
+        "slot_time": "10:12",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DcYrqvrjn-i/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-23 14:17 UTC",
+        "slot_time": "10:12",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-23 14:16 UTC",
+      "completed_at": "2026-08-23 14:17 UTC",
+      "final_status": "completed",
+      "date": "2026-08-23",
+      "max_retries": 3
     }
   ],
   "daily_times": {
