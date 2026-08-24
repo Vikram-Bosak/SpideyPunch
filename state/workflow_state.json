@@ -2792,6 +2792,96 @@
       "final_status": "completed",
       "date": "2026-08-23",
       "max_retries": 3
+    },
+    {
+      "video_number": 5,
+      "drive_file_id": "1RRGdfg1UQ9ZM1hRkUnkJBYb3N_NRELyI",
+      "drive_file_name": "i_still_get_chills_thinking_about_the_infamous_whats_in.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/i_still_get_chills_thinking_about_the_infamous_whats_in.mp4",
+      "movie_title": "I Still Get Chills Thinking About The Infamous Whats In",
+      "seo": {
+        "movie_title": "I Still Get Chills Thinking About The Infamous Whats In",
+        "source_file": "i_still_get_chills_thinking_about_the_infamous_whats_in.mp4",
+        "primary_keyword": "I Still Get Chills Thinking About The Infamous Whats In reaction",
+        "secondary_keywords": [
+          "I Still Get Chills Thinking About The Infamous Whats In action scene",
+          "movie reaction I Still Get Chills Thinking About The Infamous Whats In"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "I Still Get Chills Thinking About The Infamous Whats In Reaction 🔥",
+          "description": "",
+          "primary_keyword": "I Still Get Chills Thinking About The Infamous Whats In reaction",
+          "secondary_keywords": [
+            "I Still Get Chills Thinking About The Infamous Whats In action scene",
+            "movie reaction I Still Get Chills Thinking About The Infamous Whats In"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in I Still Get Chills Thinking About The Infamous Whats In! 😱",
+          "description": "This scene from I Still Get Chills Thinking About The Infamous Whats In never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#IStillGetChillsThinkingAboutTheInfamousWhatsIn #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "I Still Get Chills Thinking About The Infamous Whats In reaction",
+          "hashtags": [
+            "#IStillGetChillsThinkingAboutTheInfamousWhatsIn",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "I Still Get Chills Thinking About The Infamous Whats In Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from I Still Get Chills Thinking About The Infamous Whats In never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#IStillGetChillsThinkingAboutTheInfamousWhatsIn #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/WFdisyYx0aw",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-24 01:01 UTC",
+        "slot_time": "20:37",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/2130295407697689",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-24 01:01 UTC",
+        "slot_time": "20:37",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DcZ1cOWCtse/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-24 01:02 UTC",
+        "slot_time": "20:37",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-24 01:01 UTC",
+      "completed_at": "2026-08-24 01:02 UTC",
+      "final_status": "completed",
+      "date": "2026-08-23",
+      "max_retries": 3
     }
   ],
   "daily_times": {
