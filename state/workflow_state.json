@@ -2882,6 +2882,96 @@
       "final_status": "completed",
       "date": "2026-08-23",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1nYQtU6ehMfe1Qmoi-GOXoEHTK9iKuq4U",
+      "drive_file_name": "watching_javier_bardems_chilling_portrayal_of_anton_chigurh_in_no.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/watching_javier_bardems_chilling_portrayal_of_anton_chigurh_in_no.mp4",
+      "movie_title": "Watching Javier Bardems Chilling Portrayal Of Anton Chigurh In No",
+      "seo": {
+        "movie_title": "Watching Javier Bardems Chilling Portrayal Of Anton Chigurh In No",
+        "source_file": "watching_javier_bardems_chilling_portrayal_of_anton_chigurh_in_no.mp4",
+        "primary_keyword": "Watching Javier Bardems Chilling Portrayal Of Anton Chigurh In No reaction",
+        "secondary_keywords": [
+          "Watching Javier Bardems Chilling Portrayal Of Anton Chigurh In No action scene",
+          "movie reaction Watching Javier Bardems Chilling Portrayal Of Anton Chigurh In No"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Watching Javier Bardems Chilling Portrayal Of Anton Chigurh In No Reaction 🔥",
+          "description": "",
+          "primary_keyword": "Watching Javier Bardems Chilling Portrayal Of Anton Chigurh In No reaction",
+          "secondary_keywords": [
+            "Watching Javier Bardems Chilling Portrayal Of Anton Chigurh In No action scene",
+            "movie reaction Watching Javier Bardems Chilling Portrayal Of Anton Chigurh In No"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Watching Javier Bardems Chilling Portrayal Of Anton Chigurh In No! 😱",
+          "description": "This scene from Watching Javier Bardems Chilling Portrayal Of Anton Chigurh In No never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#WatchingJavierBardemsChillingPortrayalOfAntonChigurhInNo #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Watching Javier Bardems Chilling Portrayal Of Anton Chigurh In No reaction",
+          "hashtags": [
+            "#WatchingJavierBardemsChillingPortrayalOfAntonChigurhInNo",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Watching Javier Bardems Chilling Portrayal Of Anton Chigurh In No Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Watching Javier Bardems Chilling Portrayal Of Anton Chigurh In No never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#WatchingJavierBardemsChillingPortrayalOfAntonChigurhInNo #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/whwWc0O9pCI",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-24 11:20 UTC",
+        "slot_time": "07:20",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/2273435000112507",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-24 11:21 UTC",
+        "slot_time": "07:20",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/Dca8VNHkxex/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-24 11:21 UTC",
+        "slot_time": "07:20",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-24 11:20 UTC",
+      "completed_at": "2026-08-24 11:21 UTC",
+      "final_status": "completed",
+      "date": "2026-08-24",
+      "max_retries": 3
     }
   ],
   "daily_times": {
@@ -2933,6 +3023,13 @@
       "3": "13:44",
       "4": "17:08",
       "5": "20:37"
+    },
+    "2026-08-24": {
+      "1": "07:20",
+      "2": "10:45",
+      "3": "13:45",
+      "4": "17:54",
+      "5": "20:51"
     }
   }
 }
