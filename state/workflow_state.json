@@ -3332,6 +3332,96 @@
       "final_status": "completed",
       "date": "2026-08-24",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1NZpCApF1QDORmdX4n9nl2ONHAibsznWw",
+      "drive_file_name": "arnold_schwarzeneggers_terminator_genisys_2015_had_some_serious_cyborg_smackdowns.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/arnold_schwarzeneggers_terminator_genisys_2015_had_some_serious_cyborg_smackdowns.mp4",
+      "movie_title": "Arnold Schwarzeneggers Terminator Genisys 2015 Had Some Serious Cyborg Smackdowns",
+      "seo": {
+        "movie_title": "Arnold Schwarzeneggers Terminator Genisys 2015 Had Some Serious Cyborg Smackdowns",
+        "source_file": "arnold_schwarzeneggers_terminator_genisys_2015_had_some_serious_cyborg_smackdowns.mp4",
+        "primary_keyword": "Arnold Schwarzeneggers Terminator Genisys 2015 Had Some Serious Cyborg Smackdowns reaction",
+        "secondary_keywords": [
+          "Arnold Schwarzeneggers Terminator Genisys 2015 Had Some Serious Cyborg Smackdowns action scene",
+          "movie reaction Arnold Schwarzeneggers Terminator Genisys 2015 Had Some Serious Cyborg Smackdowns"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Arnold Schwarzeneggers Terminator Genisys 2015 Had Some Serious Cyborg Smackdowns Reaction 🔥",
+          "description": "",
+          "primary_keyword": "Arnold Schwarzeneggers Terminator Genisys 2015 Had Some Serious Cyborg Smackdowns reaction",
+          "secondary_keywords": [
+            "Arnold Schwarzeneggers Terminator Genisys 2015 Had Some Serious Cyborg Smackdowns action scene",
+            "movie reaction Arnold Schwarzeneggers Terminator Genisys 2015 Had Some Serious Cyborg Smackdowns"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Arnold Schwarzeneggers Terminator Genisys 2015 Had Some Serious Cyborg Smackdowns! 😱",
+          "description": "This scene from Arnold Schwarzeneggers Terminator Genisys 2015 Had Some Serious Cyborg Smackdowns never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ArnoldSchwarzeneggersTerminatorGenisys2015HadSomeSeriousCyborgSmackdowns #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Arnold Schwarzeneggers Terminator Genisys 2015 Had Some Serious Cyborg Smackdowns reaction",
+          "hashtags": [
+            "#ArnoldSchwarzeneggersTerminatorGenisys2015HadSomeSeriousCyborgSmackdowns",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Arnold Schwarzeneggers Terminator Genisys 2015 Had Some Serious Cyborg Smackdowns Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Arnold Schwarzeneggers Terminator Genisys 2015 Had Some Serious Cyborg Smackdowns never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ArnoldSchwarzeneggersTerminatorGenisys2015HadSomeSeriousCyborgSmackdowns #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/_1wml9XafaM",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-25 11:52 UTC",
+        "slot_time": "07:45",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/4403581699787641",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-25 11:53 UTC",
+        "slot_time": "07:45",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/Dcdk0zliPiA/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-25 11:54 UTC",
+        "slot_time": "07:45",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-25 11:52 UTC",
+      "completed_at": "2026-08-25 11:54 UTC",
+      "final_status": "completed",
+      "date": "2026-08-25",
+      "max_retries": 3
     }
   ],
   "daily_times": {
@@ -3390,6 +3480,13 @@
       "3": "13:45",
       "4": "17:54",
       "5": "20:51"
+    },
+    "2026-08-25": {
+      "1": "07:45",
+      "2": "10:10",
+      "3": "13:41",
+      "4": "17:07",
+      "5": "20:14"
     }
   }
 }
