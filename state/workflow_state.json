@@ -3602,6 +3602,96 @@
       "final_status": "completed",
       "date": "2026-08-25",
       "max_retries": 3
+    },
+    {
+      "video_number": 4,
+      "drive_file_id": "1Rzqvl_sd88V_HhMpK_Tg89N1s95TuZd9",
+      "drive_file_name": "tom_hollands_emotional_breakdown_in_spiderman_no_way_home_2021.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/tom_hollands_emotional_breakdown_in_spiderman_no_way_home_2021.mp4",
+      "movie_title": "Tom Hollands Emotional Breakdown In Spiderman No Way Home 2021",
+      "seo": {
+        "movie_title": "Tom Hollands Emotional Breakdown In Spiderman No Way Home 2021",
+        "source_file": "tom_hollands_emotional_breakdown_in_spiderman_no_way_home_2021.mp4",
+        "primary_keyword": "Tom Hollands Emotional Breakdown In Spiderman No Way Home 2021 reaction",
+        "secondary_keywords": [
+          "Tom Hollands Emotional Breakdown In Spiderman No Way Home 2021 action scene",
+          "movie reaction Tom Hollands Emotional Breakdown In Spiderman No Way Home 2021"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Tom Hollands Emotional Breakdown In Spiderman No Way Home 2021 Reaction 🕸️",
+          "description": "",
+          "primary_keyword": "Tom Hollands Emotional Breakdown In Spiderman No Way Home 2021 reaction",
+          "secondary_keywords": [
+            "Tom Hollands Emotional Breakdown In Spiderman No Way Home 2021 action scene",
+            "movie reaction Tom Hollands Emotional Breakdown In Spiderman No Way Home 2021"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Tom Hollands Emotional Breakdown In Spiderman No Way Home 2021! 😱",
+          "description": "This scene from Tom Hollands Emotional Breakdown In Spiderman No Way Home 2021 never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TomHollandsEmotionalBreakdownInSpidermanNoWayHome2021 #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Tom Hollands Emotional Breakdown In Spiderman No Way Home 2021 reaction",
+          "hashtags": [
+            "#TomHollandsEmotionalBreakdownInSpidermanNoWayHome2021",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Tom Hollands Emotional Breakdown In Spiderman No Way Home 2021 Reaction 🕸️",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Tom Hollands Emotional Breakdown In Spiderman No Way Home 2021 never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TomHollandsEmotionalBreakdownInSpidermanNoWayHome2021 #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/QaoNU1nO8hA",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-25 21:42 UTC",
+        "slot_time": "17:07",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1073416855434883",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-25 21:42 UTC",
+        "slot_time": "17:07",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DceoSySmVsw/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-25 21:43 UTC",
+        "slot_time": "17:07",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-25 21:42 UTC",
+      "completed_at": "2026-08-25 21:43 UTC",
+      "final_status": "completed",
+      "date": "2026-08-25",
+      "max_retries": 3
     }
   ],
   "daily_times": {
