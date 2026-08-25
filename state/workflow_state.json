@@ -3242,6 +3242,96 @@
       "final_status": "completed",
       "date": "2026-08-24",
       "max_retries": 3
+    },
+    {
+      "video_number": 5,
+      "drive_file_id": "1cKYTwKiBIQKAmreioVEL0j0huLhjcjhT",
+      "drive_file_name": "gerard_butlers_intense_kick_in_the_iconic_this_is_sparta.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/gerard_butlers_intense_kick_in_the_iconic_this_is_sparta.mp4",
+      "movie_title": "Gerard Butlers Intense Kick In The Iconic This Is Sparta",
+      "seo": {
+        "movie_title": "Gerard Butlers Intense Kick In The Iconic This Is Sparta",
+        "source_file": "gerard_butlers_intense_kick_in_the_iconic_this_is_sparta.mp4",
+        "primary_keyword": "Gerard Butlers Intense Kick In The Iconic This Is Sparta reaction",
+        "secondary_keywords": [
+          "Gerard Butlers Intense Kick In The Iconic This Is Sparta action scene",
+          "movie reaction Gerard Butlers Intense Kick In The Iconic This Is Sparta"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Gerard Butlers Intense Kick In The Iconic This Is Sparta Reaction 🔥",
+          "description": "",
+          "primary_keyword": "Gerard Butlers Intense Kick In The Iconic This Is Sparta reaction",
+          "secondary_keywords": [
+            "Gerard Butlers Intense Kick In The Iconic This Is Sparta action scene",
+            "movie reaction Gerard Butlers Intense Kick In The Iconic This Is Sparta"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Gerard Butlers Intense Kick In The Iconic This Is Sparta! 😱",
+          "description": "This scene from Gerard Butlers Intense Kick In The Iconic This Is Sparta never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#GerardButlersIntenseKickInTheIconicThisIsSparta #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Gerard Butlers Intense Kick In The Iconic This Is Sparta reaction",
+          "hashtags": [
+            "#GerardButlersIntenseKickInTheIconicThisIsSparta",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Gerard Butlers Intense Kick In The Iconic This Is Sparta Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Gerard Butlers Intense Kick In The Iconic This Is Sparta never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#GerardButlersIntenseKickInTheIconicThisIsSparta #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/U7GXYSjeNak",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-25 01:40 UTC",
+        "slot_time": "20:51",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1985280272134678",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-25 01:41 UTC",
+        "slot_time": "20:51",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DcceyWBkShu/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-25 01:41 UTC",
+        "slot_time": "20:51",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-25 01:40 UTC",
+      "completed_at": "2026-08-25 01:41 UTC",
+      "final_status": "completed",
+      "date": "2026-08-24",
+      "max_retries": 3
     }
   ],
   "daily_times": {
