@@ -3512,6 +3512,96 @@
       "final_status": "completed",
       "date": "2026-08-25",
       "max_retries": 3
+    },
+    {
+      "video_number": 3,
+      "drive_file_id": "1wMWlzam3cgb10aJhtqtSOPotcnIs-tu4",
+      "drive_file_name": "robert_patricks_terrifying_portrayal_of_the_t1000_in_1991s_terminator.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/robert_patricks_terrifying_portrayal_of_the_t1000_in_1991s_terminator.mp4",
+      "movie_title": "Robert Patricks Terrifying Portrayal Of The T1000 In 1991s Terminator",
+      "seo": {
+        "movie_title": "Robert Patricks Terrifying Portrayal Of The T1000 In 1991s Terminator",
+        "source_file": "robert_patricks_terrifying_portrayal_of_the_t1000_in_1991s_terminator.mp4",
+        "primary_keyword": "Robert Patricks Terrifying Portrayal Of The T1000 In 1991s Terminator reaction",
+        "secondary_keywords": [
+          "Robert Patricks Terrifying Portrayal Of The T1000 In 1991s Terminator action scene",
+          "movie reaction Robert Patricks Terrifying Portrayal Of The T1000 In 1991s Terminator"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Robert Patricks Terrifying Portrayal Of The T1000 In 1991s Terminator Reaction 🔥",
+          "description": "",
+          "primary_keyword": "Robert Patricks Terrifying Portrayal Of The T1000 In 1991s Terminator reaction",
+          "secondary_keywords": [
+            "Robert Patricks Terrifying Portrayal Of The T1000 In 1991s Terminator action scene",
+            "movie reaction Robert Patricks Terrifying Portrayal Of The T1000 In 1991s Terminator"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Robert Patricks Terrifying Portrayal Of The T1000 In 1991s Terminator! 😱",
+          "description": "This scene from Robert Patricks Terrifying Portrayal Of The T1000 In 1991s Terminator never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#RobertPatricksTerrifyingPortrayalOfTheT1000In1991sTerminator #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Robert Patricks Terrifying Portrayal Of The T1000 In 1991s Terminator reaction",
+          "hashtags": [
+            "#RobertPatricksTerrifyingPortrayalOfTheT1000In1991sTerminator",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Robert Patricks Terrifying Portrayal Of The T1000 In 1991s Terminator Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Robert Patricks Terrifying Portrayal Of The T1000 In 1991s Terminator never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#RobertPatricksTerrifyingPortrayalOfTheT1000In1991sTerminator #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/QySQmuDhXTE",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-25 17:54 UTC",
+        "slot_time": "13:41",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/2054784988502536",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-25 17:54 UTC",
+        "slot_time": "13:41",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DceOJv7jBN7/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-25 17:55 UTC",
+        "slot_time": "13:41",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-25 17:54 UTC",
+      "completed_at": "2026-08-25 17:55 UTC",
+      "final_status": "completed",
+      "date": "2026-08-25",
+      "max_retries": 3
     }
   ],
   "daily_times": {
