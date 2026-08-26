@@ -3782,6 +3782,96 @@
       "final_status": "completed",
       "date": "2026-08-25",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1tAtzYf8bdYX80QmU-p7ggIIOzcoz6M9R",
+      "drive_file_name": "the_avengers_are_finally_crossing_paths_with_the_fantastic_four.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/the_avengers_are_finally_crossing_paths_with_the_fantastic_four.mp4",
+      "movie_title": "The Avengers Are Finally Crossing Paths With The Fantastic Four",
+      "seo": {
+        "movie_title": "The Avengers Are Finally Crossing Paths With The Fantastic Four",
+        "source_file": "the_avengers_are_finally_crossing_paths_with_the_fantastic_four.mp4",
+        "primary_keyword": "The Avengers Are Finally Crossing Paths With The Fantastic Four reaction",
+        "secondary_keywords": [
+          "The Avengers Are Finally Crossing Paths With The Fantastic Four action scene",
+          "movie reaction The Avengers Are Finally Crossing Paths With The Fantastic Four"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "The Avengers Are Finally Crossing Paths With The Fantastic Four Reaction 🔥",
+          "description": "",
+          "primary_keyword": "The Avengers Are Finally Crossing Paths With The Fantastic Four reaction",
+          "secondary_keywords": [
+            "The Avengers Are Finally Crossing Paths With The Fantastic Four action scene",
+            "movie reaction The Avengers Are Finally Crossing Paths With The Fantastic Four"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in The Avengers Are Finally Crossing Paths With The Fantastic Four! 😱",
+          "description": "This scene from The Avengers Are Finally Crossing Paths With The Fantastic Four never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TheAvengersAreFinallyCrossingPathsWithTheFantasticFour #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "The Avengers Are Finally Crossing Paths With The Fantastic Four reaction",
+          "hashtags": [
+            "#TheAvengersAreFinallyCrossingPathsWithTheFantasticFour",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "The Avengers Are Finally Crossing Paths With The Fantastic Four Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from The Avengers Are Finally Crossing Paths With The Fantastic Four never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TheAvengersAreFinallyCrossingPathsWithTheFantasticFour #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/ZgDlrSPQYYI",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-26 12:04 UTC",
+        "slot_time": "07:23",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1071505398936208",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-26 12:05 UTC",
+        "slot_time": "07:23",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DcgK9E0k52u/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-26 12:05 UTC",
+        "slot_time": "07:23",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-26 12:04 UTC",
+      "completed_at": "2026-08-26 12:05 UTC",
+      "final_status": "completed",
+      "date": "2026-08-26",
+      "max_retries": 3
     }
   ],
   "daily_times": {
@@ -3847,6 +3937,13 @@
       "3": "13:41",
       "4": "17:07",
       "5": "20:14"
+    },
+    "2026-08-26": {
+      "1": "07:23",
+      "2": "10:14",
+      "3": "13:02",
+      "4": "17:22",
+      "5": "20:23"
     }
   }
 }
