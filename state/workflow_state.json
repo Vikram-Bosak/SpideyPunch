@@ -4052,6 +4052,96 @@
       "final_status": "completed",
       "date": "2026-08-26",
       "max_retries": 3
+    },
+    {
+      "video_number": 4,
+      "drive_file_id": "1L8qTgx7wVlm28Pdcn4cFj36MWO4E_ehg",
+      "drive_file_name": "im_still_reeling_from_that_epic_vision_vs_white_vision.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/im_still_reeling_from_that_epic_vision_vs_white_vision.mp4",
+      "movie_title": "Im Still Reeling From That Epic Vision Vs White Vision",
+      "seo": {
+        "movie_title": "Im Still Reeling From That Epic Vision Vs White Vision",
+        "source_file": "im_still_reeling_from_that_epic_vision_vs_white_vision.mp4",
+        "primary_keyword": "Im Still Reeling From That Epic Vision Vs White Vision reaction",
+        "secondary_keywords": [
+          "Im Still Reeling From That Epic Vision Vs White Vision action scene",
+          "movie reaction Im Still Reeling From That Epic Vision Vs White Vision"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Im Still Reeling From That Epic Vision Vs White Vision Reaction 🔥",
+          "description": "",
+          "primary_keyword": "Im Still Reeling From That Epic Vision Vs White Vision reaction",
+          "secondary_keywords": [
+            "Im Still Reeling From That Epic Vision Vs White Vision action scene",
+            "movie reaction Im Still Reeling From That Epic Vision Vs White Vision"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Im Still Reeling From That Epic Vision Vs White Vision! 😱",
+          "description": "This scene from Im Still Reeling From That Epic Vision Vs White Vision never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ImStillReelingFromThatEpicVisionVsWhiteVision #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Im Still Reeling From That Epic Vision Vs White Vision reaction",
+          "hashtags": [
+            "#ImStillReelingFromThatEpicVisionVsWhiteVision",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Im Still Reeling From That Epic Vision Vs White Vision Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Im Still Reeling From That Epic Vision Vs White Vision never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ImStillReelingFromThatEpicVisionVsWhiteVision #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/EdF2vDmxYII",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-26 23:56 UTC",
+        "slot_time": "17:22",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/28252583087730050",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-26 23:56 UTC",
+        "slot_time": "17:22",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DchcX1Pj5D4/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-26 23:57 UTC",
+        "slot_time": "17:22",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-26 23:56 UTC",
+      "completed_at": "2026-08-26 23:57 UTC",
+      "final_status": "completed",
+      "date": "2026-08-26",
+      "max_retries": 3
     }
   ],
   "daily_times": {
