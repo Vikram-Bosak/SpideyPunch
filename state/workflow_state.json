@@ -4142,6 +4142,96 @@
       "final_status": "completed",
       "date": "2026-08-26",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1569HKDNG58ksPe_1BG3cynwoDu_z4EkY",
+      "drive_file_name": "when_fantastic_four_2005_was_filming_the_fight_scene_between.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/when_fantastic_four_2005_was_filming_the_fight_scene_between.mp4",
+      "movie_title": "When Fantastic Four 2005 Was Filming The Fight Between",
+      "seo": {
+        "movie_title": "When Fantastic Four 2005 Was Filming The Fight Between",
+        "source_file": "when_fantastic_four_2005_was_filming_the_fight_scene_between.mp4",
+        "primary_keyword": "When Fantastic Four 2005 Was Filming The Fight Between reaction",
+        "secondary_keywords": [
+          "When Fantastic Four 2005 Was Filming The Fight Between action scene",
+          "movie reaction When Fantastic Four 2005 Was Filming The Fight Between"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "When Fantastic Four 2005 Was Filming The Fight Between Reaction ⚔️",
+          "description": "",
+          "primary_keyword": "When Fantastic Four 2005 Was Filming The Fight Between reaction",
+          "secondary_keywords": [
+            "When Fantastic Four 2005 Was Filming The Fight Between action scene",
+            "movie reaction When Fantastic Four 2005 Was Filming The Fight Between"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in When Fantastic Four 2005 Was Filming The Fight Between! 😱",
+          "description": "This scene from When Fantastic Four 2005 Was Filming The Fight Between never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#WhenFantasticFour2005WasFilmingTheFightBetween #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "When Fantastic Four 2005 Was Filming The Fight Between reaction",
+          "hashtags": [
+            "#WhenFantasticFour2005WasFilmingTheFightBetween",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "When Fantastic Four 2005 Was Filming The Fight Between Reaction ⚔️",
+        "youtube_description": "",
+        "facebook_caption": "This scene from When Fantastic Four 2005 Was Filming The Fight Between never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#WhenFantasticFour2005WasFilmingTheFightBetween #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/XRZkjQj_rA8",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-27 18:08 UTC",
+        "slot_time": "07:21",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1377535144469187",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-27 18:08 UTC",
+        "slot_time": "07:21",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DcjZX_divMU/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-27 18:09 UTC",
+        "slot_time": "07:21",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-27 18:08 UTC",
+      "completed_at": "2026-08-27 18:09 UTC",
+      "final_status": "completed",
+      "date": "2026-08-27",
+      "max_retries": 3
     }
   ],
   "daily_times": {
@@ -4214,6 +4304,13 @@
       "3": "13:02",
       "4": "17:22",
       "5": "20:23"
+    },
+    "2026-08-27": {
+      "1": "07:21",
+      "2": "10:11",
+      "3": "13:45",
+      "4": "17:25",
+      "5": "20:31"
     }
   }
 }
