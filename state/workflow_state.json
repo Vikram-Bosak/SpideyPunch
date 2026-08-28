@@ -4322,6 +4322,96 @@
       "final_status": "completed",
       "date": "2026-08-27",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1IsjpRU1g9rokOyPmv9X5XJCiOhTV6foI",
+      "drive_file_name": "that_gutwrenching_scene_in_spiderman_no_way_home_2021_where.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/that_gutwrenching_scene_in_spiderman_no_way_home_2021_where.mp4",
+      "movie_title": "That Gutwrenching In Spiderman No Way Home 2021 Where",
+      "seo": {
+        "movie_title": "That Gutwrenching In Spiderman No Way Home 2021 Where",
+        "source_file": "that_gutwrenching_scene_in_spiderman_no_way_home_2021_where.mp4",
+        "primary_keyword": "That Gutwrenching In Spiderman No Way Home 2021 Where reaction",
+        "secondary_keywords": [
+          "That Gutwrenching In Spiderman No Way Home 2021 Where action scene",
+          "movie reaction That Gutwrenching In Spiderman No Way Home 2021 Where"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "That Gutwrenching In Spiderman No Way Home 2021 Where Reaction 🕸️",
+          "description": "",
+          "primary_keyword": "That Gutwrenching In Spiderman No Way Home 2021 Where reaction",
+          "secondary_keywords": [
+            "That Gutwrenching In Spiderman No Way Home 2021 Where action scene",
+            "movie reaction That Gutwrenching In Spiderman No Way Home 2021 Where"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in That Gutwrenching In Spiderman No Way Home 2021 Where! 😱",
+          "description": "This scene from That Gutwrenching In Spiderman No Way Home 2021 Where never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ThatGutwrenchingInSpidermanNoWayHome2021Where #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "That Gutwrenching In Spiderman No Way Home 2021 Where reaction",
+          "hashtags": [
+            "#ThatGutwrenchingInSpidermanNoWayHome2021Where",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "That Gutwrenching In Spiderman No Way Home 2021 Where Reaction 🕸️",
+        "youtube_description": "",
+        "facebook_caption": "This scene from That Gutwrenching In Spiderman No Way Home 2021 Where never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ThatGutwrenchingInSpidermanNoWayHome2021Where #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/mw_A1ieBW08",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-28 14:19 UTC",
+        "slot_time": "07:02",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/28626143873638073",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-28 14:19 UTC",
+        "slot_time": "07:02",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/Dclj9FtFjWl/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-28 14:20 UTC",
+        "slot_time": "07:02",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-28 14:19 UTC",
+      "completed_at": "2026-08-28 14:20 UTC",
+      "final_status": "completed",
+      "date": "2026-08-28",
+      "max_retries": 3
     }
   ],
   "daily_times": {
@@ -4401,6 +4491,13 @@
       "3": "13:45",
       "4": "17:25",
       "5": "20:31"
+    },
+    "2026-08-28": {
+      "1": "07:02",
+      "2": "10:29",
+      "3": "13:33",
+      "4": "17:36",
+      "5": "20:02"
     }
   }
 }
