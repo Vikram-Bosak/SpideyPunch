@@ -4592,6 +4592,96 @@
       "final_status": "completed",
       "date": "2026-08-29",
       "max_retries": 3
+    },
+    {
+      "video_number": 2,
+      "drive_file_id": "182OK3rOaitltGaJCru6GIEcyC8hBOsDd",
+      "drive_file_name": "im_still_reeling_from_the_postcredits_scene_in_the_2025.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/im_still_reeling_from_the_postcredits_scene_in_the_2025.mp4",
+      "movie_title": "Im Still Reeling From The Postcredits In The 2025",
+      "seo": {
+        "movie_title": "Im Still Reeling From The Postcredits In The 2025",
+        "source_file": "im_still_reeling_from_the_postcredits_scene_in_the_2025.mp4",
+        "primary_keyword": "Im Still Reeling From The Postcredits In The 2025 reaction",
+        "secondary_keywords": [
+          "Im Still Reeling From The Postcredits In The 2025 action scene",
+          "movie reaction Im Still Reeling From The Postcredits In The 2025"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Im Still Reeling From The Postcredits In The 2025 Reaction 🔥",
+          "description": "",
+          "primary_keyword": "Im Still Reeling From The Postcredits In The 2025 reaction",
+          "secondary_keywords": [
+            "Im Still Reeling From The Postcredits In The 2025 action scene",
+            "movie reaction Im Still Reeling From The Postcredits In The 2025"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Im Still Reeling From The Postcredits In The 2025! 😱",
+          "description": "This scene from Im Still Reeling From The Postcredits In The 2025 never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ImStillReelingFromThePostcreditsInThe2025 #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Im Still Reeling From The Postcredits In The 2025 reaction",
+          "hashtags": [
+            "#ImStillReelingFromThePostcreditsInThe2025",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Im Still Reeling From The Postcredits In The 2025 Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Im Still Reeling From The Postcredits In The 2025 never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ImStillReelingFromThePostcreditsInThe2025 #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/cE69XyPsXpk",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-29 18:52 UTC",
+        "slot_time": "10:59",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1725072501929815",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-29 18:53 UTC",
+        "slot_time": "10:59",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DcooEQgEkgg/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-29 18:53 UTC",
+        "slot_time": "10:59",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-29 18:52 UTC",
+      "completed_at": "2026-08-29 18:54 UTC",
+      "final_status": "completed",
+      "date": "2026-08-29",
+      "max_retries": 3
     }
   ],
   "daily_times": {
