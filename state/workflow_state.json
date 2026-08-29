@@ -4682,6 +4682,96 @@
       "final_status": "completed",
       "date": "2026-08-29",
       "max_retries": 3
+    },
+    {
+      "video_number": 3,
+      "drive_file_id": "1Al8DiJi6j_5udh7XkHHOPomHMzBwgKfn",
+      "drive_file_name": "tom_hollands_stunt_team_smashed_through_the_glass_floor_of.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/tom_hollands_stunt_team_smashed_through_the_glass_floor_of.mp4",
+      "movie_title": "Tom Hollands Stunt Team Smashed Through The Glass Floor Of",
+      "seo": {
+        "movie_title": "Tom Hollands Stunt Team Smashed Through The Glass Floor Of",
+        "source_file": "tom_hollands_stunt_team_smashed_through_the_glass_floor_of.mp4",
+        "primary_keyword": "Tom Hollands Stunt Team Smashed Through The Glass Floor Of reaction",
+        "secondary_keywords": [
+          "Tom Hollands Stunt Team Smashed Through The Glass Floor Of action scene",
+          "movie reaction Tom Hollands Stunt Team Smashed Through The Glass Floor Of"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Tom Hollands Stunt Team Smashed Through The Glass Floor Of Reaction 🔥",
+          "description": "",
+          "primary_keyword": "Tom Hollands Stunt Team Smashed Through The Glass Floor Of reaction",
+          "secondary_keywords": [
+            "Tom Hollands Stunt Team Smashed Through The Glass Floor Of action scene",
+            "movie reaction Tom Hollands Stunt Team Smashed Through The Glass Floor Of"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Tom Hollands Stunt Team Smashed Through The Glass Floor Of! 😱",
+          "description": "This scene from Tom Hollands Stunt Team Smashed Through The Glass Floor Of never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TomHollandsStuntTeamSmashedThroughTheGlassFloorOf #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Tom Hollands Stunt Team Smashed Through The Glass Floor Of reaction",
+          "hashtags": [
+            "#TomHollandsStuntTeamSmashedThroughTheGlassFloorOf",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Tom Hollands Stunt Team Smashed Through The Glass Floor Of Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Tom Hollands Stunt Team Smashed Through The Glass Floor Of never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TomHollandsStuntTeamSmashedThroughTheGlassFloorOf #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/_2yyCKpcZRw",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-29 21:27 UTC",
+        "slot_time": "13:38",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1576650604160007",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-29 21:28 UTC",
+        "slot_time": "13:38",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/Dco5y9Fka5E/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-29 21:28 UTC",
+        "slot_time": "13:38",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-29 21:27 UTC",
+      "completed_at": "2026-08-29 21:28 UTC",
+      "final_status": "completed",
+      "date": "2026-08-29",
+      "max_retries": 3
     }
   ],
   "daily_times": {
