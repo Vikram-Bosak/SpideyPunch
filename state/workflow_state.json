@@ -4772,6 +4772,96 @@
       "final_status": "completed",
       "date": "2026-08-29",
       "max_retries": 3
+    },
+    {
+      "video_number": 4,
+      "drive_file_id": "158cADtUb8tVsr-hArZu5DXKpFtdNBDYI",
+      "drive_file_name": "im_still_reeling_from_that_epic_scene_in_the_flash.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/im_still_reeling_from_that_epic_scene_in_the_flash.mp4",
+      "movie_title": "Im Still Reeling From That Epic In The Flash",
+      "seo": {
+        "movie_title": "Im Still Reeling From That Epic In The Flash",
+        "source_file": "im_still_reeling_from_that_epic_scene_in_the_flash.mp4",
+        "primary_keyword": "Im Still Reeling From That Epic In The Flash reaction",
+        "secondary_keywords": [
+          "Im Still Reeling From That Epic In The Flash action scene",
+          "movie reaction Im Still Reeling From That Epic In The Flash"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Im Still Reeling From That Epic In The Flash Reaction 🔥",
+          "description": "",
+          "primary_keyword": "Im Still Reeling From That Epic In The Flash reaction",
+          "secondary_keywords": [
+            "Im Still Reeling From That Epic In The Flash action scene",
+            "movie reaction Im Still Reeling From That Epic In The Flash"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Im Still Reeling From That Epic In The Flash! 😱",
+          "description": "This scene from Im Still Reeling From That Epic In The Flash never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ImStillReelingFromThatEpicInTheFlash #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Im Still Reeling From That Epic In The Flash reaction",
+          "hashtags": [
+            "#ImStillReelingFromThatEpicInTheFlash",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Im Still Reeling From That Epic In The Flash Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Im Still Reeling From That Epic In The Flash never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ImStillReelingFromThatEpicInTheFlash #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/oylXe1EAGxI",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-29 23:30 UTC",
+        "slot_time": "17:25",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1549437096402847",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-29 23:30 UTC",
+        "slot_time": "17:25",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DcpHz2kDwms/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-29 23:31 UTC",
+        "slot_time": "17:25",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-29 23:30 UTC",
+      "completed_at": "2026-08-29 23:31 UTC",
+      "final_status": "completed",
+      "date": "2026-08-29",
+      "max_retries": 3
     }
   ],
   "daily_times": {
