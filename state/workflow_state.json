@@ -4502,6 +4502,96 @@
       "final_status": "completed",
       "date": "2026-08-28",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1DKuMMmnjYIWamNO9x-PnFOiZclO1ShWw",
+      "drive_file_name": "mark_ruffalos_epic_hulk_smash_in_avengers_infinity_war_2018.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/mark_ruffalos_epic_hulk_smash_in_avengers_infinity_war_2018.mp4",
+      "movie_title": "Mark Ruffalos Epic Hulk Smash In Avengers Infinity War 2018",
+      "seo": {
+        "movie_title": "Mark Ruffalos Epic Hulk Smash In Avengers Infinity War 2018",
+        "source_file": "mark_ruffalos_epic_hulk_smash_in_avengers_infinity_war_2018.mp4",
+        "primary_keyword": "Mark Ruffalos Epic Hulk Smash In Avengers Infinity War 2018 reaction",
+        "secondary_keywords": [
+          "Mark Ruffalos Epic Hulk Smash In Avengers Infinity War 2018 action scene",
+          "movie reaction Mark Ruffalos Epic Hulk Smash In Avengers Infinity War 2018"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Mark Ruffalos Epic Hulk Smash In Avengers Infinity War 2018 Reaction 🔥",
+          "description": "",
+          "primary_keyword": "Mark Ruffalos Epic Hulk Smash In Avengers Infinity War 2018 reaction",
+          "secondary_keywords": [
+            "Mark Ruffalos Epic Hulk Smash In Avengers Infinity War 2018 action scene",
+            "movie reaction Mark Ruffalos Epic Hulk Smash In Avengers Infinity War 2018"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Mark Ruffalos Epic Hulk Smash In Avengers Infinity War 2018! 😱",
+          "description": "This scene from Mark Ruffalos Epic Hulk Smash In Avengers Infinity War 2018 never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#MarkRuffalosEpicHulkSmashInAvengersInfinityWar2018 #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Mark Ruffalos Epic Hulk Smash In Avengers Infinity War 2018 reaction",
+          "hashtags": [
+            "#MarkRuffalosEpicHulkSmashInAvengersInfinityWar2018",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Mark Ruffalos Epic Hulk Smash In Avengers Infinity War 2018 Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Mark Ruffalos Epic Hulk Smash In Avengers Infinity War 2018 never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#MarkRuffalosEpicHulkSmashInAvengersInfinityWar2018 #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/l1I64zLtWIg",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-29 15:43 UTC",
+        "slot_time": "08:00",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1715476783020463",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-29 15:43 UTC",
+        "slot_time": "08:00",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DcoSXuBCNI_/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-29 15:44 UTC",
+        "slot_time": "08:00",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-29 15:43 UTC",
+      "completed_at": "2026-08-29 15:44 UTC",
+      "final_status": "completed",
+      "date": "2026-08-29",
+      "max_retries": 3
     }
   ],
   "daily_times": {
@@ -4588,6 +4678,13 @@
       "3": "13:33",
       "4": "17:36",
       "5": "20:02"
+    },
+    "2026-08-29": {
+      "1": "08:00",
+      "2": "10:59",
+      "3": "13:38",
+      "4": "17:25",
+      "5": "20:08"
     }
   }
 }
