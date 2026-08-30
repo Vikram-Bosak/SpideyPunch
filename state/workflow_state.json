@@ -5222,6 +5222,96 @@
       "final_status": "completed",
       "date": "2026-08-30",
       "max_retries": 3
+    },
+    {
+      "video_number": 4,
+      "drive_file_id": "1Vz9aAyjLH01tHmMLiB-ci55xZAuYZiQz",
+      "drive_file_name": "colin_farrells_iconic_bullseye_character_in_the_2003_movie_daredevil.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/colin_farrells_iconic_bullseye_character_in_the_2003_movie_daredevil.mp4",
+      "movie_title": "Colin Farrells Iconic Bullseye Character In The 2003 Daredevil",
+      "seo": {
+        "movie_title": "Colin Farrells Iconic Bullseye Character In The 2003 Daredevil",
+        "source_file": "colin_farrells_iconic_bullseye_character_in_the_2003_movie_daredevil.mp4",
+        "primary_keyword": "Colin Farrells Iconic Bullseye Character In The 2003 Daredevil reaction",
+        "secondary_keywords": [
+          "Colin Farrells Iconic Bullseye Character In The 2003 Daredevil action scene",
+          "movie reaction Colin Farrells Iconic Bullseye Character In The 2003 Daredevil"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Colin Farrells Iconic Bullseye Character In The 2003 Daredevil Reaction 🔥",
+          "description": "",
+          "primary_keyword": "Colin Farrells Iconic Bullseye Character In The 2003 Daredevil reaction",
+          "secondary_keywords": [
+            "Colin Farrells Iconic Bullseye Character In The 2003 Daredevil action scene",
+            "movie reaction Colin Farrells Iconic Bullseye Character In The 2003 Daredevil"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Colin Farrells Iconic Bullseye Character In The 2003 Daredevil! 😱",
+          "description": "This scene from Colin Farrells Iconic Bullseye Character In The 2003 Daredevil never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ColinFarrellsIconicBullseyeCharacterInThe2003Daredevil #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Colin Farrells Iconic Bullseye Character In The 2003 Daredevil reaction",
+          "hashtags": [
+            "#ColinFarrellsIconicBullseyeCharacterInThe2003Daredevil",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Colin Farrells Iconic Bullseye Character In The 2003 Daredevil Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Colin Farrells Iconic Bullseye Character In The 2003 Daredevil never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ColinFarrellsIconicBullseyeCharacterInThe2003Daredevil #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/wGbiWpZoY5U",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-30 22:24 UTC",
+        "slot_time": "17:37",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1755226438930440",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-30 22:25 UTC",
+        "slot_time": "17:37",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DcrlIKyiuDD/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-30 22:26 UTC",
+        "slot_time": "17:37",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-30 22:24 UTC",
+      "completed_at": "2026-08-30 22:26 UTC",
+      "final_status": "completed",
+      "date": "2026-08-30",
+      "max_retries": 3
     }
   ],
   "daily_times": {
