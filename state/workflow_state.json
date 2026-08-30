@@ -4862,6 +4862,96 @@
       "final_status": "completed",
       "date": "2026-08-29",
       "max_retries": 3
+    },
+    {
+      "video_number": 5,
+      "drive_file_id": "1e42w7UN5pN44pYJIaT1ySKG1dBvzy0HH",
+      "drive_file_name": "im_still_reeling_from_that_intense_opening_scene_in_spiderman.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/im_still_reeling_from_that_intense_opening_scene_in_spiderman.mp4",
+      "movie_title": "Im Still Reeling From That Intense Opening In Spiderman",
+      "seo": {
+        "movie_title": "Im Still Reeling From That Intense Opening In Spiderman",
+        "source_file": "im_still_reeling_from_that_intense_opening_scene_in_spiderman.mp4",
+        "primary_keyword": "Im Still Reeling From That Intense Opening In Spiderman reaction",
+        "secondary_keywords": [
+          "Im Still Reeling From That Intense Opening In Spiderman action scene",
+          "movie reaction Im Still Reeling From That Intense Opening In Spiderman"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Im Still Reeling From That Intense Opening In Spiderman Reaction 🕸️",
+          "description": "",
+          "primary_keyword": "Im Still Reeling From That Intense Opening In Spiderman reaction",
+          "secondary_keywords": [
+            "Im Still Reeling From That Intense Opening In Spiderman action scene",
+            "movie reaction Im Still Reeling From That Intense Opening In Spiderman"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Im Still Reeling From That Intense Opening In Spiderman! 😱",
+          "description": "This scene from Im Still Reeling From That Intense Opening In Spiderman never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ImStillReelingFromThatIntenseOpeningInSpiderman #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Im Still Reeling From That Intense Opening In Spiderman reaction",
+          "hashtags": [
+            "#ImStillReelingFromThatIntenseOpeningInSpiderman",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Im Still Reeling From That Intense Opening In Spiderman Reaction 🕸️",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Im Still Reeling From That Intense Opening In Spiderman never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ImStillReelingFromThatIntenseOpeningInSpiderman #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/NlPtaL_EY5o",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-30 01:39 UTC",
+        "slot_time": "20:08",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/4437385959816585",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-30 01:39 UTC",
+        "slot_time": "20:08",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DcpWlkhiCvF/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-30 01:40 UTC",
+        "slot_time": "20:08",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-30 01:39 UTC",
+      "completed_at": "2026-08-30 01:40 UTC",
+      "final_status": "completed",
+      "date": "2026-08-29",
+      "max_retries": 3
     }
   ],
   "daily_times": {
