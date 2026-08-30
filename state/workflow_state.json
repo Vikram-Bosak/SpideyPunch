@@ -4952,6 +4952,96 @@
       "final_status": "completed",
       "date": "2026-08-29",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1x40scJ6H-0P3Ey92YJaWSzkITCRc49zA",
+      "drive_file_name": "nicolas_cages_ghost_rider_transformation_in_the_2007_movie_was.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/nicolas_cages_ghost_rider_transformation_in_the_2007_movie_was.mp4",
+      "movie_title": "Nicolas Cages Ghost Rider Transformation In The 2007 Was",
+      "seo": {
+        "movie_title": "Nicolas Cages Ghost Rider Transformation In The 2007 Was",
+        "source_file": "nicolas_cages_ghost_rider_transformation_in_the_2007_movie_was.mp4",
+        "primary_keyword": "Nicolas Cages Ghost Rider Transformation In The 2007 Was reaction",
+        "secondary_keywords": [
+          "Nicolas Cages Ghost Rider Transformation In The 2007 Was action scene",
+          "movie reaction Nicolas Cages Ghost Rider Transformation In The 2007 Was"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Nicolas Cages Ghost Rider Transformation In The 2007 Was Reaction 🔥",
+          "description": "",
+          "primary_keyword": "Nicolas Cages Ghost Rider Transformation In The 2007 Was reaction",
+          "secondary_keywords": [
+            "Nicolas Cages Ghost Rider Transformation In The 2007 Was action scene",
+            "movie reaction Nicolas Cages Ghost Rider Transformation In The 2007 Was"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Nicolas Cages Ghost Rider Transformation In The 2007 Was! 😱",
+          "description": "This scene from Nicolas Cages Ghost Rider Transformation In The 2007 Was never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#NicolasCagesGhostRiderTransformationInThe2007Was #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Nicolas Cages Ghost Rider Transformation In The 2007 Was reaction",
+          "hashtags": [
+            "#NicolasCagesGhostRiderTransformationInThe2007Was",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Nicolas Cages Ghost Rider Transformation In The 2007 Was Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Nicolas Cages Ghost Rider Transformation In The 2007 Was never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#NicolasCagesGhostRiderTransformationInThe2007Was #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/7TI5mJxEIws",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-30 13:04 UTC",
+        "slot_time": "07:42",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1114169184268510",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-30 13:05 UTC",
+        "slot_time": "07:42",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DcqlCiCkjhr/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-30 13:06 UTC",
+        "slot_time": "07:42",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-30 13:04 UTC",
+      "completed_at": "2026-08-30 13:06 UTC",
+      "final_status": "completed",
+      "date": "2026-08-30",
+      "max_retries": 3
     }
   ],
   "daily_times": {
@@ -5045,6 +5135,13 @@
       "3": "13:38",
       "4": "17:25",
       "5": "20:08"
+    },
+    "2026-08-30": {
+      "1": "07:42",
+      "2": "10:00",
+      "3": "13:39",
+      "4": "17:37",
+      "5": "20:06"
     }
   }
 }
