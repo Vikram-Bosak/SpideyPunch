@@ -5042,6 +5042,96 @@
       "final_status": "completed",
       "date": "2026-08-30",
       "max_retries": 3
+    },
+    {
+      "video_number": 2,
+      "drive_file_id": "1As-NB90bBGwmYu54EMekl0GLrLMdEhMB",
+      "drive_file_name": "nicolas_cages_iconic_transformation_into_ghost_rider_in_the_2007.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/nicolas_cages_iconic_transformation_into_ghost_rider_in_the_2007.mp4",
+      "movie_title": "Nicolas Cages Iconic Transformation Into Ghost Rider In The 2007",
+      "seo": {
+        "movie_title": "Nicolas Cages Iconic Transformation Into Ghost Rider In The 2007",
+        "source_file": "nicolas_cages_iconic_transformation_into_ghost_rider_in_the_2007.mp4",
+        "primary_keyword": "Nicolas Cages Iconic Transformation Into Ghost Rider In The 2007 reaction",
+        "secondary_keywords": [
+          "Nicolas Cages Iconic Transformation Into Ghost Rider In The 2007 action scene",
+          "movie reaction Nicolas Cages Iconic Transformation Into Ghost Rider In The 2007"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Nicolas Cages Iconic Transformation Into Ghost Rider In The 2007 Reaction 🔥",
+          "description": "",
+          "primary_keyword": "Nicolas Cages Iconic Transformation Into Ghost Rider In The 2007 reaction",
+          "secondary_keywords": [
+            "Nicolas Cages Iconic Transformation Into Ghost Rider In The 2007 action scene",
+            "movie reaction Nicolas Cages Iconic Transformation Into Ghost Rider In The 2007"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Nicolas Cages Iconic Transformation Into Ghost Rider In The 2007! 😱",
+          "description": "This scene from Nicolas Cages Iconic Transformation Into Ghost Rider In The 2007 never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#NicolasCagesIconicTransformationIntoGhostRiderInThe2007 #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Nicolas Cages Iconic Transformation Into Ghost Rider In The 2007 reaction",
+          "hashtags": [
+            "#NicolasCagesIconicTransformationIntoGhostRiderInThe2007",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Nicolas Cages Iconic Transformation Into Ghost Rider In The 2007 Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Nicolas Cages Iconic Transformation Into Ghost Rider In The 2007 never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#NicolasCagesIconicTransformationIntoGhostRiderInThe2007 #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/-1_iEQyjtb8",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-30 17:27 UTC",
+        "slot_time": "10:00",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/2488215055016237",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-30 17:27 UTC",
+        "slot_time": "10:00",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DcrDFOyk7NG/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-30 17:28 UTC",
+        "slot_time": "10:00",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-30 17:27 UTC",
+      "completed_at": "2026-08-30 17:28 UTC",
+      "final_status": "completed",
+      "date": "2026-08-30",
+      "max_retries": 3
     }
   ],
   "daily_times": {
