@@ -5132,6 +5132,96 @@
       "final_status": "completed",
       "date": "2026-08-30",
       "max_retries": 3
+    },
+    {
+      "video_number": 3,
+      "drive_file_id": "1t2HlFtL6HK5xFU1nPXcyf0I0dQ6_c0LZ",
+      "drive_file_name": "the_7second_punisher_vs_daredevil_argument_scene_in_daredevil_born.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/the_7second_punisher_vs_daredevil_argument_scene_in_daredevil_born.mp4",
+      "movie_title": "The 7second Punisher Vs Daredevil Argument In Daredevil Born",
+      "seo": {
+        "movie_title": "The 7second Punisher Vs Daredevil Argument In Daredevil Born",
+        "source_file": "the_7second_punisher_vs_daredevil_argument_scene_in_daredevil_born.mp4",
+        "primary_keyword": "The 7second Punisher Vs Daredevil Argument In Daredevil Born reaction",
+        "secondary_keywords": [
+          "The 7second Punisher Vs Daredevil Argument In Daredevil Born action scene",
+          "movie reaction The 7second Punisher Vs Daredevil Argument In Daredevil Born"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "The 7second Punisher Vs Daredevil Argument In Daredevil Born Reaction 🔥",
+          "description": "",
+          "primary_keyword": "The 7second Punisher Vs Daredevil Argument In Daredevil Born reaction",
+          "secondary_keywords": [
+            "The 7second Punisher Vs Daredevil Argument In Daredevil Born action scene",
+            "movie reaction The 7second Punisher Vs Daredevil Argument In Daredevil Born"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in The 7second Punisher Vs Daredevil Argument In Daredevil Born! 😱",
+          "description": "This scene from The 7second Punisher Vs Daredevil Argument In Daredevil Born never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#The7secondPunisherVsDaredevilArgumentInDaredevilBorn #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "The 7second Punisher Vs Daredevil Argument In Daredevil Born reaction",
+          "hashtags": [
+            "#The7secondPunisherVsDaredevilArgumentInDaredevilBorn",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "The 7second Punisher Vs Daredevil Argument In Daredevil Born Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from The 7second Punisher Vs Daredevil Argument In Daredevil Born never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#The7secondPunisherVsDaredevilArgumentInDaredevilBorn #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/PeXkeZkZlyM",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-30 19:57 UTC",
+        "slot_time": "13:39",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/3210152855860871",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-30 19:58 UTC",
+        "slot_time": "13:39",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DcrURQVCALF/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-30 19:58 UTC",
+        "slot_time": "13:39",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-30 19:57 UTC",
+      "completed_at": "2026-08-30 19:58 UTC",
+      "final_status": "completed",
+      "date": "2026-08-30",
+      "max_retries": 3
     }
   ],
   "daily_times": {
