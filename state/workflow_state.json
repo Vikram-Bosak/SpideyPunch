@@ -5312,6 +5312,96 @@
       "final_status": "completed",
       "date": "2026-08-30",
       "max_retries": 3
+    },
+    {
+      "video_number": 5,
+      "drive_file_id": "1zox54A1LG6vJrXpiAWcZjaZXV2YYbggP",
+      "drive_file_name": "im_still_not_over_that_emotional_coffee_shop_scene_in.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/im_still_not_over_that_emotional_coffee_shop_scene_in.mp4",
+      "movie_title": "Im Still Not Over That Emotional Coffee Shop In",
+      "seo": {
+        "movie_title": "Im Still Not Over That Emotional Coffee Shop In",
+        "source_file": "im_still_not_over_that_emotional_coffee_shop_scene_in.mp4",
+        "primary_keyword": "Im Still Not Over That Emotional Coffee Shop In reaction",
+        "secondary_keywords": [
+          "Im Still Not Over That Emotional Coffee Shop In action scene",
+          "movie reaction Im Still Not Over That Emotional Coffee Shop In"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Im Still Not Over That Emotional Coffee Shop In Reaction 🔥",
+          "description": "",
+          "primary_keyword": "Im Still Not Over That Emotional Coffee Shop In reaction",
+          "secondary_keywords": [
+            "Im Still Not Over That Emotional Coffee Shop In action scene",
+            "movie reaction Im Still Not Over That Emotional Coffee Shop In"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Im Still Not Over That Emotional Coffee Shop In! 😱",
+          "description": "This scene from Im Still Not Over That Emotional Coffee Shop In never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ImStillNotOverThatEmotionalCoffeeShopIn #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Im Still Not Over That Emotional Coffee Shop In reaction",
+          "hashtags": [
+            "#ImStillNotOverThatEmotionalCoffeeShopIn",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Im Still Not Over That Emotional Coffee Shop In Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Im Still Not Over That Emotional Coffee Shop In never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ImStillNotOverThatEmotionalCoffeeShopIn #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/3o7UpK2Qsfg",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-31 00:42 UTC",
+        "slot_time": "20:06",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1999320630768128",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-31 00:43 UTC",
+        "slot_time": "20:06",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/Dcr03u8kWjR/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-31 00:43 UTC",
+        "slot_time": "20:06",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-31 00:42 UTC",
+      "completed_at": "2026-08-31 00:43 UTC",
+      "final_status": "completed",
+      "date": "2026-08-30",
+      "max_retries": 3
     }
   ],
   "daily_times": {
