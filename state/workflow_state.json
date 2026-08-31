@@ -5492,6 +5492,96 @@
       "final_status": "completed",
       "date": "2026-08-31",
       "max_retries": 3
+    },
+    {
+      "video_number": 2,
+      "drive_file_id": "16WAmmqkVwbuhzhxcWWHJaCyQ8SDPeKM7",
+      "drive_file_name": "im_still_reeling_from_the_epic_fight_scene_in_black.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/im_still_reeling_from_the_epic_fight_scene_in_black.mp4",
+      "movie_title": "Im Still Reeling From The Epic Fight In Black",
+      "seo": {
+        "movie_title": "Im Still Reeling From The Epic Fight In Black",
+        "source_file": "im_still_reeling_from_the_epic_fight_scene_in_black.mp4",
+        "primary_keyword": "Im Still Reeling From The Epic Fight In Black reaction",
+        "secondary_keywords": [
+          "Im Still Reeling From The Epic Fight In Black action scene",
+          "movie reaction Im Still Reeling From The Epic Fight In Black"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Im Still Reeling From The Epic Fight In Black Reaction ⚔️",
+          "description": "",
+          "primary_keyword": "Im Still Reeling From The Epic Fight In Black reaction",
+          "secondary_keywords": [
+            "Im Still Reeling From The Epic Fight In Black action scene",
+            "movie reaction Im Still Reeling From The Epic Fight In Black"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Im Still Reeling From The Epic Fight In Black! 😱",
+          "description": "This scene from Im Still Reeling From The Epic Fight In Black never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ImStillReelingFromTheEpicFightInBlack #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Im Still Reeling From The Epic Fight In Black reaction",
+          "hashtags": [
+            "#ImStillReelingFromTheEpicFightInBlack",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Im Still Reeling From The Epic Fight In Black Reaction ⚔️",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Im Still Reeling From The Epic Fight In Black never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ImStillReelingFromTheEpicFightInBlack #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/ZyTtflSPo34",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-31 19:47 UTC",
+        "slot_time": "10:59",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1046935031491281",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-31 19:47 UTC",
+        "slot_time": "10:59",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/Dct34qLCQrZ/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-08-31 19:48 UTC",
+        "slot_time": "10:59",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-08-31 19:47 UTC",
+      "completed_at": "2026-08-31 19:48 UTC",
+      "final_status": "completed",
+      "date": "2026-08-31",
+      "max_retries": 3
     }
   ],
   "daily_times": {
