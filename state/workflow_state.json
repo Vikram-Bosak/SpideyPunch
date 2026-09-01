@@ -5852,6 +5852,96 @@
       "final_status": "completed",
       "date": "2026-09-01",
       "max_retries": 3
+    },
+    {
+      "video_number": 2,
+      "drive_file_id": "1ZegWKS-TfdWx8Qo_AOG5jwogZES5-71B",
+      "drive_file_name": "the_2005_fantastic_four_movie_had_some_pretty_intense_fight.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/the_2005_fantastic_four_movie_had_some_pretty_intense_fight.mp4",
+      "movie_title": "The 2005 Fantastic Four Had Some Pretty Intense Fight",
+      "seo": {
+        "movie_title": "The 2005 Fantastic Four Had Some Pretty Intense Fight",
+        "source_file": "the_2005_fantastic_four_movie_had_some_pretty_intense_fight.mp4",
+        "primary_keyword": "The 2005 Fantastic Four Had Some Pretty Intense Fight reaction",
+        "secondary_keywords": [
+          "The 2005 Fantastic Four Had Some Pretty Intense Fight action scene",
+          "movie reaction The 2005 Fantastic Four Had Some Pretty Intense Fight"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "The 2005 Fantastic Four Had Some Pretty Intense Fight Reaction ⚔️",
+          "description": "",
+          "primary_keyword": "The 2005 Fantastic Four Had Some Pretty Intense Fight reaction",
+          "secondary_keywords": [
+            "The 2005 Fantastic Four Had Some Pretty Intense Fight action scene",
+            "movie reaction The 2005 Fantastic Four Had Some Pretty Intense Fight"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in The 2005 Fantastic Four Had Some Pretty Intense Fight! 😱",
+          "description": "This scene from The 2005 Fantastic Four Had Some Pretty Intense Fight never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#The2005FantasticFourHadSomePrettyIntenseFight #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "The 2005 Fantastic Four Had Some Pretty Intense Fight reaction",
+          "hashtags": [
+            "#The2005FantasticFourHadSomePrettyIntenseFight",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "The 2005 Fantastic Four Had Some Pretty Intense Fight Reaction ⚔️",
+        "youtube_description": "",
+        "facebook_caption": "This scene from The 2005 Fantastic Four Had Some Pretty Intense Fight never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#The2005FantasticFourHadSomePrettyIntenseFight #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/mY45oEbqTQc",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-01 17:09 UTC",
+        "slot_time": "10:33",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1359016963061765",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-01 17:09 UTC",
+        "slot_time": "10:33",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DcwKkyaDMfC/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-01 17:10 UTC",
+        "slot_time": "10:33",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-09-01 17:09 UTC",
+      "completed_at": "2026-09-01 17:10 UTC",
+      "final_status": "completed",
+      "date": "2026-09-01",
+      "max_retries": 3
     }
   ],
   "daily_times": {
