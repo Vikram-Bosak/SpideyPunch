@@ -5942,6 +5942,96 @@
       "final_status": "completed",
       "date": "2026-09-01",
       "max_retries": 3
+    },
+    {
+      "video_number": 3,
+      "drive_file_id": "1Zl20achZ9UksuK2bQzbXcEnJ1VcuHSyD",
+      "drive_file_name": "in_fantastic_four_rise_of_the_silver_surfer_2007_that.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/in_fantastic_four_rise_of_the_silver_surfer_2007_that.mp4",
+      "movie_title": "In Fantastic Four Rise Of The Silver Surfer 2007 That",
+      "seo": {
+        "movie_title": "In Fantastic Four Rise Of The Silver Surfer 2007 That",
+        "source_file": "in_fantastic_four_rise_of_the_silver_surfer_2007_that.mp4",
+        "primary_keyword": "In Fantastic Four Rise Of The Silver Surfer 2007 That reaction",
+        "secondary_keywords": [
+          "In Fantastic Four Rise Of The Silver Surfer 2007 That action scene",
+          "movie reaction In Fantastic Four Rise Of The Silver Surfer 2007 That"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "In Fantastic Four Rise Of The Silver Surfer 2007 That Reaction 🔥",
+          "description": "",
+          "primary_keyword": "In Fantastic Four Rise Of The Silver Surfer 2007 That reaction",
+          "secondary_keywords": [
+            "In Fantastic Four Rise Of The Silver Surfer 2007 That action scene",
+            "movie reaction In Fantastic Four Rise Of The Silver Surfer 2007 That"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in In Fantastic Four Rise Of The Silver Surfer 2007 That! 😱",
+          "description": "This scene from In Fantastic Four Rise Of The Silver Surfer 2007 That never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#InFantasticFourRiseOfTheSilverSurfer2007That #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "In Fantastic Four Rise Of The Silver Surfer 2007 That reaction",
+          "hashtags": [
+            "#InFantasticFourRiseOfTheSilverSurfer2007That",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "In Fantastic Four Rise Of The Silver Surfer 2007 That Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from In Fantastic Four Rise Of The Silver Surfer 2007 That never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#InFantasticFourRiseOfTheSilverSurfer2007That #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/X1EgHAIJ-rE",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-01 19:55 UTC",
+        "slot_time": "13:29",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1386176596962745",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-01 19:56 UTC",
+        "slot_time": "13:29",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DcwdqPJkZgq/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-01 19:56 UTC",
+        "slot_time": "13:29",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-09-01 19:55 UTC",
+      "completed_at": "2026-09-01 19:56 UTC",
+      "final_status": "completed",
+      "date": "2026-09-01",
+      "max_retries": 3
     }
   ],
   "daily_times": {
