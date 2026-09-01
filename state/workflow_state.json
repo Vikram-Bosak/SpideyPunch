@@ -6032,6 +6032,96 @@
       "final_status": "completed",
       "date": "2026-09-01",
       "max_retries": 3
+    },
+    {
+      "video_number": 4,
+      "drive_file_id": "1UQk4qaZVXBGWrWt55QjMCMiLmbNK0F4i",
+      "drive_file_name": "in_the_iconic_bridge_rescue_scene_from_fantastic_four_2005.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/in_the_iconic_bridge_rescue_scene_from_fantastic_four_2005.mp4",
+      "movie_title": "In The Iconic Bridge Rescue From Fantastic Four 2005",
+      "seo": {
+        "movie_title": "In The Iconic Bridge Rescue From Fantastic Four 2005",
+        "source_file": "in_the_iconic_bridge_rescue_scene_from_fantastic_four_2005.mp4",
+        "primary_keyword": "In The Iconic Bridge Rescue From Fantastic Four 2005 reaction",
+        "secondary_keywords": [
+          "In The Iconic Bridge Rescue From Fantastic Four 2005 action scene",
+          "movie reaction In The Iconic Bridge Rescue From Fantastic Four 2005"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "In The Iconic Bridge Rescue From Fantastic Four 2005 Reaction 🔥",
+          "description": "",
+          "primary_keyword": "In The Iconic Bridge Rescue From Fantastic Four 2005 reaction",
+          "secondary_keywords": [
+            "In The Iconic Bridge Rescue From Fantastic Four 2005 action scene",
+            "movie reaction In The Iconic Bridge Rescue From Fantastic Four 2005"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in In The Iconic Bridge Rescue From Fantastic Four 2005! 😱",
+          "description": "This scene from In The Iconic Bridge Rescue From Fantastic Four 2005 never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#InTheIconicBridgeRescueFromFantasticFour2005 #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "In The Iconic Bridge Rescue From Fantastic Four 2005 reaction",
+          "hashtags": [
+            "#InTheIconicBridgeRescueFromFantasticFour2005",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "In The Iconic Bridge Rescue From Fantastic Four 2005 Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from In The Iconic Bridge Rescue From Fantastic Four 2005 never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#InTheIconicBridgeRescueFromFantasticFour2005 #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/Kw9A3RYDCx8",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-01 22:19 UTC",
+        "slot_time": "17:54",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1824915752279852",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-01 22:19 UTC",
+        "slot_time": "17:54",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DcwuFSmDzL4/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-01 22:20 UTC",
+        "slot_time": "17:54",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-09-01 22:19 UTC",
+      "completed_at": "2026-09-01 22:20 UTC",
+      "final_status": "completed",
+      "date": "2026-09-01",
+      "max_retries": 3
     }
   ],
   "daily_times": {
