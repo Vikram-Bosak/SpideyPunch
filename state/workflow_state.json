@@ -5672,6 +5672,96 @@
       "final_status": "completed",
       "date": "2026-08-31",
       "max_retries": 3
+    },
+    {
+      "video_number": 4,
+      "drive_file_id": "1tGO6gkUmpP7XRyDHkybIL0N24EGB4ccX",
+      "drive_file_name": "im_still_reeling_from_the_epic_fight_scenes_in_deadpool.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/im_still_reeling_from_the_epic_fight_scenes_in_deadpool.mp4",
+      "movie_title": "Im Still Reeling From The Epic Fight In Deadpool",
+      "seo": {
+        "movie_title": "Im Still Reeling From The Epic Fight In Deadpool",
+        "source_file": "im_still_reeling_from_the_epic_fight_scenes_in_deadpool.mp4",
+        "primary_keyword": "Im Still Reeling From The Epic Fight In Deadpool reaction",
+        "secondary_keywords": [
+          "Im Still Reeling From The Epic Fight In Deadpool action scene",
+          "movie reaction Im Still Reeling From The Epic Fight In Deadpool"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Im Still Reeling From The Epic Fight In Deadpool Reaction ⚔️",
+          "description": "",
+          "primary_keyword": "Im Still Reeling From The Epic Fight In Deadpool reaction",
+          "secondary_keywords": [
+            "Im Still Reeling From The Epic Fight In Deadpool action scene",
+            "movie reaction Im Still Reeling From The Epic Fight In Deadpool"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Im Still Reeling From The Epic Fight In Deadpool! 😱",
+          "description": "This scene from Im Still Reeling From The Epic Fight In Deadpool never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ImStillReelingFromTheEpicFightInDeadpool #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Im Still Reeling From The Epic Fight In Deadpool reaction",
+          "hashtags": [
+            "#ImStillReelingFromTheEpicFightInDeadpool",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Im Still Reeling From The Epic Fight In Deadpool Reaction ⚔️",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Im Still Reeling From The Epic Fight In Deadpool never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ImStillReelingFromTheEpicFightInDeadpool #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/Q92TIElhHMI",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-01 02:03 UTC",
+        "slot_time": "17:25",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1099327092433514",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-01 02:03 UTC",
+        "slot_time": "17:25",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/Dcui3p4CCHo/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-01 02:04 UTC",
+        "slot_time": "17:25",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-09-01 02:02 UTC",
+      "completed_at": "2026-09-01 02:04 UTC",
+      "final_status": "completed",
+      "date": "2026-08-31",
+      "max_retries": 3
     }
   ],
   "daily_times": {
