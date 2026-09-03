@@ -6392,6 +6392,96 @@
       "final_status": "completed",
       "date": "2026-09-03",
       "max_retries": 3
+    },
+    {
+      "video_number": 4,
+      "drive_file_id": "1pLr45kkCKnNczPb2E6-CnKj5vZ3jmfhW",
+      "drive_file_name": "tom_hollands_emotional_goodbye_scene_with_zendaya_and_jacob_batalon.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/tom_hollands_emotional_goodbye_scene_with_zendaya_and_jacob_batalon.mp4",
+      "movie_title": "Tom Hollands Emotional Goodbye With Zendaya And Jacob Batalon",
+      "seo": {
+        "movie_title": "Tom Hollands Emotional Goodbye With Zendaya And Jacob Batalon",
+        "source_file": "tom_hollands_emotional_goodbye_scene_with_zendaya_and_jacob_batalon.mp4",
+        "primary_keyword": "Tom Hollands Emotional Goodbye With Zendaya And Jacob Batalon reaction",
+        "secondary_keywords": [
+          "Tom Hollands Emotional Goodbye With Zendaya And Jacob Batalon action scene",
+          "movie reaction Tom Hollands Emotional Goodbye With Zendaya And Jacob Batalon"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Tom Hollands Emotional Goodbye With Zendaya And Jacob Batalon Reaction 🔥",
+          "description": "",
+          "primary_keyword": "Tom Hollands Emotional Goodbye With Zendaya And Jacob Batalon reaction",
+          "secondary_keywords": [
+            "Tom Hollands Emotional Goodbye With Zendaya And Jacob Batalon action scene",
+            "movie reaction Tom Hollands Emotional Goodbye With Zendaya And Jacob Batalon"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Tom Hollands Emotional Goodbye With Zendaya And Jacob Batalon! 😱",
+          "description": "This scene from Tom Hollands Emotional Goodbye With Zendaya And Jacob Batalon never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TomHollandsEmotionalGoodbyeWithZendayaAndJacobBatalon #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Tom Hollands Emotional Goodbye With Zendaya And Jacob Batalon reaction",
+          "hashtags": [
+            "#TomHollandsEmotionalGoodbyeWithZendayaAndJacobBatalon",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Tom Hollands Emotional Goodbye With Zendaya And Jacob Batalon Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Tom Hollands Emotional Goodbye With Zendaya And Jacob Batalon never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TomHollandsEmotionalGoodbyeWithZendayaAndJacobBatalon #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/_w7IP7rqVFM",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-03 22:27 UTC",
+        "slot_time": "17:45",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1074536368647333",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-03 22:27 UTC",
+        "slot_time": "17:45",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/Dc14mMCAOap/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-03 22:28 UTC",
+        "slot_time": "17:45",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-09-03 22:27 UTC",
+      "completed_at": "2026-09-03 22:28 UTC",
+      "final_status": "completed",
+      "date": "2026-09-03",
+      "max_retries": 3
     }
   ],
   "daily_times": {
