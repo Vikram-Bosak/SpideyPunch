@@ -6302,6 +6302,96 @@
       "final_status": "completed",
       "date": "2026-09-03",
       "max_retries": 3
+    },
+    {
+      "video_number": 3,
+      "drive_file_id": "12mG7e8KSoRHEoXdmTBCtDjcJiY6zkHK2",
+      "drive_file_name": "the_epic_diner_brawl_in_daredevil_born_again_season_2.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/the_epic_diner_brawl_in_daredevil_born_again_season_2.mp4",
+      "movie_title": "The Epic Diner Brawl In Daredevil Born Again 2",
+      "seo": {
+        "movie_title": "The Epic Diner Brawl In Daredevil Born Again 2",
+        "source_file": "the_epic_diner_brawl_in_daredevil_born_again_season_2.mp4",
+        "primary_keyword": "The Epic Diner Brawl In Daredevil Born Again 2 reaction",
+        "secondary_keywords": [
+          "The Epic Diner Brawl In Daredevil Born Again 2 action scene",
+          "movie reaction The Epic Diner Brawl In Daredevil Born Again 2"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "The Epic Diner Brawl In Daredevil Born Again 2 Reaction 🔥",
+          "description": "",
+          "primary_keyword": "The Epic Diner Brawl In Daredevil Born Again 2 reaction",
+          "secondary_keywords": [
+            "The Epic Diner Brawl In Daredevil Born Again 2 action scene",
+            "movie reaction The Epic Diner Brawl In Daredevil Born Again 2"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in The Epic Diner Brawl In Daredevil Born Again 2! 😱",
+          "description": "This scene from The Epic Diner Brawl In Daredevil Born Again 2 never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TheEpicDinerBrawlInDaredevilBornAgain2 #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "The Epic Diner Brawl In Daredevil Born Again 2 reaction",
+          "hashtags": [
+            "#TheEpicDinerBrawlInDaredevilBornAgain2",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "The Epic Diner Brawl In Daredevil Born Again 2 Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from The Epic Diner Brawl In Daredevil Born Again 2 never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TheEpicDinerBrawlInDaredevilBornAgain2 #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/ni-gXgRc8RA",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-03 20:00 UTC",
+        "slot_time": "13:27",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1085472790691104",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-03 20:00 UTC",
+        "slot_time": "13:27",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/Dc1ntnLgPyE/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-03 20:00 UTC",
+        "slot_time": "13:27",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-09-03 20:00 UTC",
+      "completed_at": "2026-09-03 20:00 UTC",
+      "final_status": "completed",
+      "date": "2026-09-03",
+      "max_retries": 3
     }
   ],
   "daily_times": {
