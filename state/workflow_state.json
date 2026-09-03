@@ -6122,6 +6122,96 @@
       "final_status": "completed",
       "date": "2026-09-01",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1lt2oTC2gJr2g8iXMXVqvcxVSj3B46vOX",
+      "drive_file_name": "tom_hollands_unbridled_excitement_in_the_damage_control_vault_scene.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/tom_hollands_unbridled_excitement_in_the_damage_control_vault_scene.mp4",
+      "movie_title": "Tom Hollands Unbridled Excitement In The Damage Control Vault",
+      "seo": {
+        "movie_title": "Tom Hollands Unbridled Excitement In The Damage Control Vault",
+        "source_file": "tom_hollands_unbridled_excitement_in_the_damage_control_vault_scene.mp4",
+        "primary_keyword": "Tom Hollands Unbridled Excitement In The Damage Control Vault reaction",
+        "secondary_keywords": [
+          "Tom Hollands Unbridled Excitement In The Damage Control Vault action scene",
+          "movie reaction Tom Hollands Unbridled Excitement In The Damage Control Vault"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Tom Hollands Unbridled Excitement In The Damage Control Vault Reaction 🔥",
+          "description": "",
+          "primary_keyword": "Tom Hollands Unbridled Excitement In The Damage Control Vault reaction",
+          "secondary_keywords": [
+            "Tom Hollands Unbridled Excitement In The Damage Control Vault action scene",
+            "movie reaction Tom Hollands Unbridled Excitement In The Damage Control Vault"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Tom Hollands Unbridled Excitement In The Damage Control Vault! 😱",
+          "description": "This scene from Tom Hollands Unbridled Excitement In The Damage Control Vault never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TomHollandsUnbridledExcitementInTheDamageControlVault #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Tom Hollands Unbridled Excitement In The Damage Control Vault reaction",
+          "hashtags": [
+            "#TomHollandsUnbridledExcitementInTheDamageControlVault",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Tom Hollands Unbridled Excitement In The Damage Control Vault Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Tom Hollands Unbridled Excitement In The Damage Control Vault never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TomHollandsUnbridledExcitementInTheDamageControlVault #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/dt4FU67R3OQ",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-03 05:41 UTC",
+        "slot_time": "07:02",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "pending",
+        "url": null,
+        "error": "Facebook upload session start failed: {\"error\":{\"message\":\"Error validating application. Application has been deleted.\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AQbz9D94j0zs0JrnuEeYhZG\"}}",
+        "retries": 1,
+        "last_attempt": "2026-09-03 05:41 UTC",
+        "slot_time": "07:02",
+        "retry_due": true
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/Dc0Fb3SghdP/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-03 05:42 UTC",
+        "slot_time": "07:02",
+        "retry_due": false
+      },
+      "moved_to_uploaded": false,
+      "started_at": "2026-09-03 05:41 UTC",
+      "completed_at": null,
+      "final_status": null,
+      "date": "2026-09-03",
+      "max_retries": 3
     }
   ],
   "daily_times": {
@@ -6236,6 +6326,13 @@
       "3": "13:29",
       "4": "17:54",
       "5": "20:10"
+    },
+    "2026-09-03": {
+      "1": "07:02",
+      "2": "10:46",
+      "3": "13:27",
+      "4": "17:45",
+      "5": "20:03"
     }
   }
 }
