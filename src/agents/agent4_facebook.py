@@ -33,6 +33,23 @@ class FacebookUploadAgent:
         )
         self.graph_url = f"https://graph.facebook.com/{self.api_version}"
         self._chunk_size = 10 * 1024 * 1024  # 10 MB resumable upload chunks
+        self.access_token = self._resolve_page_token(self.access_token)
+
+    def _resolve_page_token(self, token: str) -> str:
+        """If given a User Access Token, resolve the Page Access Token for self.page_id."""
+        url = f"{self.graph_url}/{self.page_id}"
+        params = {"fields": "access_token", "access_token": token}
+        try:
+            resp = requests.get(url, params=params, timeout=30)
+            if resp.status_code == 200:
+                data = resp.json()
+                page_token = data.get("access_token")
+                if page_token:
+                    logger.info("Successfully resolved Page Access Token for page %s", self.page_id)
+                    return page_token
+        except Exception as exc:  # noqa: BLE001
+            logger.warning("Could not resolve page token via /{page_id}: %s", exc)
+        return token
 
     def upload_reel(
         self,

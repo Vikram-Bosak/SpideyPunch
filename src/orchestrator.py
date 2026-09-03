@@ -385,7 +385,18 @@ class Orchestrator:
         entry["last_attempt"] = format_ts(now_in_tz())
         entry["retry_due"] = True
         logger.error("%s upload attempt %d failed: %s", platform, entry["retries"], error)
-        if entry["retries"] >= self.max_retries:
+
+        # Unrecoverable auth/app errors shouldn't block other platforms or future slots
+        unrecoverable = any(
+            msg.lower() in error.lower()
+            for msg in (
+                "Application has been deleted",
+                "Error validating application",
+                "Session has expired",
+                "Error validating access token",
+            )
+        )
+        if unrecoverable or entry["retries"] >= self.max_retries:
             entry["status"] = "failed"
             entry["retry_due"] = False
         else:

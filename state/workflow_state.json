@@ -6189,13 +6189,13 @@
         "retry_due": false
       },
       "facebook": {
-        "status": "pending",
+        "status": "failed",
         "url": null,
         "error": "Facebook upload session start failed: {\"error\":{\"message\":\"Error validating application. Application has been deleted.\",\"type\":\"OAuthException\",\"code\":190,\"fbtrace_id\":\"AQbz9D94j0zs0JrnuEeYhZG\"}}",
-        "retries": 1,
+        "retries": 3,
         "last_attempt": "2026-09-03 05:41 UTC",
         "slot_time": "07:02",
-        "retry_due": true
+        "retry_due": false
       },
       "instagram": {
         "status": "success",
@@ -6206,10 +6206,10 @@
         "slot_time": "07:02",
         "retry_due": false
       },
-      "moved_to_uploaded": false,
+      "moved_to_uploaded": true,
       "started_at": "2026-09-03 05:41 UTC",
-      "completed_at": null,
-      "final_status": null,
+      "completed_at": "2026-09-03 05:42 UTC",
+      "final_status": "partial",
       "date": "2026-09-03",
       "max_retries": 3
     }
