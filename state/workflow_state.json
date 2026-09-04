@@ -6572,6 +6572,96 @@
       "final_status": "completed",
       "date": "2026-09-03",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1lQu7SmId01L69ScQ8xa65D8aqTu5SLwP",
+      "drive_file_name": "when_spiderman_into_the_spiderverse_dropped_in_2018_the_spiderman.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/when_spiderman_into_the_spiderverse_dropped_in_2018_the_spiderman.mp4",
+      "movie_title": "When Spiderman Into The Spiderverse Dropped In 2018 The Spiderman",
+      "seo": {
+        "movie_title": "When Spiderman Into The Spiderverse Dropped In 2018 The Spiderman",
+        "source_file": "when_spiderman_into_the_spiderverse_dropped_in_2018_the_spiderman.mp4",
+        "primary_keyword": "When Spiderman Into The Spiderverse Dropped In 2018 The Spiderman reaction",
+        "secondary_keywords": [
+          "When Spiderman Into The Spiderverse Dropped In 2018 The Spiderman action scene",
+          "movie reaction When Spiderman Into The Spiderverse Dropped In 2018 The Spiderman"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "When Spiderman Into The Spiderverse Dropped In 2018 The Spiderman Reaction 🕸️",
+          "description": "",
+          "primary_keyword": "When Spiderman Into The Spiderverse Dropped In 2018 The Spiderman reaction",
+          "secondary_keywords": [
+            "When Spiderman Into The Spiderverse Dropped In 2018 The Spiderman action scene",
+            "movie reaction When Spiderman Into The Spiderverse Dropped In 2018 The Spiderman"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in When Spiderman Into The Spiderverse Dropped In 2018 The Spiderman! 😱",
+          "description": "This scene from When Spiderman Into The Spiderverse Dropped In 2018 The Spiderman never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#WhenSpidermanIntoTheSpiderverseDroppedIn2018TheSpiderman #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "When Spiderman Into The Spiderverse Dropped In 2018 The Spiderman reaction",
+          "hashtags": [
+            "#WhenSpidermanIntoTheSpiderverseDroppedIn2018TheSpiderman",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "When Spiderman Into The Spiderverse Dropped In 2018 The Spiderman Reaction 🕸️",
+        "youtube_description": "",
+        "facebook_caption": "This scene from When Spiderman Into The Spiderverse Dropped In 2018 The Spiderman never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#WhenSpidermanIntoTheSpiderverseDroppedIn2018TheSpiderman #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/ot3YqrX2esA",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-04 13:39 UTC",
+        "slot_time": "07:24",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/2257823194982583",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-04 13:40 UTC",
+        "slot_time": "07:24",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/Dc3g-JpD6Tl/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-04 13:40 UTC",
+        "slot_time": "07:24",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-09-04 13:39 UTC",
+      "completed_at": "2026-09-04 13:40 UTC",
+      "final_status": "completed",
+      "date": "2026-09-04",
+      "max_retries": 3
     }
   ],
   "daily_times": {
@@ -6693,6 +6783,13 @@
       "3": "13:27",
       "4": "17:45",
       "5": "20:03"
+    },
+    "2026-09-04": {
+      "1": "07:24",
+      "2": "10:55",
+      "3": "13:34",
+      "4": "17:40",
+      "5": "20:58"
     }
   }
 }
