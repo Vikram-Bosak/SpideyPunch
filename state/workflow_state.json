@@ -6842,6 +6842,96 @@
       "final_status": "completed",
       "date": "2026-09-04",
       "max_retries": 3
+    },
+    {
+      "video_number": 4,
+      "drive_file_id": "17MQq0D_OyBtfUfA5Hw6gKKNaoacvLU1T",
+      "drive_file_name": "when_harrison_fords_intense_transformation_into_red_hulk_in_captain.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/when_harrison_fords_intense_transformation_into_red_hulk_in_captain.mp4",
+      "movie_title": "When Harrison Fords Intense Transformation Into Red Hulk In Captain",
+      "seo": {
+        "movie_title": "When Harrison Fords Intense Transformation Into Red Hulk In Captain",
+        "source_file": "when_harrison_fords_intense_transformation_into_red_hulk_in_captain.mp4",
+        "primary_keyword": "When Harrison Fords Intense Transformation Into Red Hulk In Captain reaction",
+        "secondary_keywords": [
+          "When Harrison Fords Intense Transformation Into Red Hulk In Captain action scene",
+          "movie reaction When Harrison Fords Intense Transformation Into Red Hulk In Captain"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "When Harrison Fords Intense Transformation Into Red Hulk In Captain Reaction 🔥",
+          "description": "",
+          "primary_keyword": "When Harrison Fords Intense Transformation Into Red Hulk In Captain reaction",
+          "secondary_keywords": [
+            "When Harrison Fords Intense Transformation Into Red Hulk In Captain action scene",
+            "movie reaction When Harrison Fords Intense Transformation Into Red Hulk In Captain"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in When Harrison Fords Intense Transformation Into Red Hulk In Captain! 😱",
+          "description": "This scene from When Harrison Fords Intense Transformation Into Red Hulk In Captain never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#WhenHarrisonFordsIntenseTransformationIntoRedHulkInCaptain #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "When Harrison Fords Intense Transformation Into Red Hulk In Captain reaction",
+          "hashtags": [
+            "#WhenHarrisonFordsIntenseTransformationIntoRedHulkInCaptain",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "When Harrison Fords Intense Transformation Into Red Hulk In Captain Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from When Harrison Fords Intense Transformation Into Red Hulk In Captain never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#WhenHarrisonFordsIntenseTransformationIntoRedHulkInCaptain #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/Ngo8R4DLvL4",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-04 21:49 UTC",
+        "slot_time": "17:40",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1428671002445453",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-04 21:49 UTC",
+        "slot_time": "17:40",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/Dc4ZBJAiXj3/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-04 21:50 UTC",
+        "slot_time": "17:40",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-09-04 21:49 UTC",
+      "completed_at": "2026-09-04 21:50 UTC",
+      "final_status": "completed",
+      "date": "2026-09-04",
+      "max_retries": 3
     }
   ],
   "daily_times": {
