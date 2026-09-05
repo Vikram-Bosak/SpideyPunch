@@ -7022,6 +7022,96 @@
       "final_status": "completed",
       "date": "2026-09-04",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1632tN4WNT8pmJt8AJbRA1Qb5yaA8ctVs",
+      "drive_file_name": "the_epic_fight_scene_in_deadpool_vs_wolverine_2024_is.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/the_epic_fight_scene_in_deadpool_vs_wolverine_2024_is.mp4",
+      "movie_title": "The Epic Fight In Deadpool Vs Wolverine 2024 Is",
+      "seo": {
+        "movie_title": "The Epic Fight In Deadpool Vs Wolverine 2024 Is",
+        "source_file": "the_epic_fight_scene_in_deadpool_vs_wolverine_2024_is.mp4",
+        "primary_keyword": "The Epic Fight In Deadpool Vs Wolverine 2024 Is reaction",
+        "secondary_keywords": [
+          "The Epic Fight In Deadpool Vs Wolverine 2024 Is action scene",
+          "movie reaction The Epic Fight In Deadpool Vs Wolverine 2024 Is"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "The Epic Fight In Deadpool Vs Wolverine 2024 Is Reaction ⚔️",
+          "description": "",
+          "primary_keyword": "The Epic Fight In Deadpool Vs Wolverine 2024 Is reaction",
+          "secondary_keywords": [
+            "The Epic Fight In Deadpool Vs Wolverine 2024 Is action scene",
+            "movie reaction The Epic Fight In Deadpool Vs Wolverine 2024 Is"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in The Epic Fight In Deadpool Vs Wolverine 2024 Is! 😱",
+          "description": "This scene from The Epic Fight In Deadpool Vs Wolverine 2024 Is never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TheEpicFightInDeadpoolVsWolverine2024Is #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "The Epic Fight In Deadpool Vs Wolverine 2024 Is reaction",
+          "hashtags": [
+            "#TheEpicFightInDeadpoolVsWolverine2024Is",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "The Epic Fight In Deadpool Vs Wolverine 2024 Is Reaction ⚔️",
+        "youtube_description": "",
+        "facebook_caption": "This scene from The Epic Fight In Deadpool Vs Wolverine 2024 Is never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TheEpicFightInDeadpoolVsWolverine2024Is #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/9nXDijLeHpQ",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-05 13:29 UTC",
+        "slot_time": "07:19",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1467452165210988",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-05 13:30 UTC",
+        "slot_time": "07:19",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/Dc6EpBNgI4c/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-05 13:30 UTC",
+        "slot_time": "07:19",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-09-05 13:29 UTC",
+      "completed_at": "2026-09-05 13:30 UTC",
+      "final_status": "completed",
+      "date": "2026-09-05",
+      "max_retries": 3
     }
   ],
   "daily_times": {
@@ -7150,6 +7240,13 @@
       "3": "13:34",
       "4": "17:40",
       "5": "20:58"
+    },
+    "2026-09-05": {
+      "1": "07:19",
+      "2": "10:11",
+      "3": "13:57",
+      "4": "17:28",
+      "5": "20:43"
     }
   }
 }
