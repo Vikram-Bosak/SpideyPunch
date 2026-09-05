@@ -7292,6 +7292,96 @@
       "final_status": "completed",
       "date": "2026-09-05",
       "max_retries": 3
+    },
+    {
+      "video_number": 4,
+      "drive_file_id": "15URtqR8--B8cXqbw_jUbVY8BZ237i_M7",
+      "drive_file_name": "the_2007_movie_fantastic_four_rise_of_the_silver_surfer.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/the_2007_movie_fantastic_four_rise_of_the_silver_surfer.mp4",
+      "movie_title": "The 2007 Fantastic Four Rise Of The Silver Surfer",
+      "seo": {
+        "movie_title": "The 2007 Fantastic Four Rise Of The Silver Surfer",
+        "source_file": "the_2007_movie_fantastic_four_rise_of_the_silver_surfer.mp4",
+        "primary_keyword": "The 2007 Fantastic Four Rise Of The Silver Surfer reaction",
+        "secondary_keywords": [
+          "The 2007 Fantastic Four Rise Of The Silver Surfer action scene",
+          "movie reaction The 2007 Fantastic Four Rise Of The Silver Surfer"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "The 2007 Fantastic Four Rise Of The Silver Surfer Reaction 🔥",
+          "description": "",
+          "primary_keyword": "The 2007 Fantastic Four Rise Of The Silver Surfer reaction",
+          "secondary_keywords": [
+            "The 2007 Fantastic Four Rise Of The Silver Surfer action scene",
+            "movie reaction The 2007 Fantastic Four Rise Of The Silver Surfer"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in The 2007 Fantastic Four Rise Of The Silver Surfer! 😱",
+          "description": "This scene from The 2007 Fantastic Four Rise Of The Silver Surfer never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#The2007FantasticFourRiseOfTheSilverSurfer #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "The 2007 Fantastic Four Rise Of The Silver Surfer reaction",
+          "hashtags": [
+            "#The2007FantasticFourRiseOfTheSilverSurfer",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "The 2007 Fantastic Four Rise Of The Silver Surfer Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from The 2007 Fantastic Four Rise Of The Silver Surfer never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#The2007FantasticFourRiseOfTheSilverSurfer #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/ztjWY2WIUsk",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-05 22:17 UTC",
+        "slot_time": "17:28",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/2425526131270114",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-05 22:18 UTC",
+        "slot_time": "17:28",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/Dc7BD9JDlA2/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-05 22:18 UTC",
+        "slot_time": "17:28",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-09-05 22:17 UTC",
+      "completed_at": "2026-09-05 22:18 UTC",
+      "final_status": "completed",
+      "date": "2026-09-05",
+      "max_retries": 3
     }
   ],
   "daily_times": {
