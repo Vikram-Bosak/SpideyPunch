@@ -6932,6 +6932,96 @@
       "final_status": "completed",
       "date": "2026-09-04",
       "max_retries": 3
+    },
+    {
+      "video_number": 5,
+      "drive_file_id": "10Mc3jMU3jCKOHbX35n6enlP_sVR5kRL_",
+      "drive_file_name": "watching_the_silver_surfer_explain_galactus_in_fantastic_four_rise.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/watching_the_silver_surfer_explain_galactus_in_fantastic_four_rise.mp4",
+      "movie_title": "Watching The Silver Surfer Explain Galactus In Fantastic Four Rise",
+      "seo": {
+        "movie_title": "Watching The Silver Surfer Explain Galactus In Fantastic Four Rise",
+        "source_file": "watching_the_silver_surfer_explain_galactus_in_fantastic_four_rise.mp4",
+        "primary_keyword": "Watching The Silver Surfer Explain Galactus In Fantastic Four Rise reaction",
+        "secondary_keywords": [
+          "Watching The Silver Surfer Explain Galactus In Fantastic Four Rise action scene",
+          "movie reaction Watching The Silver Surfer Explain Galactus In Fantastic Four Rise"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Watching The Silver Surfer Explain Galactus In Fantastic Four Rise Reaction 🔥",
+          "description": "",
+          "primary_keyword": "Watching The Silver Surfer Explain Galactus In Fantastic Four Rise reaction",
+          "secondary_keywords": [
+            "Watching The Silver Surfer Explain Galactus In Fantastic Four Rise action scene",
+            "movie reaction Watching The Silver Surfer Explain Galactus In Fantastic Four Rise"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Watching The Silver Surfer Explain Galactus In Fantastic Four Rise! 😱",
+          "description": "This scene from Watching The Silver Surfer Explain Galactus In Fantastic Four Rise never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#WatchingTheSilverSurferExplainGalactusInFantasticFourRise #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Watching The Silver Surfer Explain Galactus In Fantastic Four Rise reaction",
+          "hashtags": [
+            "#WatchingTheSilverSurferExplainGalactusInFantasticFourRise",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Watching The Silver Surfer Explain Galactus In Fantastic Four Rise Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Watching The Silver Surfer Explain Galactus In Fantastic Four Rise never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#WatchingTheSilverSurferExplainGalactusInFantasticFourRise #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/vCXdU1HL_CE",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-05 01:24 UTC",
+        "slot_time": "20:58",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/2055975208372398",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-05 01:24 UTC",
+        "slot_time": "20:58",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/Dc4xpMEiuM8/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-05 01:25 UTC",
+        "slot_time": "20:58",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-09-05 01:24 UTC",
+      "completed_at": "2026-09-05 01:25 UTC",
+      "final_status": "completed",
+      "date": "2026-09-04",
+      "max_retries": 3
     }
   ],
   "daily_times": {
