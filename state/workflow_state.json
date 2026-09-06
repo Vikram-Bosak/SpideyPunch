@@ -7562,6 +7562,96 @@
       "final_status": "completed",
       "date": "2026-09-06",
       "max_retries": 3
+    },
+    {
+      "video_number": 3,
+      "drive_file_id": "16PJMCRGf_HAs8EpLZZ4Wn_ChwSzd_1E2",
+      "drive_file_name": "you_know_whats_crazy_about_the_oil_rig_rescue_scene.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/you_know_whats_crazy_about_the_oil_rig_rescue_scene.mp4",
+      "movie_title": "You Know Whats Crazy About The Oil Rig Rescue",
+      "seo": {
+        "movie_title": "You Know Whats Crazy About The Oil Rig Rescue",
+        "source_file": "you_know_whats_crazy_about_the_oil_rig_rescue_scene.mp4",
+        "primary_keyword": "You Know Whats Crazy About The Oil Rig Rescue reaction",
+        "secondary_keywords": [
+          "You Know Whats Crazy About The Oil Rig Rescue action scene",
+          "movie reaction You Know Whats Crazy About The Oil Rig Rescue"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "You Know Whats Crazy About The Oil Rig Rescue Reaction 🔥",
+          "description": "",
+          "primary_keyword": "You Know Whats Crazy About The Oil Rig Rescue reaction",
+          "secondary_keywords": [
+            "You Know Whats Crazy About The Oil Rig Rescue action scene",
+            "movie reaction You Know Whats Crazy About The Oil Rig Rescue"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in You Know Whats Crazy About The Oil Rig Rescue! 😱",
+          "description": "This scene from You Know Whats Crazy About The Oil Rig Rescue never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#YouKnowWhatsCrazyAboutTheOilRigRescue #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "You Know Whats Crazy About The Oil Rig Rescue reaction",
+          "hashtags": [
+            "#YouKnowWhatsCrazyAboutTheOilRigRescue",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "You Know Whats Crazy About The Oil Rig Rescue Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from You Know Whats Crazy About The Oil Rig Rescue never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#YouKnowWhatsCrazyAboutTheOilRigRescue #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/StojJK8qHkc",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-06 17:55 UTC",
+        "slot_time": "13:14",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1082174767552679",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-06 17:56 UTC",
+        "slot_time": "13:14",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/Dc9H4N3D-CM/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-06 17:56 UTC",
+        "slot_time": "13:14",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-09-06 17:55 UTC",
+      "completed_at": "2026-09-06 17:56 UTC",
+      "final_status": "completed",
+      "date": "2026-09-06",
+      "max_retries": 3
     }
   ],
   "daily_times": {
