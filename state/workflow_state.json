@@ -7382,6 +7382,96 @@
       "final_status": "completed",
       "date": "2026-09-05",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1C3hQhhu3SYAZ0-n6ELAnlGSf4Wfi2y69",
+      "drive_file_name": "the_fight_scene_between_the_wasp_and_ghost_in_antman.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/the_fight_scene_between_the_wasp_and_ghost_in_antman.mp4",
+      "movie_title": "The Fight Between The Wasp And Ghost In Antman",
+      "seo": {
+        "movie_title": "The Fight Between The Wasp And Ghost In Antman",
+        "source_file": "the_fight_scene_between_the_wasp_and_ghost_in_antman.mp4",
+        "primary_keyword": "The Fight Between The Wasp And Ghost In Antman reaction",
+        "secondary_keywords": [
+          "The Fight Between The Wasp And Ghost In Antman action scene",
+          "movie reaction The Fight Between The Wasp And Ghost In Antman"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "The Fight Between The Wasp And Ghost In Antman Reaction ⚔️",
+          "description": "",
+          "primary_keyword": "The Fight Between The Wasp And Ghost In Antman reaction",
+          "secondary_keywords": [
+            "The Fight Between The Wasp And Ghost In Antman action scene",
+            "movie reaction The Fight Between The Wasp And Ghost In Antman"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in The Fight Between The Wasp And Ghost In Antman! 😱",
+          "description": "This scene from The Fight Between The Wasp And Ghost In Antman never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TheFightBetweenTheWaspAndGhostInAntman #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "The Fight Between The Wasp And Ghost In Antman reaction",
+          "hashtags": [
+            "#TheFightBetweenTheWaspAndGhostInAntman",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "The Fight Between The Wasp And Ghost In Antman Reaction ⚔️",
+        "youtube_description": "",
+        "facebook_caption": "This scene from The Fight Between The Wasp And Ghost In Antman never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TheFightBetweenTheWaspAndGhostInAntman #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/B0SzWIQWBpU",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-06 12:31 UTC",
+        "slot_time": "07:27",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/2217663408795534",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-06 12:31 UTC",
+        "slot_time": "07:27",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/Dc8iwyhEwHr/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-06 12:32 UTC",
+        "slot_time": "07:27",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-09-06 12:31 UTC",
+      "completed_at": "2026-09-06 12:32 UTC",
+      "final_status": "completed",
+      "date": "2026-09-06",
+      "max_retries": 3
     }
   ],
   "daily_times": {
@@ -7517,6 +7607,13 @@
       "3": "13:57",
       "4": "17:28",
       "5": "20:43"
+    },
+    "2026-09-06": {
+      "1": "07:27",
+      "2": "10:05",
+      "3": "13:14",
+      "4": "17:04",
+      "5": "20:04"
     }
   }
 }
