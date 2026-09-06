@@ -7652,6 +7652,96 @@
       "final_status": "completed",
       "date": "2026-09-06",
       "max_retries": 3
+    },
+    {
+      "video_number": 4,
+      "drive_file_id": "1pwI360KGRzJT9qJKOIuM6de1knLIfKdR",
+      "drive_file_name": "when_chris_evans_and_sebastian_stan_filmed_that_iconic_captain.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/when_chris_evans_and_sebastian_stan_filmed_that_iconic_captain.mp4",
+      "movie_title": "When Chris Evans And Sebastian Stan Filmed That Iconic Captain",
+      "seo": {
+        "movie_title": "When Chris Evans And Sebastian Stan Filmed That Iconic Captain",
+        "source_file": "when_chris_evans_and_sebastian_stan_filmed_that_iconic_captain.mp4",
+        "primary_keyword": "When Chris Evans And Sebastian Stan Filmed That Iconic Captain reaction",
+        "secondary_keywords": [
+          "When Chris Evans And Sebastian Stan Filmed That Iconic Captain action scene",
+          "movie reaction When Chris Evans And Sebastian Stan Filmed That Iconic Captain"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "When Chris Evans And Sebastian Stan Filmed That Iconic Captain Reaction 🔥",
+          "description": "",
+          "primary_keyword": "When Chris Evans And Sebastian Stan Filmed That Iconic Captain reaction",
+          "secondary_keywords": [
+            "When Chris Evans And Sebastian Stan Filmed That Iconic Captain action scene",
+            "movie reaction When Chris Evans And Sebastian Stan Filmed That Iconic Captain"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in When Chris Evans And Sebastian Stan Filmed That Iconic Captain! 😱",
+          "description": "This scene from When Chris Evans And Sebastian Stan Filmed That Iconic Captain never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#WhenChrisEvansAndSebastianStanFilmedThatIconicCaptain #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "When Chris Evans And Sebastian Stan Filmed That Iconic Captain reaction",
+          "hashtags": [
+            "#WhenChrisEvansAndSebastianStanFilmedThatIconicCaptain",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "When Chris Evans And Sebastian Stan Filmed That Iconic Captain Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from When Chris Evans And Sebastian Stan Filmed That Iconic Captain never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#WhenChrisEvansAndSebastianStanFilmedThatIconicCaptain #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/o4cok4JyPfc",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-06 21:53 UTC",
+        "slot_time": "17:04",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1613615850304601",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-06 21:54 UTC",
+        "slot_time": "17:04",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/Dc9jGEolrv7/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-06 21:54 UTC",
+        "slot_time": "17:04",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-09-06 21:53 UTC",
+      "completed_at": "2026-09-06 21:54 UTC",
+      "final_status": "completed",
+      "date": "2026-09-06",
+      "max_retries": 3
     }
   ],
   "daily_times": {
