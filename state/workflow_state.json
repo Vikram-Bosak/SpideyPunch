@@ -8100,6 +8100,96 @@
       "final_status": "completed",
       "date": "2026-09-07",
       "max_retries": 3
+    },
+    {
+      "video_number": 4,
+      "drive_file_id": "1rIqKzJbPkL1Wy0k68yLp23Hv5NHLfD5K",
+      "drive_file_name": "the_iconic_scene_in_the_falcon_and_the_winter_soldier.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/the_iconic_scene_in_the_falcon_and_the_winter_soldier.mp4",
+      "movie_title": "The Iconic In The Falcon And The Winter Soldier",
+      "seo": {
+        "movie_title": "The Iconic In The Falcon And The Winter Soldier",
+        "source_file": "the_iconic_scene_in_the_falcon_and_the_winter_soldier.mp4",
+        "primary_keyword": "The Iconic In The Falcon And The Winter Soldier reaction",
+        "secondary_keywords": [
+          "The Iconic In The Falcon And The Winter Soldier action scene",
+          "movie reaction The Iconic In The Falcon And The Winter Soldier"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "The Iconic In The Falcon And The Winter Soldier Reaction 🔥",
+          "description": "",
+          "primary_keyword": "The Iconic In The Falcon And The Winter Soldier reaction",
+          "secondary_keywords": [
+            "The Iconic In The Falcon And The Winter Soldier action scene",
+            "movie reaction The Iconic In The Falcon And The Winter Soldier"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in The Iconic In The Falcon And The Winter Soldier! 😱",
+          "description": "This scene from The Iconic In The Falcon And The Winter Soldier never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TheIconicInTheFalconAndTheWinterSoldier #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "The Iconic In The Falcon And The Winter Soldier reaction",
+          "hashtags": [
+            "#TheIconicInTheFalconAndTheWinterSoldier",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "The Iconic In The Falcon And The Winter Soldier Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from The Iconic In The Falcon And The Winter Soldier never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TheIconicInTheFalconAndTheWinterSoldier #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/Bm6pWsGUeZI",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-07 23:20 UTC",
+        "slot_time": "17:56",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1047034897938737",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-07 23:21 UTC",
+        "slot_time": "17:56",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DdAR4IDj9F1/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-07 23:21 UTC",
+        "slot_time": "17:56",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-09-07 23:20 UTC",
+      "completed_at": "2026-09-07 23:21 UTC",
+      "final_status": "completed",
+      "date": "2026-09-07",
+      "max_retries": 3
     }
   ],
   "daily_times": {
