@@ -8010,6 +8010,96 @@
       "final_status": "completed",
       "date": "2026-09-07",
       "max_retries": 3
+    },
+    {
+      "video_number": 3,
+      "drive_file_id": "1Xq-TLcFUPSpw0F-CR4iBvXU2JWyX6khx",
+      "drive_file_name": "im_still_reeling_from_that_epic_fight_scene_in_the.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/im_still_reeling_from_that_epic_fight_scene_in_the.mp4",
+      "movie_title": "Im Still Reeling From That Epic Fight In The",
+      "seo": {
+        "movie_title": "Im Still Reeling From That Epic Fight In The",
+        "source_file": "im_still_reeling_from_that_epic_fight_scene_in_the.mp4",
+        "primary_keyword": "Im Still Reeling From That Epic Fight In The reaction",
+        "secondary_keywords": [
+          "Im Still Reeling From That Epic Fight In The action scene",
+          "movie reaction Im Still Reeling From That Epic Fight In The"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Im Still Reeling From That Epic Fight In The Reaction ⚔️",
+          "description": "",
+          "primary_keyword": "Im Still Reeling From That Epic Fight In The reaction",
+          "secondary_keywords": [
+            "Im Still Reeling From That Epic Fight In The action scene",
+            "movie reaction Im Still Reeling From That Epic Fight In The"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Im Still Reeling From That Epic Fight In The! 😱",
+          "description": "This scene from Im Still Reeling From That Epic Fight In The never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ImStillReelingFromThatEpicFightInThe #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Im Still Reeling From That Epic Fight In The reaction",
+          "hashtags": [
+            "#ImStillReelingFromThatEpicFightInThe",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Im Still Reeling From That Epic Fight In The Reaction ⚔️",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Im Still Reeling From That Epic Fight In The never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ImStillReelingFromThatEpicFightInThe #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/J47JtWJ7-70",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-07 20:59 UTC",
+        "slot_time": "13:35",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1285151850309623",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-07 20:59 UTC",
+        "slot_time": "13:35",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DdABpWck-BK/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-07 21:00 UTC",
+        "slot_time": "13:35",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-09-07 20:59 UTC",
+      "completed_at": "2026-09-07 21:00 UTC",
+      "final_status": "completed",
+      "date": "2026-09-07",
+      "max_retries": 3
     }
   ],
   "daily_times": {
