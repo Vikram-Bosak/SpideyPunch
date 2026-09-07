@@ -7832,6 +7832,96 @@
       "final_status": "completed",
       "date": "2026-09-06",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1sBh4QHy9dEAk6llV7PpkRgr1FCrB9NF9",
+      "drive_file_name": "im_still_reeling_from_that_epic_final_fight_scene_in.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/im_still_reeling_from_that_epic_final_fight_scene_in.mp4",
+      "movie_title": "Im Still Reeling From That Epic Final Fight In",
+      "seo": {
+        "movie_title": "Im Still Reeling From That Epic Final Fight In",
+        "source_file": "im_still_reeling_from_that_epic_final_fight_scene_in.mp4",
+        "primary_keyword": "Im Still Reeling From That Epic Final Fight In reaction",
+        "secondary_keywords": [
+          "Im Still Reeling From That Epic Final Fight In action scene",
+          "movie reaction Im Still Reeling From That Epic Final Fight In"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Im Still Reeling From That Epic Final Fight In Reaction ⚔️",
+          "description": "",
+          "primary_keyword": "Im Still Reeling From That Epic Final Fight In reaction",
+          "secondary_keywords": [
+            "Im Still Reeling From That Epic Final Fight In action scene",
+            "movie reaction Im Still Reeling From That Epic Final Fight In"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Im Still Reeling From That Epic Final Fight In! 😱",
+          "description": "This scene from Im Still Reeling From That Epic Final Fight In never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ImStillReelingFromThatEpicFinalFightIn #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Im Still Reeling From That Epic Final Fight In reaction",
+          "hashtags": [
+            "#ImStillReelingFromThatEpicFinalFightIn",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Im Still Reeling From That Epic Final Fight In Reaction ⚔️",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Im Still Reeling From That Epic Final Fight In never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ImStillReelingFromThatEpicFinalFightIn #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/drt5QlQaVJI",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-07 12:26 UTC",
+        "slot_time": "07:04",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1005792369146732",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-07 12:27 UTC",
+        "slot_time": "07:04",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/Dc_HCjLjkDY/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-07 12:27 UTC",
+        "slot_time": "07:04",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-09-07 12:26 UTC",
+      "completed_at": "2026-09-07 12:27 UTC",
+      "final_status": "completed",
+      "date": "2026-09-07",
+      "max_retries": 3
     }
   ],
   "daily_times": {
@@ -7974,6 +8064,13 @@
       "3": "13:14",
       "4": "17:04",
       "5": "20:04"
+    },
+    "2026-09-07": {
+      "1": "07:04",
+      "2": "10:08",
+      "3": "13:35",
+      "4": "17:56",
+      "5": "20:24"
     }
   }
 }
