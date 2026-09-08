@@ -8370,6 +8370,96 @@
       "final_status": "completed",
       "date": "2026-09-08",
       "max_retries": 3
+    },
+    {
+      "video_number": 2,
+      "drive_file_id": "19jBp98eY7b2yRSEyLz_ZPg5aq69MUlTL",
+      "drive_file_name": "i_still_get_chills_thinking_about_bucky_finally_breaking_free.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/i_still_get_chills_thinking_about_bucky_finally_breaking_free.mp4",
+      "movie_title": "I Still Get Chills Thinking About Bucky Finally Breaking Free",
+      "seo": {
+        "movie_title": "I Still Get Chills Thinking About Bucky Finally Breaking Free",
+        "source_file": "i_still_get_chills_thinking_about_bucky_finally_breaking_free.mp4",
+        "primary_keyword": "I Still Get Chills Thinking About Bucky Finally Breaking Free reaction",
+        "secondary_keywords": [
+          "I Still Get Chills Thinking About Bucky Finally Breaking Free action scene",
+          "movie reaction I Still Get Chills Thinking About Bucky Finally Breaking Free"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "I Still Get Chills Thinking About Bucky Finally Breaking Free Reaction 🔥",
+          "description": "",
+          "primary_keyword": "I Still Get Chills Thinking About Bucky Finally Breaking Free reaction",
+          "secondary_keywords": [
+            "I Still Get Chills Thinking About Bucky Finally Breaking Free action scene",
+            "movie reaction I Still Get Chills Thinking About Bucky Finally Breaking Free"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in I Still Get Chills Thinking About Bucky Finally Breaking Free! 😱",
+          "description": "This scene from I Still Get Chills Thinking About Bucky Finally Breaking Free never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#IStillGetChillsThinkingAboutBuckyFinallyBreakingFree #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "I Still Get Chills Thinking About Bucky Finally Breaking Free reaction",
+          "hashtags": [
+            "#IStillGetChillsThinkingAboutBuckyFinallyBreakingFree",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "I Still Get Chills Thinking About Bucky Finally Breaking Free Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from I Still Get Chills Thinking About Bucky Finally Breaking Free never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#IStillGetChillsThinkingAboutBuckyFinallyBreakingFree #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/p8MIlyopy8U",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-08 18:38 UTC",
+        "slot_time": "10:44",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1094584733317848",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-08 18:38 UTC",
+        "slot_time": "10:44",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DdCWUeOiojb/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-08 18:39 UTC",
+        "slot_time": "10:44",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-09-08 18:38 UTC",
+      "completed_at": "2026-09-08 18:39 UTC",
+      "final_status": "completed",
+      "date": "2026-09-08",
+      "max_retries": 3
     }
   ],
   "daily_times": {
