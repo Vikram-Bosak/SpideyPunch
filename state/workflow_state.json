@@ -9000,6 +9000,96 @@
       "final_status": "completed",
       "date": "2026-09-09",
       "max_retries": 3
+    },
+    {
+      "video_number": 4,
+      "drive_file_id": "1FwJrr2XAEOCQJxFQx57VEEOLTFWYmvh0",
+      "drive_file_name": "avengers_endgame_left_us_all_speechless_especially_that_emotional_moment.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/avengers_endgame_left_us_all_speechless_especially_that_emotional_moment.mp4",
+      "movie_title": "Avengers Endgame Left Us All Speechless Especially That Emotional",
+      "seo": {
+        "movie_title": "Avengers Endgame Left Us All Speechless Especially That Emotional",
+        "source_file": "avengers_endgame_left_us_all_speechless_especially_that_emotional_moment.mp4",
+        "primary_keyword": "Avengers Endgame Left Us All Speechless Especially That Emotional reaction",
+        "secondary_keywords": [
+          "Avengers Endgame Left Us All Speechless Especially That Emotional action scene",
+          "movie reaction Avengers Endgame Left Us All Speechless Especially That Emotional"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Avengers Endgame Left Us All Speechless Especially That Emotional Reaction 🔥",
+          "description": "",
+          "primary_keyword": "Avengers Endgame Left Us All Speechless Especially That Emotional reaction",
+          "secondary_keywords": [
+            "Avengers Endgame Left Us All Speechless Especially That Emotional action scene",
+            "movie reaction Avengers Endgame Left Us All Speechless Especially That Emotional"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Avengers Endgame Left Us All Speechless Especially That Emotional! 😱",
+          "description": "This scene from Avengers Endgame Left Us All Speechless Especially That Emotional never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#AvengersEndgameLeftUsAllSpeechlessEspeciallyThatEmotional #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Avengers Endgame Left Us All Speechless Especially That Emotional reaction",
+          "hashtags": [
+            "#AvengersEndgameLeftUsAllSpeechlessEspeciallyThatEmotional",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Avengers Endgame Left Us All Speechless Especially That Emotional Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Avengers Endgame Left Us All Speechless Especially That Emotional never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#AvengersEndgameLeftUsAllSpeechlessEspeciallyThatEmotional #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/fcbQNIYOAIw",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-09 23:17 UTC",
+        "slot_time": "17:13",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1737865067468780",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-09 23:17 UTC",
+        "slot_time": "17:13",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DdFbCJUgRBL/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-09 23:17 UTC",
+        "slot_time": "17:13",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-09-09 23:17 UTC",
+      "completed_at": "2026-09-09 23:17 UTC",
+      "final_status": "completed",
+      "date": "2026-09-09",
+      "max_retries": 3
     }
   ],
   "daily_times": {
