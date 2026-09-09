@@ -8640,6 +8640,96 @@
       "final_status": "completed",
       "date": "2026-09-08",
       "max_retries": 3
+    },
+    {
+      "video_number": 5,
+      "drive_file_id": "1xcp78bnEK1MgWLYs1rJA-_bVyM3Hh7yd",
+      "drive_file_name": "i_was_rewatching_that_epic_silver_surfer_vs_human_torch.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/i_was_rewatching_that_epic_silver_surfer_vs_human_torch.mp4",
+      "movie_title": "I Was Rewatching That Epic Silver Surfer Vs Human Torch",
+      "seo": {
+        "movie_title": "I Was Rewatching That Epic Silver Surfer Vs Human Torch",
+        "source_file": "i_was_rewatching_that_epic_silver_surfer_vs_human_torch.mp4",
+        "primary_keyword": "I Was Rewatching That Epic Silver Surfer Vs Human Torch reaction",
+        "secondary_keywords": [
+          "I Was Rewatching That Epic Silver Surfer Vs Human Torch action scene",
+          "movie reaction I Was Rewatching That Epic Silver Surfer Vs Human Torch"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "I Was Rewatching That Epic Silver Surfer Vs Human Torch Reaction 🔥",
+          "description": "",
+          "primary_keyword": "I Was Rewatching That Epic Silver Surfer Vs Human Torch reaction",
+          "secondary_keywords": [
+            "I Was Rewatching That Epic Silver Surfer Vs Human Torch action scene",
+            "movie reaction I Was Rewatching That Epic Silver Surfer Vs Human Torch"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in I Was Rewatching That Epic Silver Surfer Vs Human Torch! 😱",
+          "description": "This scene from I Was Rewatching That Epic Silver Surfer Vs Human Torch never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#IWasRewatchingThatEpicSilverSurferVsHumanTorch #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "I Was Rewatching That Epic Silver Surfer Vs Human Torch reaction",
+          "hashtags": [
+            "#IWasRewatchingThatEpicSilverSurferVsHumanTorch",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "I Was Rewatching That Epic Silver Surfer Vs Human Torch Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from I Was Rewatching That Epic Silver Surfer Vs Human Torch never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#IWasRewatchingThatEpicSilverSurferVsHumanTorch #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/GLa4HhIS-QA",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-09 01:25 UTC",
+        "slot_time": "20:11",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1056838773728319",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-09 01:26 UTC",
+        "slot_time": "20:11",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DdDE-kQirfg/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-09 01:26 UTC",
+        "slot_time": "20:11",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-09-09 01:25 UTC",
+      "completed_at": "2026-09-09 01:26 UTC",
+      "final_status": "completed",
+      "date": "2026-09-08",
+      "max_retries": 3
     }
   ],
   "daily_times": {
