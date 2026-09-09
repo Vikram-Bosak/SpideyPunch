@@ -8910,6 +8910,96 @@
       "final_status": "completed",
       "date": "2026-09-09",
       "max_retries": 3
+    },
+    {
+      "video_number": 3,
+      "drive_file_id": "1vVRn8SXqvohVB4OTQ5fqnfQ7DnaD2Pil",
+      "drive_file_name": "im_still_reeling_from_that_epic_fight_scene_in_shehulk.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/im_still_reeling_from_that_epic_fight_scene_in_shehulk.mp4",
+      "movie_title": "Im Still Reeling From That Epic Fight In Shehulk",
+      "seo": {
+        "movie_title": "Im Still Reeling From That Epic Fight In Shehulk",
+        "source_file": "im_still_reeling_from_that_epic_fight_scene_in_shehulk.mp4",
+        "primary_keyword": "Im Still Reeling From That Epic Fight In Shehulk reaction",
+        "secondary_keywords": [
+          "Im Still Reeling From That Epic Fight In Shehulk action scene",
+          "movie reaction Im Still Reeling From That Epic Fight In Shehulk"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Im Still Reeling From That Epic Fight In Shehulk Reaction ⚔️",
+          "description": "",
+          "primary_keyword": "Im Still Reeling From That Epic Fight In Shehulk reaction",
+          "secondary_keywords": [
+            "Im Still Reeling From That Epic Fight In Shehulk action scene",
+            "movie reaction Im Still Reeling From That Epic Fight In Shehulk"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Im Still Reeling From That Epic Fight In Shehulk! 😱",
+          "description": "This scene from Im Still Reeling From That Epic Fight In Shehulk never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ImStillReelingFromThatEpicFightInShehulk #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Im Still Reeling From That Epic Fight In Shehulk reaction",
+          "hashtags": [
+            "#ImStillReelingFromThatEpicFightInShehulk",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Im Still Reeling From That Epic Fight In Shehulk Reaction ⚔️",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Im Still Reeling From That Epic Fight In Shehulk never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ImStillReelingFromThatEpicFightInShehulk #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/1jDbgKR8RlM",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-09 21:14 UTC",
+        "slot_time": "13:15",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1074639795300777",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-09 21:14 UTC",
+        "slot_time": "13:15",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DdFNAL7k6mG/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-09 21:15 UTC",
+        "slot_time": "13:15",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-09-09 21:14 UTC",
+      "completed_at": "2026-09-09 21:15 UTC",
+      "final_status": "completed",
+      "date": "2026-09-09",
+      "max_retries": 3
     }
   ],
   "daily_times": {
