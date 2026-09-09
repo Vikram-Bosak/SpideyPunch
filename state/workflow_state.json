@@ -8820,6 +8820,96 @@
       "final_status": "completed",
       "date": "2026-09-09",
       "max_retries": 3
+    },
+    {
+      "video_number": 2,
+      "drive_file_id": "1z5Kt9cZ_Gg3RcykGw4aei3vylbWEphnx",
+      "drive_file_name": "that_insane_plane_scene_in_the_falcon_and_the_winter.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/that_insane_plane_scene_in_the_falcon_and_the_winter.mp4",
+      "movie_title": "That Insane Plane In The Falcon And The Winter",
+      "seo": {
+        "movie_title": "That Insane Plane In The Falcon And The Winter",
+        "source_file": "that_insane_plane_scene_in_the_falcon_and_the_winter.mp4",
+        "primary_keyword": "That Insane Plane In The Falcon And The Winter reaction",
+        "secondary_keywords": [
+          "That Insane Plane In The Falcon And The Winter action scene",
+          "movie reaction That Insane Plane In The Falcon And The Winter"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "That Insane Plane In The Falcon And The Winter Reaction 🔥",
+          "description": "",
+          "primary_keyword": "That Insane Plane In The Falcon And The Winter reaction",
+          "secondary_keywords": [
+            "That Insane Plane In The Falcon And The Winter action scene",
+            "movie reaction That Insane Plane In The Falcon And The Winter"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in That Insane Plane In The Falcon And The Winter! 😱",
+          "description": "This scene from That Insane Plane In The Falcon And The Winter never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ThatInsanePlaneInTheFalconAndTheWinter #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "That Insane Plane In The Falcon And The Winter reaction",
+          "hashtags": [
+            "#ThatInsanePlaneInTheFalconAndTheWinter",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "That Insane Plane In The Falcon And The Winter Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from That Insane Plane In The Falcon And The Winter never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ThatInsanePlaneInTheFalconAndTheWinter #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/l0fbFmY5EHE",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-09 18:45 UTC",
+        "slot_time": "10:28",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/28060896443552993",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-09 18:45 UTC",
+        "slot_time": "10:28",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DdE76w1CZzb/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-09 18:46 UTC",
+        "slot_time": "10:28",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-09-09 18:45 UTC",
+      "completed_at": "2026-09-09 18:46 UTC",
+      "final_status": "completed",
+      "date": "2026-09-09",
+      "max_retries": 3
     }
   ],
   "daily_times": {
