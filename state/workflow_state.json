@@ -9360,6 +9360,96 @@
       "final_status": "completed",
       "date": "2026-09-10",
       "max_retries": 3
+    },
+    {
+      "video_number": 3,
+      "drive_file_id": "15C66mfxFjC5FDPrTY7JaoGwCQMrEmOoG",
+      "drive_file_name": "tom_hardys_venom_is_notoriously_finicky_about_food_but_im.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/tom_hardys_venom_is_notoriously_finicky_about_food_but_im.mp4",
+      "movie_title": "Tom Hardys Venom Is Notoriously Finicky About Food But Im",
+      "seo": {
+        "movie_title": "Tom Hardys Venom Is Notoriously Finicky About Food But Im",
+        "source_file": "tom_hardys_venom_is_notoriously_finicky_about_food_but_im.mp4",
+        "primary_keyword": "Tom Hardys Venom Is Notoriously Finicky About Food But Im reaction",
+        "secondary_keywords": [
+          "Tom Hardys Venom Is Notoriously Finicky About Food But Im action scene",
+          "movie reaction Tom Hardys Venom Is Notoriously Finicky About Food But Im"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Tom Hardys Venom Is Notoriously Finicky About Food But Im Reaction 🔥",
+          "description": "",
+          "primary_keyword": "Tom Hardys Venom Is Notoriously Finicky About Food But Im reaction",
+          "secondary_keywords": [
+            "Tom Hardys Venom Is Notoriously Finicky About Food But Im action scene",
+            "movie reaction Tom Hardys Venom Is Notoriously Finicky About Food But Im"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Tom Hardys Venom Is Notoriously Finicky About Food But Im! 😱",
+          "description": "This scene from Tom Hardys Venom Is Notoriously Finicky About Food But Im never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TomHardysVenomIsNotoriouslyFinickyAboutFoodButIm #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Tom Hardys Venom Is Notoriously Finicky About Food But Im reaction",
+          "hashtags": [
+            "#TomHardysVenomIsNotoriouslyFinickyAboutFoodButIm",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Tom Hardys Venom Is Notoriously Finicky About Food But Im Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Tom Hardys Venom Is Notoriously Finicky About Food But Im never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TomHardysVenomIsNotoriouslyFinickyAboutFoodButIm #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/p98kXq5q-2k",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-10 21:02 UTC",
+        "slot_time": "13:32",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1066412059326222",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-10 21:02 UTC",
+        "slot_time": "13:32",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DdHwaIPDlFS/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-10 21:03 UTC",
+        "slot_time": "13:32",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-09-10 21:02 UTC",
+      "completed_at": "2026-09-10 21:03 UTC",
+      "final_status": "completed",
+      "date": "2026-09-10",
+      "max_retries": 3
     }
   ],
   "daily_times": {
