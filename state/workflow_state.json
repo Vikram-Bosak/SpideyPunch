@@ -9270,6 +9270,96 @@
       "final_status": "completed",
       "date": "2026-09-10",
       "max_retries": 3
+    },
+    {
+      "video_number": 2,
+      "drive_file_id": "1wvxLsSSDN7SY5y1BeZw9C9XjrPa80IwJ",
+      "drive_file_name": "im_still_reeling_from_the_insane_chicken_heist_in_venom.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/im_still_reeling_from_the_insane_chicken_heist_in_venom.mp4",
+      "movie_title": "Im Still Reeling From The Insane Chicken Heist In Venom",
+      "seo": {
+        "movie_title": "Im Still Reeling From The Insane Chicken Heist In Venom",
+        "source_file": "im_still_reeling_from_the_insane_chicken_heist_in_venom.mp4",
+        "primary_keyword": "Im Still Reeling From The Insane Chicken Heist In Venom reaction",
+        "secondary_keywords": [
+          "Im Still Reeling From The Insane Chicken Heist In Venom action scene",
+          "movie reaction Im Still Reeling From The Insane Chicken Heist In Venom"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Im Still Reeling From The Insane Chicken Heist In Venom Reaction 🔥",
+          "description": "",
+          "primary_keyword": "Im Still Reeling From The Insane Chicken Heist In Venom reaction",
+          "secondary_keywords": [
+            "Im Still Reeling From The Insane Chicken Heist In Venom action scene",
+            "movie reaction Im Still Reeling From The Insane Chicken Heist In Venom"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Im Still Reeling From The Insane Chicken Heist In Venom! 😱",
+          "description": "This scene from Im Still Reeling From The Insane Chicken Heist In Venom never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ImStillReelingFromTheInsaneChickenHeistInVenom #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Im Still Reeling From The Insane Chicken Heist In Venom reaction",
+          "hashtags": [
+            "#ImStillReelingFromTheInsaneChickenHeistInVenom",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Im Still Reeling From The Insane Chicken Heist In Venom Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Im Still Reeling From The Insane Chicken Heist In Venom never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#ImStillReelingFromTheInsaneChickenHeistInVenom #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/jpLBhk8IwH0",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-10 18:25 UTC",
+        "slot_time": "10:39",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1808914616948860",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-10 18:25 UTC",
+        "slot_time": "10:39",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DdHebxrD8xn/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-10 18:26 UTC",
+        "slot_time": "10:39",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-09-10 18:25 UTC",
+      "completed_at": "2026-09-10 18:26 UTC",
+      "final_status": "completed",
+      "date": "2026-09-10",
+      "max_retries": 3
     }
   ],
   "daily_times": {
