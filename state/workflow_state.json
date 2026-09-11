@@ -9630,6 +9630,96 @@
       "final_status": "completed",
       "date": "2026-09-10",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "16v1IOFJKXve-rMKNxwsB22B3qmw_hyEa",
+      "drive_file_name": "ive_watched_that_logan_opening_fight_scene_like_10_times.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/ive_watched_that_logan_opening_fight_scene_like_10_times.mp4",
+      "movie_title": "Ive Watched That Logan Opening Fight Like 10 Times",
+      "seo": {
+        "movie_title": "Ive Watched That Logan Opening Fight Like 10 Times",
+        "source_file": "ive_watched_that_logan_opening_fight_scene_like_10_times.mp4",
+        "primary_keyword": "Ive Watched That Logan Opening Fight Like 10 Times reaction",
+        "secondary_keywords": [
+          "Ive Watched That Logan Opening Fight Like 10 Times action scene",
+          "movie reaction Ive Watched That Logan Opening Fight Like 10 Times"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Ive Watched That Logan Opening Fight Like 10 Times Reaction ⚔️",
+          "description": "",
+          "primary_keyword": "Ive Watched That Logan Opening Fight Like 10 Times reaction",
+          "secondary_keywords": [
+            "Ive Watched That Logan Opening Fight Like 10 Times action scene",
+            "movie reaction Ive Watched That Logan Opening Fight Like 10 Times"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Ive Watched That Logan Opening Fight Like 10 Times! 😱",
+          "description": "This scene from Ive Watched That Logan Opening Fight Like 10 Times never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#IveWatchedThatLoganOpeningFightLike10Times #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Ive Watched That Logan Opening Fight Like 10 Times reaction",
+          "hashtags": [
+            "#IveWatchedThatLoganOpeningFightLike10Times",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Ive Watched That Logan Opening Fight Like 10 Times Reaction ⚔️",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Ive Watched That Logan Opening Fight Like 10 Times never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#IveWatchedThatLoganOpeningFightLike10Times #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/NeSqw91kWf8",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-11 17:54 UTC",
+        "slot_time": "07:59",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/947365511107679",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-11 17:54 UTC",
+        "slot_time": "07:59",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DdJ_syJgAAd/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-11 17:55 UTC",
+        "slot_time": "07:59",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-09-11 17:54 UTC",
+      "completed_at": "2026-09-11 17:55 UTC",
+      "final_status": "completed",
+      "date": "2026-09-11",
+      "max_retries": 3
     }
   ],
   "daily_times": {
@@ -9800,6 +9890,13 @@
       "3": "13:32",
       "4": "17:44",
       "5": "20:45"
+    },
+    "2026-09-11": {
+      "1": "07:59",
+      "2": "10:43",
+      "3": "13:23",
+      "4": "17:34",
+      "5": "20:20"
     }
   }
 }
