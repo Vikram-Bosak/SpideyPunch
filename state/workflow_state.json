@@ -9720,6 +9720,96 @@
       "final_status": "completed",
       "date": "2026-09-11",
       "max_retries": 3
+    },
+    {
+      "video_number": 2,
+      "drive_file_id": "1B6yk7d711omqhTwpY13Zf6XffBvhMV7G",
+      "drive_file_name": "whoa_remember_when_eddie_brocks_world_turned_upside_down_in.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/whoa_remember_when_eddie_brocks_world_turned_upside_down_in.mp4",
+      "movie_title": "Whoa Remember When Eddie Brocks World Turned Upside Down In",
+      "seo": {
+        "movie_title": "Whoa Remember When Eddie Brocks World Turned Upside Down In",
+        "source_file": "whoa_remember_when_eddie_brocks_world_turned_upside_down_in.mp4",
+        "primary_keyword": "Whoa Remember When Eddie Brocks World Turned Upside Down In reaction",
+        "secondary_keywords": [
+          "Whoa Remember When Eddie Brocks World Turned Upside Down In action scene",
+          "movie reaction Whoa Remember When Eddie Brocks World Turned Upside Down In"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "Whoa Remember When Eddie Brocks World Turned Upside Down In Reaction 🔥",
+          "description": "",
+          "primary_keyword": "Whoa Remember When Eddie Brocks World Turned Upside Down In reaction",
+          "secondary_keywords": [
+            "Whoa Remember When Eddie Brocks World Turned Upside Down In action scene",
+            "movie reaction Whoa Remember When Eddie Brocks World Turned Upside Down In"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in Whoa Remember When Eddie Brocks World Turned Upside Down In! 😱",
+          "description": "This scene from Whoa Remember When Eddie Brocks World Turned Upside Down In never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#WhoaRememberWhenEddieBrocksWorldTurnedUpsideDownIn #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "Whoa Remember When Eddie Brocks World Turned Upside Down In reaction",
+          "hashtags": [
+            "#WhoaRememberWhenEddieBrocksWorldTurnedUpsideDownIn",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "Whoa Remember When Eddie Brocks World Turned Upside Down In Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from Whoa Remember When Eddie Brocks World Turned Upside Down In never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#WhoaRememberWhenEddieBrocksWorldTurnedUpsideDownIn #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/DHa4yAPKhUk",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-11 20:18 UTC",
+        "slot_time": "10:43",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/1462217892385880",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-11 20:18 UTC",
+        "slot_time": "10:43",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DdKQKFgEeMa/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-11 20:19 UTC",
+        "slot_time": "10:43",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-09-11 20:18 UTC",
+      "completed_at": "2026-09-11 20:19 UTC",
+      "final_status": "completed",
+      "date": "2026-09-11",
+      "max_retries": 3
     }
   ],
   "daily_times": {
