@@ -9990,6 +9990,96 @@
       "final_status": "completed",
       "date": "2026-09-11",
       "max_retries": 3
+    },
+    {
+      "video_number": 1,
+      "drive_file_id": "1ZkSeVtHRflwTaHMro-dWoREi89TyWhN_",
+      "drive_file_name": "the_wolverines_most_gutwrenching_moment_removing_the_parasite_from.mp4",
+      "local_path": "/home/runner/work/SpideyPunch/SpideyPunch/downloads/the_wolverines_most_gutwrenching_moment_removing_the_parasite_from.mp4",
+      "movie_title": "The Wolverines Most Gutwrenching Removing The Parasite From",
+      "seo": {
+        "movie_title": "The Wolverines Most Gutwrenching Removing The Parasite From",
+        "source_file": "the_wolverines_most_gutwrenching_moment_removing_the_parasite_from.mp4",
+        "primary_keyword": "The Wolverines Most Gutwrenching Removing The Parasite From reaction",
+        "secondary_keywords": [
+          "The Wolverines Most Gutwrenching Removing The Parasite From action scene",
+          "movie reaction The Wolverines Most Gutwrenching Removing The Parasite From"
+        ],
+        "seo_score": 100,
+        "validation_errors": [],
+        "youtube": {
+          "title": "The Wolverines Most Gutwrenching Removing The Parasite From Reaction 🔥",
+          "description": "",
+          "primary_keyword": "The Wolverines Most Gutwrenching Removing The Parasite From reaction",
+          "secondary_keywords": [
+            "The Wolverines Most Gutwrenching Removing The Parasite From action scene",
+            "movie reaction The Wolverines Most Gutwrenching Removing The Parasite From"
+          ],
+          "tags": [],
+          "hashtags": [
+            "#Shorts",
+            "#MovieReaction",
+            "#Hollywood"
+          ]
+        },
+        "facebook": {
+          "title": "Insane reaction to this moment in The Wolverines Most Gutwrenching Removing The Parasite From! 😱",
+          "description": "This scene from The Wolverines Most Gutwrenching Removing The Parasite From never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TheWolverinesMostGutwrenchingRemovingTheParasiteFrom #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+          "primary_keyword": "The Wolverines Most Gutwrenching Removing The Parasite From reaction",
+          "hashtags": [
+            "#TheWolverinesMostGutwrenchingRemovingTheParasiteFrom",
+            "#MovieReaction",
+            "#ActionClip",
+            "#Reels",
+            "#Hollywood",
+            "#ActionScene"
+          ]
+        },
+        "youtube_title": "The Wolverines Most Gutwrenching Removing The Parasite From Reaction 🔥",
+        "youtube_description": "",
+        "facebook_caption": "This scene from The Wolverines Most Gutwrenching Removing The Parasite From never gets old! Is this the ultimate action moment? Share your favorite scene in the comments! 👇\n\n#TheWolverinesMostGutwrenchingRemovingTheParasiteFrom #MovieReaction #ActionClip #Reels #Hollywood #ActionScene",
+        "tags": [],
+        "hashtags": [
+          "#Shorts",
+          "#MovieReaction",
+          "#Hollywood"
+        ],
+        "category_id": "24",
+        "locale": "en-US"
+      },
+      "youtube": {
+        "status": "success",
+        "url": "https://www.youtube.com/shorts/jOckqvJFrAA",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-12 12:58 UTC",
+        "slot_time": "07:54",
+        "retry_due": false
+      },
+      "facebook": {
+        "status": "success",
+        "url": "https://www.facebook.com/reel/4334131803566516",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-12 12:58 UTC",
+        "slot_time": "07:54",
+        "retry_due": false
+      },
+      "instagram": {
+        "status": "success",
+        "url": "https://www.instagram.com/reel/DdMCmpajwds/",
+        "error": null,
+        "retries": 0,
+        "last_attempt": "2026-09-12 12:59 UTC",
+        "slot_time": "07:54",
+        "retry_due": false
+      },
+      "moved_to_uploaded": true,
+      "started_at": "2026-09-12 12:58 UTC",
+      "completed_at": "2026-09-12 12:59 UTC",
+      "final_status": "completed",
+      "date": "2026-09-12",
+      "max_retries": 3
     }
   ],
   "daily_times": {
@@ -10167,6 +10257,13 @@
       "3": "13:23",
       "4": "17:34",
       "5": "20:20"
+    },
+    "2026-09-12": {
+      "1": "07:54",
+      "2": "11:00",
+      "3": "13:46",
+      "4": "17:17",
+      "5": "20:13"
     }
   }
 }
